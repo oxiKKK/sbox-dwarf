@@ -1,0 +1,155 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/boolanimparameter_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <00790BDC> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/boolanimparameter_h_schema.gen_cpp:36
+void CBoolAnimParameter::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <007906B0> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/boolanimparameter_h_schema.gen_cpp:88
+// function calls: 13
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 117
+	Schema_VerifyBindingIsRegistered(void); // 12
+	GetPrimaryBinding(void); // 12
+	CBoolAnimParameter::Schema_DynamicBinding(); // 91
+	CMutableRefCountBase<true, CRefMT>::operator=(
+			const CMutableRefCountBase<true, CRefMT>  &);  // 339
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::operator=(
+			const CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >  &);  // 15
+	V_strlen(const char* str); // 393
+	CUtlString::Length(); // 161
+	CUtlString::Get(); // 161
+	CUtlString::operator=(
+			const CUtlString& src);  // 15
+	AnimParamID::operator=(
+			const AnimParamID& rhs);  // 15
+	CAnimParameterBase::operator=(
+			const CAnimParameterBase  &);  // 9
+	CBoolAnimParameter::operator=(
+			const CBoolAnimParameter  &);  // 89
+} /* size: 0, inline expansions: 13 (645 bytes) */
+
+// <00794E8B> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/boolanimparameter_h_schema.gen_cpp:117
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 117
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <0079466A> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/boolanimparameter_h_schema.gen_cpp:117
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 117
+	}
+} /* size: 39 */
+
+// <00790682> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/boolanimparameter_h_schema.gen_cpp:117
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 38078
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 117
+	}
+} /* size: 0, variables: 1 */
+
+// <0079061D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/boolanimparameter_h_schema.gen_cpp:125
+void CBoolAnimParameter::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 9 */
+
+// <0079019A> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/boolanimparameter_h_schema.gen_cpp:130
+// function calls: 16
+void CBoolAnimParameter::KV3TransferSave_CBoolAnimParameter(CKV3TransferSaveContext* pContext)
+{
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 135
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 135
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 215
+	KeyValues3::SetValueBool(
+			bool value);  // 766
+	SaveValue<bool>(CKV3TransferSaveContext* pContext,
+			KeyValues3* pSaveToValue,
+			const bool& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<bool>(
+				const bool& sourceValue,
+				KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<bool>(
+				CKV3MemberName memberNameAndHash,
+				const bool& sourceValue);  // 135
+} /* size: 226, inline expansions: 16 (501 bytes) */
+
+// <00790135> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/boolanimparameter_h_schema.gen_cpp:138
+void CBoolAnimParameter::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <0078FD6D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/boolanimparameter_h_schema.gen_cpp:143
+// variable: 1
+// function calls: 13
+void CBoolAnimParameter::KV3TransferLoad_CBoolAnimParameter(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 148
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 150
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 150
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	LoadValue<bool>(CKV3TransferLoadContext* pContext,
+			const KeyValues3* pLoadFromValue,
+			bool& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<bool>(
+				bool& destValue,
+				const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<bool>(
+						CKV3MemberName memberNameAndHash,
+						bool& destValue);  // 150
+} /* size: 130, variables: 1, inline expansions: 13 (242 bytes) */
+

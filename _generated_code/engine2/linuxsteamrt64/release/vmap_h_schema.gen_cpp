@@ -1,0 +1,91 @@
+
+//
+// _generated_code/engine2/linuxsteamrt64/release/vmap_h_schema.gen_cpp
+//
+//	referenced by: libengine2.so
+//
+//	functions: 10
+//
+
+// <0430D78C> ../_generated_code/engine2/linuxsteamrt64/release/vmap_h_schema.gen_cpp:36
+void VMapResourceData_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0430D323> ../_generated_code/engine2/linuxsteamrt64/release/vmap_h_schema.gen_cpp:44
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 73
+	Schema_VerifyBindingIsRegistered(void); // 24
+	GetPrimaryBinding(void); // 24
+	VMapResourceData_t::Schema_DynamicBinding(); // 47
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <0430D7B7> ../_generated_code/engine2/linuxsteamrt64/release/vmap_h_schema.gen_cpp:73
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 73
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <0430D688> ../_generated_code/engine2/linuxsteamrt64/release/vmap_h_schema.gen_cpp:73
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 73
+	}
+} /* size: 39 */
+
+// <0430D2F2> ../_generated_code/engine2/linuxsteamrt64/release/vmap_h_schema.gen_cpp:73
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 9878
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 73
+	}
+} /* size: 0, variables: 1 */
+
+// <0430D2D7> ../_generated_code/engine2/linuxsteamrt64/release/vmap_h_schema.gen_cpp:81
+void InfoForResourceTypeVMapResourceData_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0430D1AB> ../_generated_code/engine2/linuxsteamrt64/release/vmap_h_schema.gen_cpp:97
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 126
+	Schema_VerifyBindingIsRegistered(void); // 27
+	GetPrimaryBinding(void); // 27
+	InfoForResourceTypeVMapResourceData_t::Schema_DynamicBinding(); // 100
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <0430D804> ../_generated_code/engine2/linuxsteamrt64/release/vmap_h_schema.gen_cpp:126
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 126
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <0430D70A> ../_generated_code/engine2/linuxsteamrt64/release/vmap_h_schema.gen_cpp:126
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 126
+	}
+} /* size: 39 */
+
+// <0430D179> ../_generated_code/engine2/linuxsteamrt64/release/vmap_h_schema.gen_cpp:126
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 9878
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 126
+	}
+} /* size: 0, variables: 1 */
+

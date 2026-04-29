@@ -1,0 +1,102 @@
+
+//
+// _generated_code/meshsystem/linuxsteamrt64/release/meshsystem_schema_anchor.gen_cpp
+//
+//	referenced by: libmeshsystem.so
+//
+//	functions: 4
+//	class: 1
+//
+
+// <00566D48> ../_generated_code/meshsystem/linuxsteamrt64/release/meshsystem_schema_anchor.gen_cpp:35
+// variables: 2
+// function calls: 42
+void ImplSchema_ProjectTypesInit_meshsystem(void)
+{
+	CSchemaType** pTypes; // 35
+	ISchemaSystemTypeScope* pTypeScope; // 35
+	Get(ISchemaSystemTypeScope* pTypeScope); // 37
+	Get(ISchemaSystemTypeScope* pTypeScope); // 38
+	Get(ISchemaSystemTypeScope* pTypeScope); // 39
+	Get(ISchemaSystemTypeScope* pTypeScope); // 40
+	Get(ISchemaSystemTypeScope* pTypeScope); // 41
+	Get(ISchemaSystemTypeScope* pTypeScope); // 42
+	Get(ISchemaSystemTypeScope* pTypeScope); // 43
+	Get(ISchemaSystemTypeScope* pTypeScope); // 44
+	Get(ISchemaSystemTypeScope* pTypeScope); // 45
+	Get(ISchemaSystemTypeScope* pTypeScope); // 46
+	Get(ISchemaSystemTypeScope* pTypeScope); // 47
+	Get(ISchemaSystemTypeScope* pTypeScope); // 48
+	Get(ISchemaSystemTypeScope* pTypeScope); // 49
+	Get(ISchemaSystemTypeScope* pTypeScope); // 50
+	Get(ISchemaSystemTypeScope* pTypeScope); // 51
+	Get(ISchemaSystemTypeScope* pTypeScope); // 52
+	Get(ISchemaSystemTypeScope* pTypeScope); // 53
+	Get(ISchemaSystemTypeScope* pTypeScope); // 54
+	Get(ISchemaSystemTypeScope* pTypeScope); // 55
+	Get(ISchemaSystemTypeScope* pTypeScope); // 56
+	Get(ISchemaSystemTypeScope* pTypeScope); // 57
+	Get(ISchemaSystemTypeScope* pTypeScope); // 58
+	Get(ISchemaSystemTypeScope* pTypeScope); // 59
+	Get(ISchemaSystemTypeScope* pTypeScope); // 60
+	Get(ISchemaSystemTypeScope* pTypeScope); // 61
+	Get(ISchemaSystemTypeScope* pTypeScope); // 62
+	Get(ISchemaSystemTypeScope* pTypeScope); // 63
+	Get(ISchemaSystemTypeScope* pTypeScope); // 64
+	Get(ISchemaSystemTypeScope* pTypeScope); // 65
+	Get(ISchemaSystemTypeScope* pTypeScope); // 66
+	Get(ISchemaSystemTypeScope* pTypeScope); // 67
+	Get(ISchemaSystemTypeScope* pTypeScope); // 68
+	Get(ISchemaSystemTypeScope* pTypeScope); // 118
+	Get(ISchemaSystemTypeScope* pTypeScope); // 69
+	Get(ISchemaSystemTypeScope* pTypeScope); // 70
+	Get(ISchemaSystemTypeScope* pTypeScope); // 118
+	Get(ISchemaSystemTypeScope* pTypeScope); // 71
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<VsInputSignatureElement_t> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 72
+} /* size: 1180, variables: 2, inline expansions: 42 (892 bytes) */
+
+// <00566BC3> ../_generated_code/meshsystem/linuxsteamrt64/release/meshsystem_schema_anchor.gen_cpp:99
+// variables: 4
+void CSchemaRegistration_meshsystem::RegisterAllBindings(ISchemaSystem* pSchemaSystem, SchemaRegistrationPhase_t nRegistrationPhase, CBufferString* pFailureReason)
+{
+	const char* pBinaryName; // 99
+	const char* pProjectName; // 99
+	CSchemaType** pTypeTable; // 99
+	int nTypeTableSize; // 99
+} /* size: 226, variables: 4 */
+
+// <00566BAC> ../_generated_code/meshsystem/linuxsteamrt64/release/meshsystem_schema_anchor.gen_cpp:99
+void CSchemaRegistration_meshsystem::CSchemaRegistration_meshsystem()
+{
+} /* size: 0 */
+
+// <00566B8F> ../_generated_code/meshsystem/linuxsteamrt64/release/meshsystem_schema_anchor.gen_cpp:99
+inline void CSchemaRegistration_meshsystem::CSchemaRegistration_meshsystem()
+{
+} /* size: 0 */
+
+// <0055FB09> ../_generated_code/meshsystem/linuxsteamrt64/release/meshsystem_schema_anchor.gen_cpp:99
+// member functions: 10
+// member variable: 1
+// vtable entry: 1
+// class size: 16
+class CSchemaRegistration_meshsystem : public CSchemaRegistration {
+public:
+	/* class CSchemaRegistration <ancestor>; */ /* 0 16 */
+	void ~CSchemaRegistration_meshsystem(CSchemaRegistration_meshsystem* );
+	void CSchemaRegistration_meshsystem(CSchemaRegistration_meshsystem* , CSchemaRegistration_meshsystem& );
+	void CSchemaRegistration_meshsystem(CSchemaRegistration_meshsystem* , const CSchemaRegistration_meshsystem& );
+	void CSchemaRegistration_meshsystem(CSchemaRegistration_meshsystem* );
+	/* ../_generated_code/meshsystem/linuxsteamrt64/release/meshsystem_schema_anchor.gen_cpp:99 */
+	virtual bool RegisterAllBindings(CSchemaRegistration_meshsystem* , ISchemaSystem* , SchemaRegistrationPhase_t, CBufferString* );
+	void ~CSchemaRegistration_meshsystem(class CSchemaRegistration_meshsystem *); /* linkage=_ZN30CSchemaRegistration_meshsystemD4Ev */
+	void CSchemaRegistration_meshsystem(class CSchemaRegistration_meshsystem *, class CSchemaRegistration_meshsystem &); /* linkage=_ZN30CSchemaRegistration_meshsystemC4EOS_ */
+	void CSchemaRegistration_meshsystem(class CSchemaRegistration_meshsystem *, const class CSchemaRegistration_meshsystem  &); /* linkage=_ZN30CSchemaRegistration_meshsystemC4ERKS_ */
+	void CSchemaRegistration_meshsystem(class CSchemaRegistration_meshsystem *); /* linkage=_ZN30CSchemaRegistration_meshsystemC4Ev */
+	virtual bool RegisterAllBindings(class CSchemaRegistration_meshsystem *, class ISchemaSystem *, enum SchemaRegistrationPhase_t, class CBufferString *); /* linkage=_ZN30CSchemaRegistration_meshsystem19RegisterAllBindingsEP13ISchemaSystem25SchemaRegistrationPhase_tP13CBufferString */
+};
+

@@ -1,0 +1,102 @@
+
+//
+// _generated_code/mathlib_extended/linuxsteamrt64/release/lightdesc_h_schema.gen_cpp
+//
+//	referenced by: libengine2.so
+//
+//	functions: 4
+//
+
+// <0590BF2D> ../../_generated_code/mathlib_extended/linuxsteamrt64/release/lightdesc_h_schema.gen_cpp:65
+void LightDesc_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0590B499> ../../_generated_code/mathlib_extended/linuxsteamrt64/release/lightdesc_h_schema.gen_cpp:192
+// function calls: 48
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 78
+	LightDesc_t::Schema_DynamicBinding(); // 195
+	CStrongHandle<InfoForResourceTypeCTextureBase>::operator CStrongHandle<InfoForResourceTypeCTextureBase>::ResourceHandleTyped_t(); // 244
+	ThreadInterlockedIncrement(volatile int32* p); // 576
+	CInterlockedIntT<int, 4>::operator++(); // 570
+	CStrongHandle<InfoForResourceTypeCTextureBase>::Init(
+		ResourceHandleTyped_t hResource);  // 659
+	CStrongHandle<InfoForResourceTypeCTextureBase>::operator=(
+			ResourceHandleTyped_t hResource);  // 244
+	CStrongHandleCopyable<InfoForResourceTypeCTextureBase>::operator=(
+			const CStrongHandleCopyable<InfoForResourceTypeCTextureBase>& src);  // 178
+	Vector::operator=(
+			const Vector& vOther);  // 169
+	Vector::operator=(
+			const Vector& vOther);  // 170
+	Vector::operator=(
+			const Vector& vOther);  // 202
+	Vector::operator=(
+			const Vector& vOther);  // 203
+	Vector::operator=(
+			const Vector& vOther);  // 204
+	Vector::operator=(
+			const Vector& vOther);  // 214
+	Vector::operator=(
+			const Vector& vOther);  // 215
+	LightDesc_t::operator=(
+			const LightDesc_t& other);  // 193
+	Vector::Vector(); // 153
+	Vector::Vector(); // 153
+	CStrongHandle<InfoForResourceTypeCTextureBase>::CStrongHandle(); // 217
+	CStrongHandleCopyable<InfoForResourceTypeCTextureBase>::CStrongHandleCopyable(); // 153
+	CUtlStringToken::CUtlStringToken(); // 153
+	Vector::Vector(); // 153
+	Vector::Vector(); // 153
+	Vector::Vector(); // 153
+	Vector::Vector(); // 153
+	Vector::Vector(); // 153
+	LightDesc_t::Clear(); // 154
+	LightDesc_t::LightDesc_t(); // 194
+	Vector::operator=(
+			const Vector& vOther);  // 268
+	Vector::operator=(
+			const Vector& vOther);  // 269
+	LightDesc_t::Clear(); // 154
+	Vector::Vector(); // 153
+	Vector::Vector(); // 153
+	CStrongHandle<InfoForResourceTypeCTextureBase>::CStrongHandle(); // 217
+	CStrongHandleCopyable<InfoForResourceTypeCTextureBase>::CStrongHandleCopyable(); // 153
+	CUtlStringToken::CUtlStringToken(); // 153
+	Vector::Vector(); // 153
+	Vector::Vector(); // 153
+	Vector::Vector(); // 153
+	Vector::Vector(); // 153
+	Vector::Vector(); // 153
+	LightDesc_t::LightDesc_t(); // 194
+	CStrongHandle<InfoForResourceTypeCTextureBase>::~CStrongHandle(); // 211
+	CStrongHandleCopyable<InfoForResourceTypeCTextureBase>::~CStrongHandleCopyable(); // 76
+	LightDesc_t::~LightDesc_t(); // 194
+	CStrongHandle<InfoForResourceTypeCTextureBase>::~CStrongHandle(); // 211
+	CStrongHandleCopyable<InfoForResourceTypeCTextureBase>::~CStrongHandleCopyable(); // 76
+	LightDesc_t::~LightDesc_t(); // 194
+} /* size: 1554, inline expansions: 48 (2301 bytes) */
+
+// <0590C3AB> ../../_generated_code/mathlib_extended/linuxsteamrt64/release/lightdesc_h_schema.gen_cpp:223
+// function calls: 3
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 223
+	{
+		Schema_StaticClassname(void); // 223
+	}
+	Schema_VerifyBindingIsRegistered(void); // 223
+} /* size: 0, inline expansions: 2 (54 bytes) */
+
+// <0590B467> ../../_generated_code/mathlib_extended/linuxsteamrt64/release/lightdesc_h_schema.gen_cpp:223
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 65289
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 223
+	}
+} /* size: 0, variables: 1 */
+

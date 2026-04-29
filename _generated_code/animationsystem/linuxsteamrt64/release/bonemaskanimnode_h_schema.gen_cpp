@@ -1,0 +1,583 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/bonemaskanimnode_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <004F9C8D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/bonemaskanimnode_h_schema.gen_cpp:36
+void CBoneMaskAnimNode::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <004F9850> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/bonemaskanimnode_h_schema.gen_cpp:224
+// function calls: 12
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 253
+	Schema_VerifyBindingIsRegistered(void); // 16
+	GetPrimaryBinding(void); // 16
+	CBoneMaskAnimNode::Schema_DynamicBinding(); // 227
+	AnimNodeID::operator=(
+			const AnimNodeID& rhs);  // 22
+	AnimOutputID::operator=(
+			const AnimOutputID& rhs);  // 22
+	CNodeConnection::operator=(
+			const CNodeConnection  &);  // 13
+	AnimNodeID::operator=(
+			const AnimNodeID& rhs);  // 22
+	AnimOutputID::operator=(
+			const AnimOutputID& rhs);  // 22
+	CNodeConnection::operator=(
+			const CNodeConnection  &);  // 13
+	AnimParamID::operator=(
+			const AnimParamID& rhs);  // 13
+	CBoneMaskAnimNode::operator=(
+			const CBoneMaskAnimNode  &);  // 225
+} /* size: 0, inline expansions: 12 (357 bytes) */
+
+// <00518035> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/bonemaskanimnode_h_schema.gen_cpp:253
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 253
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00513D6E> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/bonemaskanimnode_h_schema.gen_cpp:253
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 253
+	}
+} /* size: 39 */
+
+// <004F9822> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/bonemaskanimnode_h_schema.gen_cpp:253
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 55562
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 253
+	}
+} /* size: 0, variables: 1 */
+
+// <004F97BC> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/bonemaskanimnode_h_schema.gen_cpp:261
+void CBoneMaskAnimNode::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 9 */
+
+// <004F757F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/bonemaskanimnode_h_schema.gen_cpp:266
+// function calls: 121
+void CBoneMaskAnimNode::KV3TransferSave_CBoneMaskAnimNode(CKV3TransferSaveContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CUtlStack<KeyValues3::Count(); // 199
+	CNodeConnection::KV3TransferSave(
+			CKV3TransferSaveContext* pContext);  // 201
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 250
+	KeyValues3::SetToNull(); // 213
+	CKV3TransferSaveContext::SaveClassPointer<const AnimParamID>(
+						const AnimParamID* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 172
+	CKV3TransferSaveContext::SaveClassPointer<const CNodeConnection>(
+						const CNodeConnection* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 488
+	SaveValue<CNodeConnection>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const CNodeConnection& value,
+					type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CNodeConnection>(
+					const CNodeConnection& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CNodeConnection>(
+						CKV3MemberName memberNameAndHash,
+						const CNodeConnection& sourceValue);  // 272
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 271
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 271
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 272
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 272
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 273
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 273
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CUtlStack<KeyValues3::Count(); // 199
+	CNodeConnection::KV3TransferSave(
+			CKV3TransferSaveContext* pContext);  // 201
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 250
+	KeyValues3::SetToNull(); // 213
+	CKV3TransferSaveContext::SaveClassPointer<const AnimParamID>(
+						const AnimParamID* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 172
+	CKV3TransferSaveContext::SaveClassPointer<const CNodeConnection>(
+						const CNodeConnection* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 488
+	SaveValue<CNodeConnection>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const CNodeConnection& value,
+					type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CNodeConnection>(
+					const CNodeConnection& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CNodeConnection>(
+						CKV3MemberName memberNameAndHash,
+						const CNodeConnection& sourceValue);  // 273
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 274
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 274
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	Get(ISchemaSystemTypeScope* pTypeScope); // 23
+	SchemaTypeOf<BoneMaskBlendSpace>(void); // 13
+	CSchemaType::As<CSchemaType_DeclaredEnum>(); // 13
+	CSchemaType_DeclaredEnum::LookupEnum(); // 709
+	CSchemaType_DeclaredEnum::GetEnum(); // 14
+	CSchemaEnumeratorInfo::GetName(); // 18
+	SchemaEnumeratorNameFromValue<BoneMaskBlendSpace>(BoneMaskBlendSpace nValue,
+								const char* pDefault);  // 72
+	KV3Transfer_EnumeratorNameFromValue<BoneMaskBlendSpace>(BoneMaskBlendSpace nValue); // 511
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 209
+	KeyValues3::SetValueInt(
+			int value);  // 526
+	SaveValue<BoneMaskBlendSpace>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const BoneMaskBlendSpace& value,
+					type *);  // 509
+	SaveValue<BoneMaskBlendSpace>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const BoneMaskBlendSpace& value,
+					type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<BoneMaskBlendSpace>(
+						const BoneMaskBlendSpace& sourceValue,
+						KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<BoneMaskBlendSpace>(
+						CKV3MemberName memberNameAndHash,
+						const BoneMaskBlendSpace& sourceValue);  // 274
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 275
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 275
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 276
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 276
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	Get(ISchemaSystemTypeScope* pTypeScope); // 23
+	SchemaTypeOf<AnimValueSource>(void); // 13
+	CSchemaType::As<CSchemaType_DeclaredEnum>(); // 13
+	CSchemaType_DeclaredEnum::LookupEnum(); // 709
+	CSchemaType_DeclaredEnum::GetEnum(); // 14
+	CSchemaEnumeratorInfo::GetName(); // 18
+	SchemaEnumeratorNameFromValue<AnimValueSource>(AnimValueSource nValue,
+							const char* pDefault);  // 72
+	KV3Transfer_EnumeratorNameFromValue<AnimValueSource>(AnimValueSource nValue); // 511
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 209
+	KeyValues3::SetValueInt(
+			int value);  // 526
+	SaveValue<AnimValueSource>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const AnimValueSource& value,
+					type *);  // 509
+	SaveValue<AnimValueSource>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const AnimValueSource& value,
+					type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<AnimValueSource>(
+					const AnimValueSource& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<AnimValueSource>(
+						CKV3MemberName memberNameAndHash,
+						const AnimValueSource& sourceValue);  // 276
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 277
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 277
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CUtlStack<KeyValues3::Count(); // 199
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 250
+	KeyValues3::SetToNull(); // 213
+	CKV3TransferSaveContext::SaveClassPointer<const AnimParamID>(
+						const AnimParamID* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 172
+	CKV3TransferSaveContext::SaveClassPointer<const AnimParamID>(
+						const AnimParamID* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 488
+	SaveValue<AnimParamID>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const AnimParamID& value,
+				type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<AnimParamID>(
+					const AnimParamID& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<AnimParamID>(
+					CKV3MemberName memberNameAndHash,
+					const AnimParamID& sourceValue);  // 277
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 278
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 278
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	KV3Transfer_EnumeratorNameFromValue<BinaryNodeTiming>(BinaryNodeTiming nValue); // 511
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 209
+	KeyValues3::SetValueInt(
+			int value);  // 526
+	SaveValue<BinaryNodeTiming>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const BinaryNodeTiming& value,
+					type *);  // 509
+	SaveValue<BinaryNodeTiming>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const BinaryNodeTiming& value,
+					type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<BinaryNodeTiming>(
+						const BinaryNodeTiming& sourceValue,
+						KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<BinaryNodeTiming>(
+						CKV3MemberName memberNameAndHash,
+						const BinaryNodeTiming& sourceValue);  // 278
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 279
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 279
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 280
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 280
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 281
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 281
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	KV3Transfer_EnumeratorNameFromValue<BinaryNodeChildOption>(BinaryNodeChildOption nValue); // 511
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 209
+	KeyValues3::SetValueInt(
+			int value);  // 526
+	SaveValue<BinaryNodeChildOption>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const BinaryNodeChildOption& value,
+					type *);  // 509
+	SaveValue<BinaryNodeChildOption>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const BinaryNodeChildOption& value,
+					type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<BinaryNodeChildOption>(
+						const BinaryNodeChildOption& sourceValue,
+						KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<BinaryNodeChildOption>(
+						CKV3MemberName memberNameAndHash,
+						const BinaryNodeChildOption& sourceValue);  // 281
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 282
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 282
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 283
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 283
+} /* size: 1617, inline expansions: 121 (5971 bytes) */
+
+// <004F7519> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/bonemaskanimnode_h_schema.gen_cpp:286
+void CBoneMaskAnimNode::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <004F5498> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/bonemaskanimnode_h_schema.gen_cpp:291
+// variable: 1
+// function calls: 125
+void CBoneMaskAnimNode::KV3TransferLoad_CBoneMaskAnimNode(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 296
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 534
+	KeyValues3::GetValueInt64(); // 543
+	Get(ISchemaSystemTypeScope* pTypeScope); // 23
+	SchemaTypeOf<BoneMaskBlendSpace>(void); // 32
+	CSchemaType::As<CSchemaType_DeclaredEnum>(); // 32
+	CSchemaType_DeclaredEnum::LookupEnum(); // 709
+	CSchemaType_DeclaredEnum::GetEnum(); // 33
+	CSchemaEnumeratorInfo::GetValue(); // 38
+	SchemaEnumeratorValueFromName<BoneMaskBlendSpace>(const char* pEnumeratorName,
+								BoneMaskBlendSpace* pOutValue);  // 81
+	KV3Transfer_EnumeratorValueFromName<BoneMaskBlendSpace>(const char* pEnumeratorName,
+								BoneMaskBlendSpace* pOutValue);  // 536
+	LoadValue<BoneMaskBlendSpace>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					BoneMaskBlendSpace& value,
+					type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<BoneMaskBlendSpace>(
+						BoneMaskBlendSpace& destValue,
+						const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<BoneMaskBlendSpace>(
+							CKV3MemberName memberNameAndHash,
+							BoneMaskBlendSpace& destValue);  // 301
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 298
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 298
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 299
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 299
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 300
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 300
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 301
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 301
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 302
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 302
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 303
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 303
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 534
+	KeyValues3::GetValueInt64(); // 543
+	Get(ISchemaSystemTypeScope* pTypeScope); // 23
+	SchemaTypeOf<AnimValueSource>(void); // 32
+	CSchemaType::As<CSchemaType_DeclaredEnum>(); // 32
+	CSchemaType_DeclaredEnum::LookupEnum(); // 709
+	CSchemaType_DeclaredEnum::GetEnum(); // 33
+	CSchemaEnumeratorInfo::GetValue(); // 38
+	SchemaEnumeratorValueFromName<AnimValueSource>(const char* pEnumeratorName,
+							AnimValueSource* pOutValue);  // 81
+	KV3Transfer_EnumeratorValueFromName<AnimValueSource>(const char* pEnumeratorName,
+								AnimValueSource* pOutValue);  // 536
+	LoadValue<AnimValueSource>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					AnimValueSource& value,
+					type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<AnimValueSource>(
+					AnimValueSource& destValue,
+					const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<AnimValueSource>(
+							CKV3MemberName memberNameAndHash,
+							AnimValueSource& destValue);  // 303
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 304
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 304
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CUtlStack<const KeyValues3::Count(); // 413
+	CKV3TransferLoadContext::LoadClassInstance<AnimParamID>(
+					AnimParamID* pClassInstance,
+					const KeyValues3* pNestedValue);  // 495
+	LoadValue<AnimParamID>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				AnimParamID& value,
+				type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<AnimParamID>(
+					AnimParamID& destValue,
+					const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<AnimParamID>(
+							CKV3MemberName memberNameAndHash,
+							AnimParamID& destValue);  // 304
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 305
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 305
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 534
+	KeyValues3::GetValueInt64(); // 543
+	KV3Transfer_EnumeratorValueFromName<BinaryNodeTiming>(const char* pEnumeratorName,
+								BinaryNodeTiming* pOutValue);  // 536
+	LoadValue<BinaryNodeTiming>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					BinaryNodeTiming& value,
+					type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<BinaryNodeTiming>(
+						BinaryNodeTiming& destValue,
+						const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<BinaryNodeTiming>(
+							CKV3MemberName memberNameAndHash,
+							BinaryNodeTiming& destValue);  // 305
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 306
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 306
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 307
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 307
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 308
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 308
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 534
+	KeyValues3::GetValueInt64(); // 543
+	KV3Transfer_EnumeratorValueFromName<BinaryNodeChildOption>(const char* pEnumeratorName,
+									BinaryNodeChildOption* pOutValue);  // 536
+	LoadValue<BinaryNodeChildOption>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					BinaryNodeChildOption& value,
+					type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<BinaryNodeChildOption>(
+						BinaryNodeChildOption& destValue,
+						const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<BinaryNodeChildOption>(
+								CKV3MemberName memberNameAndHash,
+								BinaryNodeChildOption& destValue);  // 308
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 309
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 309
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 310
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 310
+} /* size: 1233, variables: 1, inline expansions: 125 (4030 bytes) */
+

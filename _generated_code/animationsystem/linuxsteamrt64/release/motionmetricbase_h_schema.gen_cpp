@@ -1,0 +1,164 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/motionmetricbase_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <0071A6BC> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/motionmetricbase_h_schema.gen_cpp:36
+void CMotionMetricBase::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00718DE1> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/motionmetricbase_h_schema.gen_cpp:68
+// function call: 1
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	Schema_ClassOps(SchemaGenClassOp_t op,
+			void* pPtr1,
+			void* pPtr2);  // 68
+} /* size: 27, inline expansions: 1 (15 bytes) */
+
+// <007080CC> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/motionmetricbase_h_schema.gen_cpp:68
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+} /* size: 0 */
+
+// <0071A6E7> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/motionmetricbase_h_schema.gen_cpp:95
+// function calls: 3
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 95
+	{
+		Schema_StaticClassname(void); // 95
+	}
+	Schema_VerifyBindingIsRegistered(void); // 95
+} /* size: 0, inline expansions: 2 (54 bytes) */
+
+// <0070809E> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/motionmetricbase_h_schema.gen_cpp:95
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 21758
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 95
+	}
+} /* size: 0, variables: 1 */
+
+// <00707C10> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/motionmetricbase_h_schema.gen_cpp:103
+// function calls: 17
+void CMotionMetricBase::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 221
+	KeyValues3::SetValueFloat(
+			float value);  // 776
+	SaveValue<float>(CKV3TransferSaveContext* pContext,
+			KeyValues3* pSaveToValue,
+			const float& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<float>(
+				const float& sourceValue,
+				KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<float>(
+				CKV3MemberName memberNameAndHash,
+				const float& sourceValue);  // 110
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 110
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 110
+	CMotionMetricBase::KV3TransferSave_CMotionMetricBase(
+						CKV3TransferSaveContext* pContext);  // 105
+} /* size: 234, inline expansions: 17 (739 bytes) */
+
+// <00707BEB> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/motionmetricbase_h_schema.gen_cpp:108
+void CMotionMetricBase::KV3TransferSave_CMotionMetricBase(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <00707B86> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/motionmetricbase_h_schema.gen_cpp:113
+void CMotionMetricBase::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <007074B0> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/motionmetricbase_h_schema.gen_cpp:118
+// variables: 2
+// function calls: 26
+void CMotionMetricBase::KV3TransferLoad_CMotionMetricBase(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 120
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 696
+	KV3Helper_StringToNumber<float>(const char* pString); // 715
+	KeyValues3::GetValueAsNumeric<float>(); // 694
+	{
+	}
+	KeyValues3::GetValueAsNumeric<float>(); // 199
+	KeyValues3::GetValueFloat(); // 776
+	LoadValue<float>(CKV3TransferLoadContext* pContext,
+			const KeyValues3* pLoadFromValue,
+			float& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<float>(
+				float& destValue,
+				const KeyValues3* pLoadFromMember);  // 292
+	{
+		KeyValues3 nullValue; // 300
+		KeyValues3::Internal_Type(); // 90
+		KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+		KeyValues3::GetType(); // 696
+		KV3Helper_StringToNumber<float>(const char* pString); // 715
+		KeyValues3::GetValueAsNumeric<float>(); // 694
+		{
+		}
+		KeyValues3::GetValueAsNumeric<float>(); // 199
+		KeyValues3::GetValueFloat(); // 776
+		LoadValue<float>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				float& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<float>(
+					float& destValue,
+					const KeyValues3* pLoadFromMember);  // 301
+	}
+	CKV3TransferLoadContext::LoadValueFromMember<float>(
+					CKV3MemberName memberNameAndHash,
+					float& destValue,
+					uint& nNextMemberHint);  // 287
+	CKV3TransferLoadContext::LoadValueFromMember<float>(
+					CKV3MemberName memberNameAndHash,
+					float& destValue,
+					uint& nNextMemberHint);  // 122
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 122
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 122
+} /* size: 0, variables: 1, inline expansions: 17 (1908 bytes) */
+

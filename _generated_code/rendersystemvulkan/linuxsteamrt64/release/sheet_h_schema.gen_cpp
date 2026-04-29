@@ -1,0 +1,290 @@
+
+//
+// _generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp
+//
+//	referenced by: librendersystemvulkan.so
+//
+//	functions: 25
+//
+
+// <00E03F07> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:34
+void SequenceFloatParam_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00E0361C> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:62
+// function calls: 12
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 91
+	Schema_VerifyBindingIsRegistered(void); // 58
+	GetPrimaryBinding(void); // 58
+	SequenceFloatParam_t::Schema_DynamicBinding(); // 65
+	CResourcePointerBase::CResourcePointerBase(); // 197
+	CResourcePointer<char>::CResourcePointer(); // 663
+	CResourceString::CResourceString(); // 56
+	SequenceFloatParam_t::SequenceFloatParam_t(); // 64
+	CResourcePointerBase::CResourcePointerBase(); // 197
+	CResourcePointer<char>::CResourcePointer(); // 663
+	CResourceString::CResourceString(); // 56
+	SequenceFloatParam_t::SequenceFloatParam_t(); // 64
+} /* size: 0, inline expansions: 12 (174 bytes) */
+
+// <00E03F32> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:91
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 91
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00E03C8A> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:91
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 91
+	}
+} /* size: 39 */
+
+// <00E035EC> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:91
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 41562
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 91
+	}
+} /* size: 0, variables: 1 */
+
+// <00E035D1> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:99
+void SheetSequence_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00E02EF4> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:148
+// function calls: 33
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 177
+	Schema_VerifyBindingIsRegistered(void); // 65
+	GetPrimaryBinding(void); // 65
+	SheetSequence_t::Schema_DynamicBinding(); // 151
+	CResourceArrayBase::Count(); // 409
+	ResolveOffset(const int32* pOffset); // 304
+	CResourceArrayBase::GetRawPtr(); // 416
+	CResourceArray<SheetSequenceFrame_t>::GetPtr(); // 409
+	CResourceArrayBase::Count(); // 410
+	CResourceArray<SheetSequenceFrame_t>::operator=(
+			const CResourceArray<SheetSequenceFrame_t>& that);  // 63
+	CResourceArrayBase::Count(); // 409
+	ResolveOffset(const int32* pOffset); // 304
+	CResourceArrayBase::GetRawPtr(); // 416
+	CResourceArray<SequenceFloatParam_t>::GetPtr(); // 409
+	CResourceArrayBase::Count(); // 410
+	CResourceArray<SequenceFloatParam_t>::operator=(
+			const CResourceArray<SequenceFloatParam_t>& that);  // 63
+	SheetSequence_t::operator=(
+			const SheetSequence_t  &);  // 149
+	CResourceArrayBase::CResourceArrayBase(); // 370
+	CResourceArray<SheetSequenceFrame_t>::CResourceArray(); // 63
+	CResourcePointerBase::CResourcePointerBase(); // 197
+	CResourcePointer<char>::CResourcePointer(); // 663
+	CResourceString::CResourceString(); // 63
+	CResourceArrayBase::CResourceArrayBase(); // 370
+	CResourceArray<SequenceFloatParam_t>::CResourceArray(); // 63
+	SheetSequence_t::SheetSequence_t(); // 150
+	CResourceArrayBase::CResourceArrayBase(); // 370
+	CResourceArray<SheetSequenceFrame_t>::CResourceArray(); // 63
+	CResourcePointerBase::CResourcePointerBase(); // 197
+	CResourcePointer<char>::CResourcePointer(); // 663
+	CResourceString::CResourceString(); // 63
+	CResourceArrayBase::CResourceArrayBase(); // 370
+	CResourceArray<SequenceFloatParam_t>::CResourceArray(); // 63
+	SheetSequence_t::SheetSequence_t(); // 150
+} /* size: 0, inline expansions: 33 (677 bytes) */
+
+// <00E03F7E> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:177
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 177
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00E03D09> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:177
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 177
+	}
+} /* size: 39 */
+
+// <00E02EC4> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:177
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 41562
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 177
+	}
+} /* size: 0, variables: 1 */
+
+// <00E02EA9> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:185
+void SheetSequenceFrame_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00E02A91> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:213
+// function calls: 17
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 242
+	Schema_VerifyBindingIsRegistered(void); // 95
+	GetPrimaryBinding(void); // 95
+	SheetSequenceFrame_t::Schema_DynamicBinding(); // 216
+	CResourceArrayBase::Count(); // 409
+	ResolveOffset(const int32* pOffset); // 304
+	CResourceArrayBase::GetRawPtr(); // 416
+	CResourceArray<SheetFrameImage_t>::GetPtr(); // 409
+	CResourceArrayBase::Count(); // 410
+	CResourceArray<SheetFrameImage_t>::operator=(
+			const CResourceArray<SheetFrameImage_t>& that);  // 93
+	SheetSequenceFrame_t::operator=(
+			const SheetSequenceFrame_t  &);  // 214
+	CResourceArrayBase::CResourceArrayBase(); // 370
+	CResourceArray<SheetFrameImage_t>::CResourceArray(); // 93
+	SheetSequenceFrame_t::SheetSequenceFrame_t(); // 215
+	CResourceArrayBase::CResourceArrayBase(); // 370
+	CResourceArray<SheetFrameImage_t>::CResourceArray(); // 93
+	SheetSequenceFrame_t::SheetSequenceFrame_t(); // 215
+} /* size: 0, inline expansions: 17 (354 bytes) */
+
+// <00E03FCA> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:242
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 242
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00E03D88> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:242
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 242
+	}
+} /* size: 39 */
+
+// <00E02A61> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:242
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 41562
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 242
+	}
+} /* size: 0, variables: 1 */
+
+// <00E02A46> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:250
+void SheetFrameImage_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00E02818> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:278
+// function calls: 7
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	Vector2D::operator=(
+			const Vector2D& vOther);  // 100
+	Vector2D::operator=(
+			const Vector2D& vOther);  // 100
+	SheetFrameImage_t::operator=(
+			const SheetFrameImage_t  &);  // 279
+	GetPrimaryBinding(void); // 307
+	Schema_VerifyBindingIsRegistered(void); // 102
+	GetPrimaryBinding(void); // 102
+	SheetFrameImage_t::Schema_DynamicBinding(); // 281
+} /* size: 0, inline expansions: 7 (282 bytes) */
+
+// <00E04016> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:307
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 307
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00E03E07> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:307
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 307
+	}
+} /* size: 39 */
+
+// <00E027E6> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:307
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 41562
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 307
+	}
+} /* size: 0, variables: 1 */
+
+// <00E027C9> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:315
+void Sheet_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00E02390> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:340
+// function calls: 17
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 369
+	Schema_VerifyBindingIsRegistered(void); // 109
+	GetPrimaryBinding(void); // 109
+	Sheet_t::Schema_DynamicBinding(); // 343
+	CResourceArrayBase::Count(); // 409
+	ResolveOffset(const int32* pOffset); // 304
+	CResourceArrayBase::GetRawPtr(); // 416
+	CResourceArray<SheetSequence_t>::GetPtr(); // 409
+	CResourceArrayBase::Count(); // 410
+	CResourceArray<SheetSequence_t>::operator=(
+			const CResourceArray<SheetSequence_t>& that);  // 107
+	Sheet_t::operator=(
+			const Sheet_t  &);  // 341
+	CResourceArrayBase::CResourceArrayBase(); // 370
+	CResourceArray<SheetSequence_t>::CResourceArray(); // 107
+	Sheet_t::Sheet_t(); // 342
+	CResourceArrayBase::CResourceArrayBase(); // 370
+	CResourceArray<SheetSequence_t>::CResourceArray(); // 107
+	Sheet_t::Sheet_t(); // 342
+} /* size: 0, inline expansions: 17 (314 bytes) */
+
+// <00E04063> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:369
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 369
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00E03E87> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:369
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 369
+	}
+} /* size: 39 */
+
+// <00E02349> ../_generated_code/rendersystemvulkan/linuxsteamrt64/release/sheet_h_schema.gen_cpp:369
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 41562
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 369
+	}
+} /* size: 0, variables: 1 */
+

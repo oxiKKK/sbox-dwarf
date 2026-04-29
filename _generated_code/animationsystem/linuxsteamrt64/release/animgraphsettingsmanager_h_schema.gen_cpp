@@ -1,0 +1,274 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsmanager_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <0043249C> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsmanager_h_schema.gen_cpp:36
+void CAnimGraphSettingsManager::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <004314B8> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsmanager_h_schema.gen_cpp:61
+// function calls: 33
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 90
+	Schema_VerifyBindingIsRegistered(void); // 14
+	GetPrimaryBinding(void); // 14
+	CAnimGraphSettingsManager::Schema_DynamicBinding(); // 64
+	CMutableRefCountBase<true, CRefMT>::operator=(
+			const CMutableRefCountBase<true, CRefMT>  &);  // 339
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::operator=(
+			const CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >  &);  // 12
+	Count(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettings this); // 573
+	CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, int>::Base(); // 112
+	Base(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, this); // 102
+	begin(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, this); // 574
+	CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, int>::Base(); // 113
+	Base(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettings this); // 105
+	Count(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettings this); // 105
+	end(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettings this); // 574
+	ThreadInterlockedIncrement(volatile int32* p); // 158
+	Increment(int* p); // 290
+	CMutableRefCountBase<true, CRefMT>::DoAddRef(); // 343
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::AddRef(); // 21
+	AddRef<CAnimGraphSettingsGroup>(CAnimGraphSettingsGroup* pObj); // 366
+	ThreadInterlockedDecrement(volatile int32* p); // 159
+	Decrement(int* p); // 295
+	CMutableRefCountBase<true, CRefMT>::DoRelease(); // 293
+	CMutableRefCountBase<true, CRefMT>::DoRelease(); // 344
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::Release(); // 27
+	Release<CAnimGraphSettingsGroup>(CAnimGraphSettingsGroup* pObj); // 370
+	CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>::operator=(
+			CAnimGraphSettingsGroup* pObj);  // 406
+	CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>::operator=(
+			const CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>& other);  // 209
+	UtlTraitsCopyRange<CSmartPtr<CAnimGraphSettingsGroup> >(const CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>* pFrom,
+								const CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>* pFromEnd,
+								CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>* pTo);  // 200
+	UtlTraitsCopyRange<CSmartPtr<CAnimGraphSettingsGroup> >(const CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>* pFrom,
+								const CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>* pFromEnd,
+								CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>* pTo);  // 574
+	operator=(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, this,
+			const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, other);  // 565
+	operator=(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, this,
+			const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, other);  // 452
+	operator=(const CUtlVector<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, CRe this,
+			const CUtlVector<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, CRe src);  // 12
+	CAnimGraphSettingsManager::operator=(
+			const CAnimGraphSettingsManager  &);  // 62
+} /* size: 0, inline expansions: 33 (1558 bytes) */
+
+// <0044D1E7> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsmanager_h_schema.gen_cpp:90
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 90
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <0044A075> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsmanager_h_schema.gen_cpp:90
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 90
+	}
+} /* size: 39 */
+
+// <0043148A> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsmanager_h_schema.gen_cpp:90
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 13155
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 90
+	}
+} /* size: 0, variables: 1 */
+
+// <00430EB4> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsmanager_h_schema.gen_cpp:98
+// function calls: 23
+void CAnimGraphSettingsManager::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	Count(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettings this); // 830
+	AlignValue<unsigned int>(unsigned int val,
+				uintp alignment);  // 225
+	CKV3TransferSaveContext::NotePooledAllocation(
+				uint nBytes);  // 830
+	NotePooledAllocation(CKV3TransferSaveContext* pSaveContext,
+				const Array_t& arr);  // 604
+	Count(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettings this); // 812
+	GetCount(const Array_t& arr); // 605
+	CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, int>::Base(); // 113
+	Base(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettings this); // 842
+	GetBase(const Array_t& arr); // 606
+	SaveValue<CUtlVector<CSmartPtr<CAnimGraphSettingsGroup> > >(CKV3TransferSaveContext* pContext,
+									KeyValues3* pSaveToValue,
+									const CUtlVector<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, CRe value,
+									type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CUtlVector<CSmartPtr<CAnimGraphSettingsGroup> > >(
+										const CUtlVector<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, CRe sourceValue,
+										KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CUtlVector<CSmartPtr<CAnimGraphSettingsGroup> > >(
+										CKV3MemberName memberNameAndHash,
+										const CUtlVector<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, CRe sourceValue);  // 105
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 105
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 105
+	CAnimGraphSettingsManager::KV3TransferSave_CAnimGraphSettingsManager(
+							CKV3TransferSaveContext* pContext);  // 100
+} /* size: 225, inline expansions: 23 (739 bytes) */
+
+// <00430E8F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsmanager_h_schema.gen_cpp:103
+void CAnimGraphSettingsManager::KV3TransferSave_CAnimGraphSettingsManager(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <00430193> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsmanager_h_schema.gen_cpp:108
+// variables: 4
+// function calls: 53
+void CAnimGraphSettingsManager::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 255
+	KeyValues3::IsArray(); // 612
+	CKV3TransferLoadContext::AllocatePooledMemory(
+				uint nElementSize,
+				uint nElementCount);  // 820
+	Count(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettings this); // 823
+	CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, int>::IsExternallyAllocated(); // 577
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 91
+	V_memcpy(void* dest,
+		const void* src,
+		size_t count);  // 587
+	CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, int>::ConvertToExternalMemory(
+				CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>* pMemory,
+				int numElements,
+				int nCopyElements,
+				bool bSetGrowable,
+				uint32 nGrowable_GrowSize);  // 306
+	ConvertToExternalMemory(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, this,
+				CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>* pMemory,
+				int numElements,
+				int nCopyElements,
+				bool bSetGrowable,
+				uint32 nGrowable_GrowSize);  // 823
+	SetCount(CKV3TransferLoadContext* pLoadContext,
+		Array_t& arr,
+		int nCount);  // 613
+	Count(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettings this); // 812
+	GetCount(const Array_t& arr); // 614
+	CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, int>::Base(); // 112
+	Base(const CUtlVectorBase<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, this); // 838
+	GetBase(Array_t& arr); // 618
+	{
+		const KeyValues3* pArrayElement; // 647
+		CKV3ArrayIteratorView<true>& __for_range; // 27682
+		iterator __for_begin; // 27692
+		iterator __for_end; // 27702
+		KeyValues3::IterateArray(); // 647
+		iterator::operator!=(
+				const iterator& rhs);  // 647
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 396
+		CKV3ArrayIteratorView<true>::begin(); // 647
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 401
+		CKV3ArrayIteratorView<true>::end(); // 647
+		{
+		}
+		iterator::operator*(); // 647
+		ThreadInterlockedIncrement(volatile int32* p); // 158
+		Increment(int* p); // 290
+		CMutableRefCountBase<true, CRefMT>::DoAddRef(); // 343
+		CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::AddRef(); // 21
+		AddRef<CAnimGraphSettingsGroup>(CAnimGraphSettingsGroup* pObj); // 366
+		ThreadInterlockedDecrement(volatile int32* p); // 159
+		Decrement(int* p); // 295
+		CMutableRefCountBase<true, CRefMT>::DoRelease(); // 293
+		CMutableRefCountBase<true, CRefMT>::DoRelease(); // 344
+		CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::Release(); // 27
+		Release<CAnimGraphSettingsGroup>(CAnimGraphSettingsGroup* pObj); // 370
+		CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>::operator=(
+				CAnimGraphSettingsGroup* pObj);  // 725
+		LoadValue<CSmartPtr<CAnimGraphSettingsGroup> >(CKV3TransferLoadContext* pContext,
+								const KeyValues3* pLoadFromValue,
+								CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<CSmartPtr<CAnimGraphSettingsGroup> >(
+									CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>& destValue,
+									const KeyValues3* pLoadFromMember);  // 651
+	}
+	LoadBlittableArrayElements<CSmartPtr<CAnimGraphSettingsGroup> >(CKV3TransferLoadContext* pContext,
+									const KeyValues3* pLoadFromValue,
+									int nCount,
+									CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>* pValues);  // 618
+	LoadValue<CUtlVector<CSmartPtr<CAnimGraphSettingsGroup> > >(CKV3TransferLoadContext* pContext,
+									const KeyValues3* pLoadFromValue,
+									CUtlVector<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, CRefCount value,
+									type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CUtlVector<CSmartPtr<CAnimGraphSettingsGroup> > >(
+										CUtlVector<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, CRefCount destValue,
+										const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<CUtlVector<CSmartPtr<CAnimGraphSettingsGroup> > >(
+											CKV3MemberName memberNameAndHash,
+											CUtlVector<CSmartPtr<CAnimGraphSettingsGroup, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimGraphSettingsGroup, CRefCount destValue);  // 117
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 117
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 117
+	CAnimGraphSettingsManager::KV3TransferLoad_CAnimGraphSettingsManager(
+							CKV3TransferLoadContext* pContext);  // 110
+} /* size: 0, inline expansions: 32 (2718 bytes) */
+
+// <00430162> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsmanager_h_schema.gen_cpp:113
+// variable: 1
+void CAnimGraphSettingsManager::KV3TransferLoad_CAnimGraphSettingsManager(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 115
+} /* size: 0, variables: 1 */
+

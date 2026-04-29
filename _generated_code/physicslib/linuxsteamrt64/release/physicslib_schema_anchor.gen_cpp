@@ -1,0 +1,141 @@
+
+//
+// _generated_code/physicslib/linuxsteamrt64/release/physicslib_schema_anchor.gen_cpp
+//
+//	referenced by: libengine2.so
+//
+//	functions: 4
+//	class: 1
+//
+
+// <0661905C> ../_generated_code/physicslib/linuxsteamrt64/release/physicslib_schema_anchor.gen_cpp:35
+// variables: 2
+// function calls: 81
+void ImplSchema_ProjectTypesInit_physicslib(void)
+{
+	CSchemaType** pTypes; // 35
+	ISchemaSystemTypeScope* pTypeScope; // 35
+	Get(ISchemaSystemTypeScope* pTypeScope); // 37
+	Get(ISchemaSystemTypeScope* pTypeScope); // 38
+	Get(ISchemaSystemTypeScope* pTypeScope); // 39
+	Get(ISchemaSystemTypeScope* pTypeScope); // 40
+	Get(ISchemaSystemTypeScope* pTypeScope); // 41
+	Get(ISchemaSystemTypeScope* pTypeScope); // 42
+	Get(ISchemaSystemTypeScope* pTypeScope); // 43
+	Get(ISchemaSystemTypeScope* pTypeScope); // 44
+	Get(ISchemaSystemTypeScope* pTypeScope); // 45
+	Get(ISchemaSystemTypeScope* pTypeScope); // 46
+	Get(ISchemaSystemTypeScope* pTypeScope); // 47
+	Get(ISchemaSystemTypeScope* pTypeScope); // 48
+	Get(ISchemaSystemTypeScope* pTypeScope); // 49
+	Get(ISchemaSystemTypeScope* pTypeScope); // 50
+	Get(ISchemaSystemTypeScope* pTypeScope); // 51
+	Get(ISchemaSystemTypeScope* pTypeScope); // 52
+	Get(ISchemaSystemTypeScope* pTypeScope); // 53
+	Get(ISchemaSystemTypeScope* pTypeScope); // 54
+	Get(ISchemaSystemTypeScope* pTypeScope); // 55
+	Get(ISchemaSystemTypeScope* pTypeScope); // 56
+	Get(ISchemaSystemTypeScope* pTypeScope); // 57
+	Get(ISchemaSystemTypeScope* pTypeScope); // 58
+	Get(ISchemaSystemTypeScope* pTypeScope); // 59
+	Get(ISchemaSystemTypeScope* pTypeScope); // 60
+	Get(ISchemaSystemTypeScope* pTypeScope); // 61
+	Get(ISchemaSystemTypeScope* pTypeScope); // 62
+	Get(ISchemaSystemTypeScope* pTypeScope); // 63
+	Get(ISchemaSystemTypeScope* pTypeScope); // 64
+	Get(ISchemaSystemTypeScope* pTypeScope); // 65
+	Get(ISchemaSystemTypeScope* pTypeScope); // 66
+	Get(ISchemaSystemTypeScope* pTypeScope); // 67
+	Get(ISchemaSystemTypeScope* pTypeScope); // 68
+	Get(ISchemaSystemTypeScope* pTypeScope); // 118
+	Get(ISchemaSystemTypeScope* pTypeScope); // 69
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<Vector> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 70
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<RnPlane_t> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 71
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<RnHalfEdge_t> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 72
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<RnFace_t> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 73
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<unsigned char> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 74
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 75
+	Get(ISchemaSystemTypeScope* pTypeScope); // 118
+	Get(ISchemaSystemTypeScope* pTypeScope); // 76
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<RnNode_t> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 77
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<RnTriangle_t> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 78
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 79
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 80
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 81
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 82
+	Get(ISchemaSystemTypeScope* pTypeScope); // 118
+	Get(ISchemaSystemTypeScope* pTypeScope); // 83
+} /* size: 1762, variables: 2, inline expansions: 81 (1524 bytes) */
+
+// <06618E8F> ../_generated_code/physicslib/linuxsteamrt64/release/physicslib_schema_anchor.gen_cpp:141
+// variables: 4
+void CSchemaRegistration_physicslib::RegisterAllBindings(ISchemaSystem* pSchemaSystem, SchemaRegistrationPhase_t nRegistrationPhase, CBufferString* pFailureReason)
+{
+	const char* pBinaryName; // 141
+	const char* pProjectName; // 141
+	CSchemaType** pTypeTable; // 141
+	int nTypeTableSize; // 141
+} /* size: 290, variables: 4 */
+
+// <06618E78> ../_generated_code/physicslib/linuxsteamrt64/release/physicslib_schema_anchor.gen_cpp:141
+void CSchemaRegistration_physicslib::CSchemaRegistration_physicslib()
+{
+} /* size: 0 */
+
+// <06618E5B> ../_generated_code/physicslib/linuxsteamrt64/release/physicslib_schema_anchor.gen_cpp:141
+inline void CSchemaRegistration_physicslib::CSchemaRegistration_physicslib()
+{
+} /* size: 0 */
+
+// <0660AC9A> ../_generated_code/physicslib/linuxsteamrt64/release/physicslib_schema_anchor.gen_cpp:141
+// member functions: 10
+// member variable: 1
+// vtable entry: 1
+// class size: 16
+class CSchemaRegistration_physicslib : public CSchemaRegistration {
+public:
+	/* class CSchemaRegistration <ancestor>; */ /* 0 16 */
+	void ~CSchemaRegistration_physicslib(CSchemaRegistration_physicslib* );
+	void CSchemaRegistration_physicslib(CSchemaRegistration_physicslib* , CSchemaRegistration_physicslib& );
+	void CSchemaRegistration_physicslib(CSchemaRegistration_physicslib* , const CSchemaRegistration_physicslib& );
+	void CSchemaRegistration_physicslib(CSchemaRegistration_physicslib* );
+	/* ../_generated_code/physicslib/linuxsteamrt64/release/physicslib_schema_anchor.gen_cpp:141 */
+	virtual bool RegisterAllBindings(CSchemaRegistration_physicslib* , ISchemaSystem* , SchemaRegistrationPhase_t, CBufferString* );
+	void ~CSchemaRegistration_physicslib(class CSchemaRegistration_physicslib *); /* linkage=_ZN30CSchemaRegistration_physicslibD4Ev */
+	void CSchemaRegistration_physicslib(class CSchemaRegistration_physicslib *, class CSchemaRegistration_physicslib &); /* linkage=_ZN30CSchemaRegistration_physicslibC4EOS_ */
+	void CSchemaRegistration_physicslib(class CSchemaRegistration_physicslib *, const class CSchemaRegistration_physicslib  &); /* linkage=_ZN30CSchemaRegistration_physicslibC4ERKS_ */
+	void CSchemaRegistration_physicslib(class CSchemaRegistration_physicslib *); /* linkage=_ZN30CSchemaRegistration_physicslibC4Ev */
+	virtual bool RegisterAllBindings(class CSchemaRegistration_physicslib *, class ISchemaSystem *, enum SchemaRegistrationPhase_t, class CBufferString *); /* linkage=_ZN30CSchemaRegistration_physicslib19RegisterAllBindingsEP13ISchemaSystem25SchemaRegistrationPhase_tP13CBufferString */
+};
+

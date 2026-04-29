@@ -1,0 +1,188 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/quaternionanimparameter_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 10
+//
+
+// <007895AC> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/quaternionanimparameter_h_schema.gen_cpp:36
+void CQuaternionAnimParameter::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <007891E1> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/quaternionanimparameter_h_schema.gen_cpp:88
+// function calls: 13
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 117
+	Schema_VerifyBindingIsRegistered(void); // 14
+	GetPrimaryBinding(void); // 14
+	CQuaternionAnimParameter::Schema_DynamicBinding(); // 91
+	CMutableRefCountBase<true, CRefMT>::operator=(
+			const CMutableRefCountBase<true, CRefMT>  &);  // 339
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::operator=(
+			const CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >  &);  // 15
+	V_strlen(const char* str); // 393
+	CUtlString::Length(); // 161
+	CUtlString::Get(); // 161
+	CUtlString::operator=(
+			const CUtlString& src);  // 15
+	AnimParamID::operator=(
+			const AnimParamID& rhs);  // 15
+	CAnimParameterBase::operator=(
+			const CAnimParameterBase  &);  // 11
+	CQuaternionAnimParameter::operator=(
+			const CQuaternionAnimParameter  &);  // 89
+} /* size: 0, inline expansions: 13 (647 bytes) */
+
+// <00794FC3> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/quaternionanimparameter_h_schema.gen_cpp:117
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 117
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00794872> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/quaternionanimparameter_h_schema.gen_cpp:117
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 117
+	}
+} /* size: 39 */
+
+// <007891B3> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/quaternionanimparameter_h_schema.gen_cpp:117
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 38078
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 117
+	}
+} /* size: 0, variables: 1 */
+
+// <00788DB7> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/quaternionanimparameter_h_schema.gen_cpp:125
+// function calls: 14
+void CQuaternionAnimParameter::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 135
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 135
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	SaveValue<Quaternion>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const Quaternion& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<Quaternion>(
+					const Quaternion& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<Quaternion>(
+					CKV3MemberName memberNameAndHash,
+					const Quaternion& sourceValue);  // 135
+	CQuaternionAnimParameter::KV3TransferSave_CQuaternionAnimParameter(
+						CKV3TransferSaveContext* pContext);  // 127
+} /* size: 217, inline expansions: 14 (641 bytes) */
+
+// <00795011> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/quaternionanimparameter_h_schema.gen_cpp:130
+// function calls: 13
+void CQuaternionAnimParameter::KV3TransferSave_CQuaternionAnimParameter(CKV3TransferSaveContext* pContext)
+{
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 135
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 135
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	SaveValue<Quaternion>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const Quaternion& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<Quaternion>(
+					const Quaternion& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<Quaternion>(
+					CKV3MemberName memberNameAndHash,
+					const Quaternion& sourceValue);  // 135
+} /* size: 0, inline expansions: 13 (0 bytes) */
+
+// <00788D92> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/quaternionanimparameter_h_schema.gen_cpp:130
+void CQuaternionAnimParameter::KV3TransferSave_CQuaternionAnimParameter(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <00788D2D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/quaternionanimparameter_h_schema.gen_cpp:138
+void CQuaternionAnimParameter::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <00788947> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/quaternionanimparameter_h_schema.gen_cpp:143
+// variable: 1
+// function calls: 14
+void CQuaternionAnimParameter::KV3TransferLoad_CQuaternionAnimParameter(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 148
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 150
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 150
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	KeyValues3::GetValueFloatArray<4>(
+				float* pOutValues);  // 1341
+	LoadValue<Quaternion>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				Quaternion& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<Quaternion>(
+					Quaternion& destValue,
+					const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<Quaternion>(
+						CKV3MemberName memberNameAndHash,
+						Quaternion& destValue);  // 150
+} /* size: 165, variables: 1, inline expansions: 14 (348 bytes) */
+

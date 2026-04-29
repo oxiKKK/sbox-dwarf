@@ -1,0 +1,544 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/animationsystem_schema_anchor.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 4
+//	class: 1
+//
+
+// <00337F7A> ../_generated_code/animationsystem/linuxsteamrt64/release/animationsystem_schema_anchor.gen_cpp:71
+// variables: 2
+// function calls: 484
+void ImplSchema_ProjectTypesInit_animationsystem(void)
+{
+	CSchemaType** pTypes; // 71
+	ISchemaSystemTypeScope* pTypeScope; // 71
+	Get(ISchemaSystemTypeScope* pTypeScope); // 73
+	Get(ISchemaSystemTypeScope* pTypeScope); // 74
+	Get(ISchemaSystemTypeScope* pTypeScope); // 75
+	Get(ISchemaSystemTypeScope* pTypeScope); // 76
+	Get(ISchemaSystemTypeScope* pTypeScope); // 77
+	Get(ISchemaSystemTypeScope* pTypeScope); // 78
+	Get(ISchemaSystemTypeScope* pTypeScope); // 79
+	Get(ISchemaSystemTypeScope* pTypeScope); // 80
+	Get(ISchemaSystemTypeScope* pTypeScope); // 81
+	Get(ISchemaSystemTypeScope* pTypeScope); // 82
+	Get(ISchemaSystemTypeScope* pTypeScope); // 83
+	Get(ISchemaSystemTypeScope* pTypeScope); // 84
+	Get(ISchemaSystemTypeScope* pTypeScope); // 86
+	Get(ISchemaSystemTypeScope* pTypeScope); // 87
+	Get(ISchemaSystemTypeScope* pTypeScope); // 89
+	Get(ISchemaSystemTypeScope* pTypeScope); // 91
+	Get(ISchemaSystemTypeScope* pTypeScope); // 92
+	Get(ISchemaSystemTypeScope* pTypeScope); // 93
+	Get(ISchemaSystemTypeScope* pTypeScope); // 94
+	Get(ISchemaSystemTypeScope* pTypeScope); // 96
+	Get(ISchemaSystemTypeScope* pTypeScope); // 100
+	Get(ISchemaSystemTypeScope* pTypeScope); // 102
+	Get(ISchemaSystemTypeScope* pTypeScope); // 103
+	Get(ISchemaSystemTypeScope* pTypeScope); // 104
+	Get(ISchemaSystemTypeScope* pTypeScope); // 106
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<AnimationDecodeDebugDumpElement_t> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 107
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<unsigned int> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 108
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<matrix3x4a_t> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 109
+	Get(ISchemaSystemTypeScope* pTypeScope); // 111
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 112
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimBoneDifference> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 114
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimMorphDifference> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 115
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimUserDifference> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 116
+	Get(ISchemaSystemTypeScope* pTypeScope); // 118
+	Get(ISchemaSystemTypeScope* pTypeScope); // 119
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimFrameBlockAnim> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 121
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 122
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 123
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 124
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimMovement> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 125
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimAnimEvent> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 126
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimActivity> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 127
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimLocalHierarchy> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 128
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<Vector> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 129
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 130
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimDesc> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 131
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimDecoder> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 132
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimFrameSegment> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 133
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CBufferString> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 134
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimBone> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 135
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimUser> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 136
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimDataChannelDesc> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 137
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimRetargetElementData> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 138
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimRetargetChainData> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 139
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 204
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CStrongHandle<InfoForResourceTypeCAnimData> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 140
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 204
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CStrongHandle<InfoForResourceTypeCAnimationGroup> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 141
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 204
+	Get(ISchemaSystemTypeScope* pTypeScope); // 142
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 143
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 144
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 145
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<short int> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 146
+	Get(ISchemaSystemTypeScope* pTypeScope); // 29
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<std::pair<CBufferString, float> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 148
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 149
+	Get(ISchemaSystemTypeScope* pTypeScope); // 118
+	Get(ISchemaSystemTypeScope* pTypeScope); // 150
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 151
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 152
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSeqAutoLayer> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 153
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSeqIKLock> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 154
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 155
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CFootMotion> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 156
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSeqCmdLayer> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 157
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSeqPoseSetting> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 158
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSeqS1SeqDesc> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 159
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSeqSynthAnimDesc> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 160
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSeqCmdSeqDesc> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 161
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSeqBoneMaskList> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 162
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSeqPoseParamDesc> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 163
+	Get(ISchemaSystemTypeScope* pTypeScope); // 89
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<char*, CUtlMemory<char*, int> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 164
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<fieldtype_t> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 165
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CUtlVector<int> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 168
+	Get(ISchemaSystemTypeScope* pTypeScope); // 89
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CCompressor<Vector>*> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 169
+	Get(ISchemaSystemTypeScope* pTypeScope); // 176
+	Get(ISchemaSystemTypeScope* pTypeScope); // 177
+	Get(ISchemaSystemTypeScope* pTypeScope); // 178
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 179
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 180
+	Get(ISchemaSystemTypeScope* pTypeScope); // 181
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 182
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 183
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 184
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 185
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 186
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 187
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CBoneMergeModel> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 189
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 190
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CAnimParameterBase> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 191
+	Get(ISchemaSystemTypeScope* pTypeScope); // 192
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CParameterValue> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 193
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CActivityValues> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 194
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 89
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimNodeBase*> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 195
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 89
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CAnimState*> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 196
+	Get(ISchemaSystemTypeScope* pTypeScope); // 197
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CAnimGraphSettingsGroup> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 198
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CClipProperties> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 199
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CAnimMotorBase> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 200
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 201
+	Get(ISchemaSystemTypeScope* pTypeScope); // 203
+	Get(ISchemaSystemTypeScope* pTypeScope); // 204
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 205
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 206
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CAnimTagSpan> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 207
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 208
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CBlendNodeChild> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 209
+	Get(ISchemaSystemTypeScope* pTypeScope); // 210
+	Get(ISchemaSystemTypeScope* pTypeScope); // 211
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CAnimState> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 212
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CChoiceNodeChild> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 213
+	Get(ISchemaSystemTypeScope* pTypeScope); // 214
+	Get(ISchemaSystemTypeScope* pTypeScope); // 215
+	Get(ISchemaSystemTypeScope* pTypeScope); // 216
+	Get(ISchemaSystemTypeScope* pTypeScope); // 217
+	Get(ISchemaSystemTypeScope* pTypeScope); // 218
+	Get(ISchemaSystemTypeScope* pTypeScope); // 219
+	Get(ISchemaSystemTypeScope* pTypeScope); // 220
+	Get(ISchemaSystemTypeScope* pTypeScope); // 221
+	Get(ISchemaSystemTypeScope* pTypeScope); // 222
+	Get(ISchemaSystemTypeScope* pTypeScope); // 223
+	Get(ISchemaSystemTypeScope* pTypeScope); // 224
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 225
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 226
+	Get(ISchemaSystemTypeScope* pTypeScope); // 227
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSolveIKChainAnimNodeChainData> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 228
+	Get(ISchemaSystemTypeScope* pTypeScope); // 229
+	Get(ISchemaSystemTypeScope* pTypeScope); // 230
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CNodeConnection> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 231
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<AnimTagID> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 232
+	Get(ISchemaSystemTypeScope* pTypeScope); // 233
+	Get(ISchemaSystemTypeScope* pTypeScope); // 234
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 235
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CBlend2DItem> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 236
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 237
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CFootLockItem> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 238
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CMotionClipGroup> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 239
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CMotionMetricBase> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 240
+	Get(ISchemaSystemTypeScope* pTypeScope); // 241
+	Get(ISchemaSystemTypeScope* pTypeScope); // 242
+	Get(ISchemaSystemTypeScope* pTypeScope); // 243
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CJiggleBoneItem> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 244
+	Get(ISchemaSystemTypeScope* pTypeScope); // 245
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CFootStepTriggerItem> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 246
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CConnectionProxyItem> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 247
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CAnimStateTransition> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 248
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 250
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CAnimStateConditionBase> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 251
+	Get(ISchemaSystemTypeScope* pTypeScope); // 252
+	Get(ISchemaSystemTypeScope* pTypeScope); // 253
+	Get(ISchemaSystemTypeScope* pTypeScope); // 254
+	Get(ISchemaSystemTypeScope* pTypeScope); // 255
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 256
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 257
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CAnimTagBase> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 258
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CMotionClip> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 259
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 89
+	Get(ISchemaSystemTypeScope* pTypeScope); // 260
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 516
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CSmartPtr<CAnimReplayFrame> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 261
+} /* size: 8371, variables: 2, inline expansions: 484 (8920 bytes) */
+
+// <00337DA2> ../_generated_code/animationsystem/linuxsteamrt64/release/animationsystem_schema_anchor.gen_cpp:711
+// variables: 4
+void CSchemaRegistration_animationsystem::RegisterAllBindings(ISchemaSystem* pSchemaSystem, SchemaRegistrationPhase_t nRegistrationPhase, CBufferString* pFailureReason)
+{
+	const char* pBinaryName; // 711
+	const char* pProjectName; // 711
+	CSchemaType** pTypeTable; // 711
+	int nTypeTableSize; // 711
+} /* size: 290, variables: 4 */
+
+// <00337D8B> ../_generated_code/animationsystem/linuxsteamrt64/release/animationsystem_schema_anchor.gen_cpp:711
+void CSchemaRegistration_animationsystem::CSchemaRegistration_animationsystem()
+{
+} /* size: 0 */
+
+// <00337D6E> ../_generated_code/animationsystem/linuxsteamrt64/release/animationsystem_schema_anchor.gen_cpp:711
+inline void CSchemaRegistration_animationsystem::CSchemaRegistration_animationsystem()
+{
+} /* size: 0 */
+
+// <0028F0B7> ../_generated_code/animationsystem/linuxsteamrt64/release/animationsystem_schema_anchor.gen_cpp:711
+// member functions: 10
+// member variable: 1
+// vtable entry: 1
+// class size: 16
+class CSchemaRegistration_animationsystem : public CSchemaRegistration {
+public:
+	/* class CSchemaRegistration <ancestor>; */ /* 0 16 */
+	void ~CSchemaRegistration_animationsystem(CSchemaRegistration_animationsystem* );
+	void CSchemaRegistration_animationsystem(CSchemaRegistration_animationsystem* , CSchemaRegistration_animationsystem& );
+	void CSchemaRegistration_animationsystem(CSchemaRegistration_animationsystem* , const CSchemaRegistration_animationsystem& );
+	void CSchemaRegistration_animationsystem(CSchemaRegistration_animationsystem* );
+	/* ../_generated_code/animationsystem/linuxsteamrt64/release/animationsystem_schema_anchor.gen_cpp:711 */
+	virtual bool RegisterAllBindings(CSchemaRegistration_animationsystem* , ISchemaSystem* , SchemaRegistrationPhase_t, CBufferString* );
+	void ~CSchemaRegistration_animationsystem(class CSchemaRegistration_animationsystem *); /* linkage=_ZN35CSchemaRegistration_animationsystemD4Ev */
+	void CSchemaRegistration_animationsystem(class CSchemaRegistration_animationsystem *, class CSchemaRegistration_animationsystem &); /* linkage=_ZN35CSchemaRegistration_animationsystemC4EOS_ */
+	void CSchemaRegistration_animationsystem(class CSchemaRegistration_animationsystem *, const class CSchemaRegistration_animationsystem  &); /* linkage=_ZN35CSchemaRegistration_animationsystemC4ERKS_ */
+	void CSchemaRegistration_animationsystem(class CSchemaRegistration_animationsystem *); /* linkage=_ZN35CSchemaRegistration_animationsystemC4Ev */
+	virtual bool RegisterAllBindings(class CSchemaRegistration_animationsystem *, class ISchemaSystem *, enum SchemaRegistrationPhase_t, class CBufferString *); /* linkage=_ZN35CSchemaRegistration_animationsystem19RegisterAllBindingsEP13ISchemaSystem25SchemaRegistrationPhase_tP13CBufferString */
+};
+

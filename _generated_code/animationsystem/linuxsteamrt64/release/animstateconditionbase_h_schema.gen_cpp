@@ -1,0 +1,152 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/animstateconditionbase_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <008B6B3B> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animstateconditionbase_h_schema.gen_cpp:36
+void CAnimStateConditionBase::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <008B1EC9> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animstateconditionbase_h_schema.gen_cpp:61
+// function call: 1
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	Schema_ClassOps(SchemaGenClassOp_t op,
+			void* pPtr1,
+			void* pPtr2);  // 61
+} /* size: 27, inline expansions: 1 (15 bytes) */
+
+// <008B0FAB> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animstateconditionbase_h_schema.gen_cpp:61
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+} /* size: 0 */
+
+// <008B6B66> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animstateconditionbase_h_schema.gen_cpp:88
+// function calls: 3
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 88
+	{
+		Schema_StaticClassname(void); // 88
+	}
+	Schema_VerifyBindingIsRegistered(void); // 88
+} /* size: 0, inline expansions: 2 (54 bytes) */
+
+// <008B0F7D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animstateconditionbase_h_schema.gen_cpp:88
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 36688
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 88
+	}
+} /* size: 0, variables: 1 */
+
+// <008B0AEE> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animstateconditionbase_h_schema.gen_cpp:96
+// function calls: 17
+void CAnimStateConditionBase::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 209
+	KeyValues3::SetValueInt(
+			int value);  // 769
+	SaveValue<unsigned char>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const uint8& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<unsigned char>(
+					const unsigned char& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<unsigned char>(
+					CKV3MemberName memberNameAndHash,
+					const unsigned char& sourceValue);  // 103
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 103
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 103
+	CAnimStateConditionBase::KV3TransferSave_CAnimStateConditionBase(
+						CKV3TransferSaveContext* pContext);  // 98
+} /* size: 226, inline expansions: 17 (667 bytes) */
+
+// <008B0AC9> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animstateconditionbase_h_schema.gen_cpp:101
+void CAnimStateConditionBase::KV3TransferSave_CAnimStateConditionBase(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <008B05C9> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animstateconditionbase_h_schema.gen_cpp:106
+// function calls: 21
+void CAnimStateConditionBase::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 696
+	{
+	}
+	KV3Helper_StringToNumber<int>(const char* pString); // 715
+	KeyValues3::GetValueAsNumeric<int>(); // 694
+	KeyValues3::GetValueAsNumeric<int>(); // 184
+	KeyValues3::GetValueInt(); // 769
+	LoadValue<unsigned char>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				uint8& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<unsigned char>(
+					unsigned char& destValue,
+					const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<unsigned char>(
+							CKV3MemberName memberNameAndHash,
+							unsigned char& destValue);  // 115
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 115
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 115
+	CAnimStateConditionBase::KV3TransferLoad_CAnimStateConditionBase(
+						CKV3TransferLoadContext* pContext);  // 108
+} /* size: 0, inline expansions: 21 (1136 bytes) */
+
+// <008B0598> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animstateconditionbase_h_schema.gen_cpp:111
+// variable: 1
+void CAnimStateConditionBase::KV3TransferLoad_CAnimStateConditionBase(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 113
+} /* size: 0, variables: 1 */
+

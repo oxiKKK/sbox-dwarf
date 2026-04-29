@@ -1,0 +1,1528 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 51
+//
+
+// <00AA6B2D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:52
+void CAnimationGraphVisualizerPrimitiveBase::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00AA69BB> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:77
+// function calls: 3
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	CAnimationGraphVisualizerPrimitiveBase::operator=(
+			const CAnimationGraphVisualizerPrimitiveBase  &);  // 78
+	CAnimationGraphVisualizerPrimitiveBase::CAnimationGraphVisualizerPrimitiveBase(); // 79
+	CAnimationGraphVisualizerPrimitiveBase::CAnimationGraphVisualizerPrimitiveBase(); // 79
+} /* size: 160, inline expansions: 3 (26 bytes) */
+
+// <00AAC825> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:106
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 106
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00AAAEFE> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:106
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 106
+	}
+} /* size: 39 */
+
+// <00AA698D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:106
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 58931
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 106
+	}
+} /* size: 0, variables: 1 */
+
+// <00AA681B> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:114
+// function calls: 4
+void CAnimationGraphVisualizerPrimitiveBase::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 121
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 121
+	CAnimationGraphVisualizerPrimitiveBase::KV3TransferSave_CAnimationGraphVisualizerPrimitiveBase(
+								CKV3TransferSaveContext* pContext);  // 116
+} /* size: 28, inline expansions: 4 (24 bytes) */
+
+// <00AA67F6> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:119
+void CAnimationGraphVisualizerPrimitiveBase::KV3TransferSave_CAnimationGraphVisualizerPrimitiveBase(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <00AA6791> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:124
+void CAnimationGraphVisualizerPrimitiveBase::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <00AA619F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:129
+// variable: 1
+// function calls: 20
+void CAnimationGraphVisualizerPrimitiveBase::KV3TransferLoad_CAnimationGraphVisualizerPrimitiveBase(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 131
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 534
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 696
+	{
+	}
+	KV3Helper_StringToNumber<long long int>(const char* pString); // 715
+	KeyValues3::GetValueAsNumeric<long long int>(); // 694
+	KeyValues3::GetValueAsNumeric<long long int>(); // 189
+	KeyValues3::GetValueInt64(); // 543
+	KV3Transfer_EnumeratorValueFromName<CAnimationGraphVisualizerPrimitiveType>(const char* pEnumeratorName,
+											CAnimationGraphVisualizerPrimitiveType* pOutValue);  // 536
+	LoadValue<CAnimationGraphVisualizerPrimitiveType>(CKV3TransferLoadContext* pContext,
+								const KeyValues3* pLoadFromValue,
+								CAnimationGraphVisualizerPrimitiveType& value,
+								type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CAnimationGraphVisualizerPrimitiveType>(
+								CAnimationGraphVisualizerPrimitiveType& destValue,
+								const KeyValues3* pLoadFromMember);  // 292
+	CKV3TransferLoadContext::LoadValueFromMember<CAnimationGraphVisualizerPrimitiveType>(
+									CKV3MemberName memberNameAndHash,
+									CAnimationGraphVisualizerPrimitiveType& destValue,
+									uint& nNextMemberHint);  // 133
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 133
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 133
+} /* size: 0, variables: 1, inline expansions: 20 (1210 bytes) */
+
+// <00AA6187> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:142
+void CAnimationGraphVisualizerText::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00AA5B8C> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:184
+// function calls: 26
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 213
+	Schema_VerifyBindingIsRegistered(void); // 117
+	GetPrimaryBinding(void); // 117
+	CAnimationGraphVisualizerText::Schema_DynamicBinding(); // 187
+	CAnimationGraphVisualizerPrimitiveBase::operator=(
+			const CAnimationGraphVisualizerPrimitiveBase  &);  // 115
+	VectorAligned::operator=(
+			const VectorAligned& src);  // 115
+	Color::GetRawColor(); // 147
+	Color::SetRawColor(
+			int32 Color);  // 147
+	Color::operator=(
+			const Color& rhs);  // 115
+	V_strlen(const char* str); // 393
+	CUtlString::Length(); // 161
+	CUtlString::Get(); // 161
+	CUtlString::operator=(
+			const CUtlString& src);  // 115
+	CAnimationGraphVisualizerText::operator=(
+			const CAnimationGraphVisualizerText  &);  // 185
+	CAnimationGraphVisualizerPrimitiveBase::CAnimationGraphVisualizerPrimitiveBase(
+						CAnimationGraphVisualizerPrimitiveType type);  // 121
+	Color::Color(); // 121
+	CUtlString::CUtlString(); // 121
+	CAnimationGraphVisualizerText::CAnimationGraphVisualizerText(); // 186
+	CAnimationGraphVisualizerPrimitiveBase::CAnimationGraphVisualizerPrimitiveBase(
+						CAnimationGraphVisualizerPrimitiveType type);  // 121
+	Color::Color(); // 121
+	CUtlString::CUtlString(); // 121
+	CAnimationGraphVisualizerText::CAnimationGraphVisualizerText(); // 186
+	CUtlString::~CUtlString(); // 115
+	CAnimationGraphVisualizerText::~CAnimationGraphVisualizerText(); // 186
+	CUtlString::~CUtlString(); // 115
+	CAnimationGraphVisualizerText::~CAnimationGraphVisualizerText(); // 186
+} /* size: 0, inline expansions: 26 (651 bytes) */
+
+// <00AA5B5E> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:213
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 58931
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 213
+	}
+} /* size: 0, variables: 1 */
+
+// <00AA5AF9> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:221
+void CAnimationGraphVisualizerText::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 9 */
+
+// <00AA4DF6> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:226
+// variable: 1
+// function calls: 47
+void CAnimationGraphVisualizerText::KV3TransferSave_CAnimationGraphVisualizerText(CKV3TransferSaveContext* pContext)
+{
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 121
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 121
+	CAnimationGraphVisualizerPrimitiveBase::KV3TransferSave_CAnimationGraphVisualizerPrimitiveBase(
+								CKV3TransferSaveContext* pContext);  // 229
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 231
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 231
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	SaveValue<VectorAligned>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const VectorAligned& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<VectorAligned>(
+					const VectorAligned& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<VectorAligned>(
+					CKV3MemberName memberNameAndHash,
+					const VectorAligned& sourceValue);  // 231
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 232
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 232
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	{
+		int i; // 1423
+		KeyValues3::Internal_PrepareForInternalType(
+						KeyValues3InternalType_t newType);  // 950
+		KeyValues3::Internal_PrepareForType(
+					KeyValues3Type_t newType);  // 209
+		KeyValues3::SetValueInt(
+				int value);  // 1425
+	}
+	SaveValue<Color>(CKV3TransferSaveContext* pContext,
+			KeyValues3* pSaveToValue,
+			const Color& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<Color>(
+				const Color& sourceValue,
+				KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<Color>(
+				CKV3MemberName memberNameAndHash,
+				const Color& sourceValue);  // 232
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 233
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 233
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CUtlString::Get(); // 1043
+	SaveValue<CUtlString>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const CUtlString& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CUtlString>(
+					const CUtlString& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CUtlString>(
+					CKV3MemberName memberNameAndHash,
+					const CUtlString& sourceValue);  // 233
+} /* size: 637, inline expansions: 44 (1707 bytes) */
+
+// <00AA4D91> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:236
+void CAnimationGraphVisualizerText::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <00AA442F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:241
+// variables: 3
+// function calls: 29
+void CAnimationGraphVisualizerText::KV3TransferLoad_CAnimationGraphVisualizerText(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 246
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	KeyValues3::GetValueFloatArray<3>(
+				float* pOutValues);  // 1341
+	LoadValue<VectorAligned>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				VectorAligned& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<VectorAligned>(
+					VectorAligned& destValue,
+					const KeyValues3* pLoadFromMember);  // 292
+	{
+		KeyValues3 nullValue; // 300
+		KeyValues3::GetValueFloatArray<3>(
+					float* pOutValues);  // 1341
+		LoadValue<VectorAligned>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					VectorAligned& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<VectorAligned>(
+						VectorAligned& destValue,
+						const KeyValues3* pLoadFromMember);  // 301
+	}
+	CKV3TransferLoadContext::LoadValueFromMember<VectorAligned>(
+						CKV3MemberName memberNameAndHash,
+						VectorAligned& destValue,
+						uint& nNextMemberHint);  // 287
+	CKV3TransferLoadContext::LoadValueFromMember<VectorAligned>(
+						CKV3MemberName memberNameAndHash,
+						VectorAligned& destValue,
+						uint& nNextMemberHint);  // 248
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 248
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 248
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 249
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 249
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 250
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 250
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	LoadValue<CUtlString>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				CUtlString& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CUtlString>(
+					CUtlString& destValue,
+					const KeyValues3* pLoadFromMember);  // 292
+	{
+		KeyValues3 nullValue; // 300
+		LoadValue<CUtlString>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					CUtlString& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<CUtlString>(
+						CUtlString& destValue,
+						const KeyValues3* pLoadFromMember);  // 301
+	}
+	CKV3TransferLoadContext::LoadValueFromMember<CUtlString>(
+					CKV3MemberName memberNameAndHash,
+					CUtlString& destValue,
+					uint& nNextMemberHint);  // 287
+	CKV3TransferLoadContext::LoadValueFromMember<CUtlString>(
+					CKV3MemberName memberNameAndHash,
+					CUtlString& destValue,
+					uint& nNextMemberHint);  // 250
+} /* size: 349, variables: 1, inline expansions: 24 (492 bytes) */
+
+// <00AA4417> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:259
+void CAnimationGraphVisualizerSphere::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00AA402C> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:301
+// function calls: 15
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	CAnimationGraphVisualizerPrimitiveBase::CAnimationGraphVisualizerPrimitiveBase(
+						CAnimationGraphVisualizerPrimitiveType type);  // 144
+	CAnimationGraphVisualizerSphere::CAnimationGraphVisualizerSphere(); // 303
+	CAnimationGraphVisualizerPrimitiveBase::CAnimationGraphVisualizerPrimitiveBase(
+						CAnimationGraphVisualizerPrimitiveType type);  // 144
+	Color::Color(); // 144
+	CAnimationGraphVisualizerSphere::CAnimationGraphVisualizerSphere(); // 303
+	GetPrimaryBinding(void); // 330
+	Schema_VerifyBindingIsRegistered(void); // 140
+	GetPrimaryBinding(void); // 140
+	CAnimationGraphVisualizerSphere::Schema_DynamicBinding(); // 304
+	CAnimationGraphVisualizerPrimitiveBase::operator=(
+			const CAnimationGraphVisualizerPrimitiveBase  &);  // 138
+	VectorAligned::operator=(
+			const VectorAligned& src);  // 138
+	Color::GetRawColor(); // 147
+	Color::SetRawColor(
+			int32 Color);  // 147
+	Color::operator=(
+			const Color& rhs);  // 138
+	CAnimationGraphVisualizerSphere::operator=(
+			const CAnimationGraphVisualizerSphere  &);  // 302
+} /* size: 0, inline expansions: 15 (241 bytes) */
+
+// <00AAC8BF> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:330
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 330
+} /* size: 0, inline expansions: 1 (12 bytes) */
+
+// <00AAB000> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:330
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 330
+	}
+} /* size: 39 */
+
+// <00AA3F97> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:338
+void CAnimationGraphVisualizerSphere::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 9 */
+
+// <00AA3237> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:343
+// variable: 1
+// function calls: 49
+void CAnimationGraphVisualizerSphere::KV3TransferSave_CAnimationGraphVisualizerSphere(CKV3TransferSaveContext* pContext)
+{
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 121
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 121
+	CAnimationGraphVisualizerPrimitiveBase::KV3TransferSave_CAnimationGraphVisualizerPrimitiveBase(
+								CKV3TransferSaveContext* pContext);  // 346
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	SaveValue<VectorAligned>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const VectorAligned& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<VectorAligned>(
+					const VectorAligned& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<VectorAligned>(
+					CKV3MemberName memberNameAndHash,
+					const VectorAligned& sourceValue);  // 348
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 348
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 348
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 349
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 349
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 221
+	KeyValues3::SetValueFloat(
+			float value);  // 776
+	SaveValue<float>(CKV3TransferSaveContext* pContext,
+			KeyValues3* pSaveToValue,
+			const float& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<float>(
+				const float& sourceValue,
+				KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<float>(
+				CKV3MemberName memberNameAndHash,
+				const float& sourceValue);  // 349
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 350
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 350
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	{
+		int i; // 1423
+		KeyValues3::Internal_PrepareForInternalType(
+						KeyValues3InternalType_t newType);  // 950
+		KeyValues3::Internal_PrepareForType(
+					KeyValues3Type_t newType);  // 209
+		KeyValues3::SetValueInt(
+				int value);  // 1425
+	}
+	SaveValue<Color>(CKV3TransferSaveContext* pContext,
+			KeyValues3* pSaveToValue,
+			const Color& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<Color>(
+				const Color& sourceValue,
+				KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<Color>(
+				CKV3MemberName memberNameAndHash,
+				const Color& sourceValue);  // 350
+} /* size: 635, inline expansions: 46 (1694 bytes) */
+
+// <00AA31D1> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:353
+void CAnimationGraphVisualizerSphere::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <00AA25A7> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:358
+// variables: 3
+// function calls: 43
+void CAnimationGraphVisualizerSphere::KV3TransferLoad_CAnimationGraphVisualizerSphere(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 363
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	KeyValues3::GetValueFloatArray<3>(
+				float* pOutValues);  // 1341
+	LoadValue<VectorAligned>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				VectorAligned& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<VectorAligned>(
+					VectorAligned& destValue,
+					const KeyValues3* pLoadFromMember);  // 292
+	{
+		KeyValues3 nullValue; // 300
+		KeyValues3::GetValueFloatArray<3>(
+					float* pOutValues);  // 1341
+		LoadValue<VectorAligned>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					VectorAligned& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<VectorAligned>(
+						VectorAligned& destValue,
+						const KeyValues3* pLoadFromMember);  // 301
+	}
+	CKV3TransferLoadContext::LoadValueFromMember<VectorAligned>(
+						CKV3MemberName memberNameAndHash,
+						VectorAligned& destValue,
+						uint& nNextMemberHint);  // 287
+	CKV3TransferLoadContext::LoadValueFromMember<VectorAligned>(
+						CKV3MemberName memberNameAndHash,
+						VectorAligned& destValue,
+						uint& nNextMemberHint);  // 365
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 365
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 365
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 366
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 366
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 696
+	KV3Helper_StringToNumber<float>(const char* pString); // 715
+	KeyValues3::GetValueAsNumeric<float>(); // 694
+	{
+	}
+	KeyValues3::GetValueAsNumeric<float>(); // 199
+	KeyValues3::GetValueFloat(); // 776
+	LoadValue<float>(CKV3TransferLoadContext* pContext,
+			const KeyValues3* pLoadFromValue,
+			float& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<float>(
+				float& destValue,
+				const KeyValues3* pLoadFromMember);  // 292
+	{
+		KeyValues3 nullValue; // 300
+		KeyValues3::Internal_Type(); // 90
+		KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+		KeyValues3::GetType(); // 696
+		KV3Helper_StringToNumber<float>(const char* pString); // 715
+		KeyValues3::GetValueAsNumeric<float>(); // 694
+		{
+		}
+		KeyValues3::GetValueAsNumeric<float>(); // 199
+		KeyValues3::GetValueFloat(); // 776
+		LoadValue<float>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				float& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<float>(
+					float& destValue,
+					const KeyValues3* pLoadFromMember);  // 301
+	}
+	CKV3TransferLoadContext::LoadValueFromMember<float>(
+					CKV3MemberName memberNameAndHash,
+					float& destValue,
+					uint& nNextMemberHint);  // 287
+	CKV3TransferLoadContext::LoadValueFromMember<float>(
+					CKV3MemberName memberNameAndHash,
+					float& destValue,
+					uint& nNextMemberHint);  // 366
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 367
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 367
+} /* size: 0, variables: 1, inline expansions: 31 (2366 bytes) */
+
+// <00AA258F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:376
+void CAnimationGraphVisualizerLine::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00AA216F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:418
+// function calls: 16
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	CAnimationGraphVisualizerPrimitiveBase::CAnimationGraphVisualizerPrimitiveBase(
+						CAnimationGraphVisualizerPrimitiveType type);  // 166
+	CAnimationGraphVisualizerLine::CAnimationGraphVisualizerLine(); // 420
+	CAnimationGraphVisualizerPrimitiveBase::CAnimationGraphVisualizerPrimitiveBase(
+						CAnimationGraphVisualizerPrimitiveType type);  // 166
+	Color::Color(); // 166
+	CAnimationGraphVisualizerLine::CAnimationGraphVisualizerLine(); // 420
+	GetPrimaryBinding(void); // 447
+	Schema_VerifyBindingIsRegistered(void); // 162
+	GetPrimaryBinding(void); // 162
+	CAnimationGraphVisualizerLine::Schema_DynamicBinding(); // 421
+	CAnimationGraphVisualizerPrimitiveBase::operator=(
+			const CAnimationGraphVisualizerPrimitiveBase  &);  // 160
+	VectorAligned::operator=(
+			const VectorAligned& src);  // 160
+	VectorAligned::operator=(
+			const VectorAligned& src);  // 160
+	Color::GetRawColor(); // 147
+	Color::SetRawColor(
+			int32 Color);  // 147
+	Color::operator=(
+			const Color& rhs);  // 160
+	CAnimationGraphVisualizerLine::operator=(
+			const CAnimationGraphVisualizerLine  &);  // 419
+} /* size: 0, inline expansions: 16 (256 bytes) */
+
+// <00AAC90D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:447
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 447
+} /* size: 0, inline expansions: 1 (12 bytes) */
+
+// <00AAB082> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:447
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 447
+	}
+} /* size: 39 */
+
+// <00AA2140> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:447
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 58931
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 447
+	}
+} /* size: 0, variables: 1 */
+
+// <00AA20DA> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:455
+void CAnimationGraphVisualizerLine::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 9 */
+
+// <00AA1403> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:460
+// variable: 1
+// function calls: 46
+void CAnimationGraphVisualizerLine::KV3TransferSave_CAnimationGraphVisualizerLine(CKV3TransferSaveContext* pContext)
+{
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 121
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 121
+	CAnimationGraphVisualizerPrimitiveBase::KV3TransferSave_CAnimationGraphVisualizerPrimitiveBase(
+								CKV3TransferSaveContext* pContext);  // 463
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	SaveValue<VectorAligned>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const VectorAligned& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<VectorAligned>(
+					const VectorAligned& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<VectorAligned>(
+					CKV3MemberName memberNameAndHash,
+					const VectorAligned& sourceValue);  // 465
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 465
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 465
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 466
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 466
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	SaveValue<VectorAligned>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const VectorAligned& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<VectorAligned>(
+					const VectorAligned& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<VectorAligned>(
+					CKV3MemberName memberNameAndHash,
+					const VectorAligned& sourceValue);  // 466
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 467
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 467
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	{
+		int i; // 1423
+		KeyValues3::Internal_PrepareForInternalType(
+						KeyValues3InternalType_t newType);  // 950
+		KeyValues3::Internal_PrepareForType(
+					KeyValues3Type_t newType);  // 209
+		KeyValues3::SetValueInt(
+				int value);  // 1425
+	}
+	SaveValue<Color>(CKV3TransferSaveContext* pContext,
+			KeyValues3* pSaveToValue,
+			const Color& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<Color>(
+				const Color& sourceValue,
+				KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<Color>(
+				CKV3MemberName memberNameAndHash,
+				const Color& sourceValue);  // 467
+} /* size: 603, inline expansions: 43 (1474 bytes) */
+
+// <00AA139D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:470
+void CAnimationGraphVisualizerLine::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <00AA09AB> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:475
+// variables: 3
+// function calls: 31
+void CAnimationGraphVisualizerLine::KV3TransferLoad_CAnimationGraphVisualizerLine(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 480
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	KeyValues3::GetValueFloatArray<3>(
+				float* pOutValues);  // 1341
+	LoadValue<VectorAligned>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				VectorAligned& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<VectorAligned>(
+					VectorAligned& destValue,
+					const KeyValues3* pLoadFromMember);  // 292
+	{
+		KeyValues3 nullValue; // 300
+		KeyValues3::GetValueFloatArray<3>(
+					float* pOutValues);  // 1341
+		LoadValue<VectorAligned>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					VectorAligned& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<VectorAligned>(
+						VectorAligned& destValue,
+						const KeyValues3* pLoadFromMember);  // 301
+	}
+	CKV3TransferLoadContext::LoadValueFromMember<VectorAligned>(
+						CKV3MemberName memberNameAndHash,
+						VectorAligned& destValue,
+						uint& nNextMemberHint);  // 287
+	CKV3TransferLoadContext::LoadValueFromMember<VectorAligned>(
+						CKV3MemberName memberNameAndHash,
+						VectorAligned& destValue,
+						uint& nNextMemberHint);  // 482
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 482
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 482
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 483
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 483
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	KeyValues3::GetValueFloatArray<3>(
+				float* pOutValues);  // 1341
+	LoadValue<VectorAligned>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				VectorAligned& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<VectorAligned>(
+					VectorAligned& destValue,
+					const KeyValues3* pLoadFromMember);  // 292
+	{
+		KeyValues3 nullValue; // 300
+		KeyValues3::GetValueFloatArray<3>(
+					float* pOutValues);  // 1341
+		LoadValue<VectorAligned>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					VectorAligned& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<VectorAligned>(
+						VectorAligned& destValue,
+						const KeyValues3* pLoadFromMember);  // 301
+	}
+	CKV3TransferLoadContext::LoadValueFromMember<VectorAligned>(
+						CKV3MemberName memberNameAndHash,
+						VectorAligned& destValue,
+						uint& nNextMemberHint);  // 287
+	CKV3TransferLoadContext::LoadValueFromMember<VectorAligned>(
+						CKV3MemberName memberNameAndHash,
+						VectorAligned& destValue,
+						uint& nNextMemberHint);  // 483
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 484
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 484
+} /* size: 371, variables: 1, inline expansions: 25 (569 bytes) */
+
+// <00AA0993> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:493
+void CAnimationGraphVisualizerPie::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00AA0532> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:538
+// function calls: 17
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	CAnimationGraphVisualizerPrimitiveBase::CAnimationGraphVisualizerPrimitiveBase(
+						CAnimationGraphVisualizerPrimitiveType type);  // 188
+	CAnimationGraphVisualizerPie::CAnimationGraphVisualizerPie(); // 540
+	CAnimationGraphVisualizerPrimitiveBase::CAnimationGraphVisualizerPrimitiveBase(
+						CAnimationGraphVisualizerPrimitiveType type);  // 188
+	Color::Color(); // 188
+	CAnimationGraphVisualizerPie::CAnimationGraphVisualizerPie(); // 540
+	GetPrimaryBinding(void); // 567
+	Schema_VerifyBindingIsRegistered(void); // 184
+	GetPrimaryBinding(void); // 184
+	CAnimationGraphVisualizerPie::Schema_DynamicBinding(); // 541
+	CAnimationGraphVisualizerPrimitiveBase::operator=(
+			const CAnimationGraphVisualizerPrimitiveBase  &);  // 182
+	VectorAligned::operator=(
+			const VectorAligned& src);  // 182
+	VectorAligned::operator=(
+			const VectorAligned& src);  // 182
+	VectorAligned::operator=(
+			const VectorAligned& src);  // 182
+	Color::GetRawColor(); // 147
+	Color::SetRawColor(
+			int32 Color);  // 147
+	Color::operator=(
+			const Color& rhs);  // 182
+	CAnimationGraphVisualizerPie::operator=(
+			const CAnimationGraphVisualizerPie  &);  // 539
+} /* size: 0, inline expansions: 17 (276 bytes) */
+
+// <00AAC95B> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:567
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 567
+} /* size: 0, inline expansions: 1 (12 bytes) */
+
+// <00AAB104> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:567
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 567
+	}
+} /* size: 39 */
+
+// <00AA0503> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:567
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 58931
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 567
+	}
+} /* size: 0, variables: 1 */
+
+// <00AA049D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:575
+void CAnimationGraphVisualizerPie::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 9 */
+
+// <00A9F443> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:580
+// variable: 1
+// function calls: 59
+void CAnimationGraphVisualizerPie::KV3TransferSave_CAnimationGraphVisualizerPie(CKV3TransferSaveContext* pContext)
+{
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 121
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 121
+	CAnimationGraphVisualizerPrimitiveBase::KV3TransferSave_CAnimationGraphVisualizerPrimitiveBase(
+								CKV3TransferSaveContext* pContext);  // 583
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	SaveValue<VectorAligned>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const VectorAligned& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<VectorAligned>(
+					const VectorAligned& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<VectorAligned>(
+					CKV3MemberName memberNameAndHash,
+					const VectorAligned& sourceValue);  // 585
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 585
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 585
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 586
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 586
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	SaveValue<VectorAligned>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const VectorAligned& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<VectorAligned>(
+					const VectorAligned& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<VectorAligned>(
+					CKV3MemberName memberNameAndHash,
+					const VectorAligned& sourceValue);  // 586
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 587
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 587
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	SaveValue<VectorAligned>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const VectorAligned& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<VectorAligned>(
+					const VectorAligned& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<VectorAligned>(
+					CKV3MemberName memberNameAndHash,
+					const VectorAligned& sourceValue);  // 587
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 588
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 588
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	{
+		int i; // 1423
+		KeyValues3::Internal_PrepareForInternalType(
+						KeyValues3InternalType_t newType);  // 950
+		KeyValues3::Internal_PrepareForType(
+					KeyValues3Type_t newType);  // 209
+		KeyValues3::SetValueInt(
+				int value);  // 1425
+	}
+	SaveValue<Color>(CKV3TransferSaveContext* pContext,
+			KeyValues3* pSaveToValue,
+			const Color& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<Color>(
+				const Color& sourceValue,
+				KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<Color>(
+				CKV3MemberName memberNameAndHash,
+				const Color& sourceValue);  // 588
+} /* size: 763, inline expansions: 56 (1933 bytes) */
+
+// <00A9F3DD> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:591
+void CAnimationGraphVisualizerPie::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <00A9E5AD> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:596
+// variables: 4
+// function calls: 45
+void CAnimationGraphVisualizerPie::KV3TransferLoad_CAnimationGraphVisualizerPie(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 601
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	KeyValues3::GetValueFloatArray<3>(
+				float* pOutValues);  // 1341
+	LoadValue<VectorAligned>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				VectorAligned& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<VectorAligned>(
+					VectorAligned& destValue,
+					const KeyValues3* pLoadFromMember);  // 292
+	{
+		KeyValues3 nullValue; // 300
+		KeyValues3::GetValueFloatArray<3>(
+					float* pOutValues);  // 1341
+		LoadValue<VectorAligned>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					VectorAligned& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<VectorAligned>(
+						VectorAligned& destValue,
+						const KeyValues3* pLoadFromMember);  // 301
+	}
+	CKV3TransferLoadContext::LoadValueFromMember<VectorAligned>(
+						CKV3MemberName memberNameAndHash,
+						VectorAligned& destValue,
+						uint& nNextMemberHint);  // 287
+	CKV3TransferLoadContext::LoadValueFromMember<VectorAligned>(
+						CKV3MemberName memberNameAndHash,
+						VectorAligned& destValue,
+						uint& nNextMemberHint);  // 603
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 603
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 603
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 604
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 604
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	KeyValues3::GetValueFloatArray<3>(
+				float* pOutValues);  // 1341
+	LoadValue<VectorAligned>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				VectorAligned& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<VectorAligned>(
+					VectorAligned& destValue,
+					const KeyValues3* pLoadFromMember);  // 292
+	{
+		KeyValues3 nullValue; // 300
+		KeyValues3::GetValueFloatArray<3>(
+					float* pOutValues);  // 1341
+		LoadValue<VectorAligned>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					VectorAligned& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<VectorAligned>(
+						VectorAligned& destValue,
+						const KeyValues3* pLoadFromMember);  // 301
+	}
+	CKV3TransferLoadContext::LoadValueFromMember<VectorAligned>(
+						CKV3MemberName memberNameAndHash,
+						VectorAligned& destValue,
+						uint& nNextMemberHint);  // 287
+	CKV3TransferLoadContext::LoadValueFromMember<VectorAligned>(
+						CKV3MemberName memberNameAndHash,
+						VectorAligned& destValue,
+						uint& nNextMemberHint);  // 604
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 605
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 605
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	KeyValues3::GetValueFloatArray<3>(
+				float* pOutValues);  // 1341
+	LoadValue<VectorAligned>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				VectorAligned& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<VectorAligned>(
+					VectorAligned& destValue,
+					const KeyValues3* pLoadFromMember);  // 292
+	{
+		KeyValues3 nullValue; // 300
+		KeyValues3::GetValueFloatArray<3>(
+					float* pOutValues);  // 1341
+		LoadValue<VectorAligned>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					VectorAligned& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<VectorAligned>(
+						VectorAligned& destValue,
+						const KeyValues3* pLoadFromMember);  // 301
+	}
+	CKV3TransferLoadContext::LoadValueFromMember<VectorAligned>(
+						CKV3MemberName memberNameAndHash,
+						VectorAligned& destValue,
+						uint& nNextMemberHint);  // 287
+	CKV3TransferLoadContext::LoadValueFromMember<VectorAligned>(
+						CKV3MemberName memberNameAndHash,
+						VectorAligned& destValue,
+						uint& nNextMemberHint);  // 605
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 606
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 606
+} /* size: 492, variables: 1, inline expansions: 36 (851 bytes) */
+
+// <00A9E595> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:615
+void CAnimationGraphVisualizerAxis::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00A9E0EE> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:654
+// function calls: 19
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 683
+	Schema_VerifyBindingIsRegistered(void); // 208
+	GetPrimaryBinding(void); // 208
+	CAnimationGraphVisualizerAxis::Schema_DynamicBinding(); // 657
+	CAnimationGraphVisualizerPrimitiveBase::operator=(
+			const CAnimationGraphVisualizerPrimitiveBase  &);  // 206
+	VectorAligned::operator=(
+			const VectorAligned& src);  // 26
+	QuaternionAligned::operator=(
+			const QuaternionAligned& vOther);  // 26
+	CTransform::operator=(
+			const CTransform  &);  // 206
+	CAnimationGraphVisualizerAxis::operator=(
+			const CAnimationGraphVisualizerAxis  &);  // 655
+	CAnimationGraphVisualizerPrimitiveBase::CAnimationGraphVisualizerPrimitiveBase(
+						CAnimationGraphVisualizerPrimitiveType type);  // 212
+	VectorAligned::VectorAligned(); // 31
+	QuaternionAligned::QuaternionAligned(); // 31
+	CTransform::CTransform(); // 212
+	CAnimationGraphVisualizerAxis::CAnimationGraphVisualizerAxis(); // 656
+	CAnimationGraphVisualizerPrimitiveBase::CAnimationGraphVisualizerPrimitiveBase(
+						CAnimationGraphVisualizerPrimitiveType type);  // 212
+	VectorAligned::VectorAligned(); // 31
+	QuaternionAligned::QuaternionAligned(); // 31
+	CTransform::CTransform(); // 212
+	CAnimationGraphVisualizerAxis::CAnimationGraphVisualizerAxis(); // 656
+} /* size: 0, inline expansions: 19 (248 bytes) */
+
+// <00AAC9A9> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:683
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 683
+} /* size: 0, inline expansions: 1 (12 bytes) */
+
+// <00AAB186> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:683
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 683
+	}
+} /* size: 39 */
+
+// <00A9E0BF> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:683
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 58931
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 683
+	}
+} /* size: 0, variables: 1 */
+
+// <00A9E059> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:691
+void CAnimationGraphVisualizerAxis::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 9 */
+
+// <00A9D716> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:696
+// function calls: 34
+void CAnimationGraphVisualizerAxis::KV3TransferSave_CAnimationGraphVisualizerAxis(CKV3TransferSaveContext* pContext)
+{
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 121
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 121
+	CAnimationGraphVisualizerPrimitiveBase::KV3TransferSave_CAnimationGraphVisualizerPrimitiveBase(
+								CKV3TransferSaveContext* pContext);  // 699
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 701
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 701
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	KeyValues3::SetValueCTransform(
+				const CTransform& value);  // 1394
+	SaveValue<CTransform>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const CTransform& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CTransform>(
+					const CTransform& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CTransform>(
+					CKV3MemberName memberNameAndHash,
+					const CTransform& sourceValue);  // 701
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 702
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 702
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 221
+	KeyValues3::SetValueFloat(
+			float value);  // 776
+	SaveValue<float>(CKV3TransferSaveContext* pContext,
+			KeyValues3* pSaveToValue,
+			const float& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<float>(
+				const float& sourceValue,
+				KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<float>(
+				CKV3MemberName memberNameAndHash,
+				const float& sourceValue);  // 702
+} /* size: 421, inline expansions: 34 (1070 bytes) */
+
+// <00A9D6B0> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:705
+void CAnimationGraphVisualizerAxis::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <00A9CBCB> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ianimationgraphvisualizationmanager_h_schema.gen_cpp:710
+// variables: 2
+// function calls: 39
+void CAnimationGraphVisualizerAxis::KV3TransferLoad_CAnimationGraphVisualizerAxis(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 715
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 255
+	KeyValues3::IsArray(); // 1400
+	{
+	}
+	LoadValue<CTransform>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				CTransform& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CTransform>(
+					CTransform& destValue,
+					const KeyValues3* pLoadFromMember);  // 292
+	CKV3TransferLoadContext::LoadValueFromMember<CTransform>(
+					CKV3MemberName memberNameAndHash,
+					CTransform& destValue,
+					uint& nNextMemberHint);  // 717
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 717
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 717
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 718
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 718
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 696
+	KV3Helper_StringToNumber<float>(const char* pString); // 715
+	KeyValues3::GetValueAsNumeric<float>(); // 694
+	{
+	}
+	KeyValues3::GetValueAsNumeric<float>(); // 199
+	KeyValues3::GetValueFloat(); // 776
+	LoadValue<float>(CKV3TransferLoadContext* pContext,
+			const KeyValues3* pLoadFromValue,
+			float& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<float>(
+				float& destValue,
+				const KeyValues3* pLoadFromMember);  // 292
+	{
+		KeyValues3 nullValue; // 300
+		KeyValues3::Internal_Type(); // 90
+		KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+		KeyValues3::GetType(); // 696
+		KV3Helper_StringToNumber<float>(const char* pString); // 715
+		KeyValues3::GetValueAsNumeric<float>(); // 694
+		{
+		}
+		KeyValues3::GetValueAsNumeric<float>(); // 199
+		KeyValues3::GetValueFloat(); // 776
+		LoadValue<float>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				float& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<float>(
+					float& destValue,
+					const KeyValues3* pLoadFromMember);  // 301
+	}
+	CKV3TransferLoadContext::LoadValueFromMember<float>(
+					CKV3MemberName memberNameAndHash,
+					float& destValue,
+					uint& nNextMemberHint);  // 287
+	CKV3TransferLoadContext::LoadValueFromMember<float>(
+					CKV3MemberName memberNameAndHash,
+					float& destValue,
+					uint& nNextMemberHint);  // 718
+} /* size: 0, variables: 1, inline expansions: 30 (2238 bytes) */
+

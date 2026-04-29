@@ -1,0 +1,186 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/animationsubgraph_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 10
+//
+
+// <004348FB> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animationsubgraph_h_schema.gen_cpp:36
+void CAnimationSubGraph::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00434659> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animationsubgraph_h_schema.gen_cpp:61
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 90
+	Schema_VerifyBindingIsRegistered(void); // 12
+	GetPrimaryBinding(void); // 12
+	CAnimationSubGraph::Schema_DynamicBinding(); // 64
+} /* size: 0, inline expansions: 4 (144 bytes) */
+
+// <0044D07B> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animationsubgraph_h_schema.gen_cpp:90
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 90
+} /* size: 0, inline expansions: 1 (12 bytes) */
+
+// <00449E6F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animationsubgraph_h_schema.gen_cpp:90
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 90
+	}
+} /* size: 39 */
+
+// <0043462B> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animationsubgraph_h_schema.gen_cpp:90
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 13155
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 90
+	}
+} /* size: 0, variables: 1 */
+
+// <004341CC> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animationsubgraph_h_schema.gen_cpp:98
+// function calls: 15
+void CAnimationSubGraph::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CSmartPtr<CAnimNodeManager, CRefCountAccessor>::Get(); // 717
+	SaveValue<CSmartPtr<CAnimNodeManager> >(CKV3TransferSaveContext* pContext,
+						KeyValues3* pSaveToValue,
+						const CSmartPtr<CAnimNodeManager, CRefCountAccessor>& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CSmartPtr<CAnimNodeManager> >(
+							const CSmartPtr<CAnimNodeManager, CRefCountAccessor>& sourceValue,
+							KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CSmartPtr<CAnimNodeManager> >(
+							CKV3MemberName memberNameAndHash,
+							const CSmartPtr<CAnimNodeManager, CRefCountAccessor>& sourceValue);  // 105
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 105
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 105
+	CAnimationSubGraph::KV3TransferSave_CAnimationSubGraph(
+						CKV3TransferSaveContext* pContext);  // 100
+} /* size: 218, inline expansions: 15 (561 bytes) */
+
+// <0044FDC7> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animationsubgraph_h_schema.gen_cpp:103
+// function calls: 14
+void CAnimationSubGraph::KV3TransferSave_CAnimationSubGraph(CKV3TransferSaveContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CSmartPtr<CAnimNodeManager, CRefCountAccessor>::Get(); // 717
+	SaveValue<CSmartPtr<CAnimNodeManager> >(CKV3TransferSaveContext* pContext,
+						KeyValues3* pSaveToValue,
+						const CSmartPtr<CAnimNodeManager, CRefCountAccessor>& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CSmartPtr<CAnimNodeManager> >(
+							const CSmartPtr<CAnimNodeManager, CRefCountAccessor>& sourceValue,
+							KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CSmartPtr<CAnimNodeManager> >(
+							CKV3MemberName memberNameAndHash,
+							const CSmartPtr<CAnimNodeManager, CRefCountAccessor>& sourceValue);  // 105
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 105
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 105
+} /* size: 0, inline expansions: 14 (0 bytes) */
+
+// <004341A7> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animationsubgraph_h_schema.gen_cpp:103
+void CAnimationSubGraph::KV3TransferSave_CAnimationSubGraph(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <00434141> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animationsubgraph_h_schema.gen_cpp:109
+void CAnimationSubGraph::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <00433B09> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animationsubgraph_h_schema.gen_cpp:114
+// variable: 1
+// function calls: 25
+void CAnimationSubGraph::KV3TransferLoad_CAnimationSubGraph(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 116
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	ThreadInterlockedIncrement(volatile int32* p); // 158
+	Increment(int* p); // 290
+	CMutableRefCountBase<true, CRefMT>::DoAddRef(); // 343
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::AddRef(); // 21
+	AddRef<CAnimNodeManager>(CAnimNodeManager* pObj); // 366
+	ThreadInterlockedDecrement(volatile int32* p); // 159
+	Decrement(int* p); // 295
+	CMutableRefCountBase<true, CRefMT>::DoRelease(); // 293
+	CMutableRefCountBase<true, CRefMT>::DoRelease(); // 344
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::Release(); // 27
+	Release<CAnimNodeManager>(CAnimNodeManager* pObj); // 370
+	CSmartPtr<CAnimNodeManager, CRefCountAccessor>::operator=(
+			CAnimNodeManager* pObj);  // 725
+	LoadValue<CSmartPtr<CAnimNodeManager> >(CKV3TransferLoadContext* pContext,
+						const KeyValues3* pLoadFromValue,
+						CSmartPtr<CAnimNodeManager, CRefCountAccessor>& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CSmartPtr<CAnimNodeManager> >(
+							CSmartPtr<CAnimNodeManager, CRefCountAccessor>& destValue,
+							const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<CSmartPtr<CAnimNodeManager> >(
+									CKV3MemberName memberNameAndHash,
+									CSmartPtr<CAnimNodeManager, CRefCountAccessor>& destValue);  // 118
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 118
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 118
+} /* size: 202, variables: 1, inline expansions: 25 (545 bytes) */
+

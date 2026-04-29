@@ -1,0 +1,52 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/iksolversettings_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 5
+//
+
+// <00CB0746> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/iksolversettings_h_schema.gen_cpp:36
+void IKSolverSettings_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00CB0579> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/iksolversettings_h_schema.gen_cpp:87
+// function calls: 6
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 116
+	Schema_VerifyBindingIsRegistered(void); // 13
+	GetPrimaryBinding(void); // 13
+	IKSolverSettings_t::Schema_DynamicBinding(); // 90
+	IKSolverSettings_t::IKSolverSettings_t(); // 89
+	IKSolverSettings_t::IKSolverSettings_t(); // 89
+} /* size: 0, inline expansions: 6 (152 bytes) */
+
+// <00D320F9> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/iksolversettings_h_schema.gen_cpp:116
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 116
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00D27E9B> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/iksolversettings_h_schema.gen_cpp:116
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 116
+	}
+} /* size: 39 */
+
+// <00CB0548> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/iksolversettings_h_schema.gen_cpp:116
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 22509
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 116
+	}
+} /* size: 0, variables: 1 */
+

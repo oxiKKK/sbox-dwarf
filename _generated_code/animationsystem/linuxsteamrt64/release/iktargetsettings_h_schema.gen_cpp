@@ -1,0 +1,75 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/iktargetsettings_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 5
+//
+
+// <00CB052C> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/iktargetsettings_h_schema.gen_cpp:88
+void IKTargetSettings_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00CAFF4D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/iktargetsettings_h_schema.gen_cpp:166
+// function calls: 25
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 195
+	Schema_VerifyBindingIsRegistered(void); // 44
+	GetPrimaryBinding(void); // 44
+	IKTargetSettings_t::Schema_DynamicBinding(); // 169
+	V_strlen(const char* str); // 393
+	CUtlString::Length(); // 161
+	CUtlString::Get(); // 161
+	CUtlString::operator=(
+			const CUtlString& src);  // 9
+	IKBoneNameAndIndex_t::operator=(
+			const IKBoneNameAndIndex_t  &);  // 42
+	AnimParamID::operator=(
+			const AnimParamID& rhs);  // 42
+	IKTargetSettings_t::operator=(
+			const IKTargetSettings_t  &);  // 167
+	AnimParamID::AnimParamID(); // 42
+	CUtlString::CUtlString(); // 26
+	IKBoneNameAndIndex_t::IKBoneNameAndIndex_t(); // 42
+	IKTargetSettings_t::IKTargetSettings_t(); // 168
+	AnimParamID::AnimParamID(); // 42
+	CUtlString::CUtlString(); // 26
+	IKBoneNameAndIndex_t::IKBoneNameAndIndex_t(); // 42
+	IKTargetSettings_t::IKTargetSettings_t(); // 168
+	CUtlString::~CUtlString(); // 9
+	IKBoneNameAndIndex_t::~IKBoneNameAndIndex_t(); // 42
+	IKTargetSettings_t::~IKTargetSettings_t(); // 168
+	CUtlString::~CUtlString(); // 9
+	IKBoneNameAndIndex_t::~IKBoneNameAndIndex_t(); // 42
+	IKTargetSettings_t::~IKTargetSettings_t(); // 168
+} /* size: 0, inline expansions: 25 (780 bytes) */
+
+// <00D32148> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/iktargetsettings_h_schema.gen_cpp:195
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 195
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00D27F1D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/iktargetsettings_h_schema.gen_cpp:195
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 195
+	}
+} /* size: 39 */
+
+// <00CAFF1C> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/iktargetsettings_h_schema.gen_cpp:195
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 22509
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 195
+	}
+} /* size: 0, variables: 1 */
+

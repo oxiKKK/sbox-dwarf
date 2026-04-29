@@ -1,0 +1,143 @@
+
+//
+// _generated_code/engine2/linuxsteamrt64/release/engine2_schema_anchor.gen_cpp
+//
+//	referenced by: libengine2.so
+//
+//	functions: 4
+//	class: 1
+//
+
+// <04144343> ../_generated_code/engine2/linuxsteamrt64/release/engine2_schema_anchor.gen_cpp:36
+// variables: 2
+// function calls: 83
+void ImplSchema_ProjectTypesInit_engine2(void)
+{
+	CSchemaType** pTypes; // 36
+	ISchemaSystemTypeScope* pTypeScope; // 36
+	Get(ISchemaSystemTypeScope* pTypeScope); // 38
+	Get(ISchemaSystemTypeScope* pTypeScope); // 39
+	Get(ISchemaSystemTypeScope* pTypeScope); // 40
+	Get(ISchemaSystemTypeScope* pTypeScope); // 41
+	Get(ISchemaSystemTypeScope* pTypeScope); // 42
+	Get(ISchemaSystemTypeScope* pTypeScope); // 43
+	Get(ISchemaSystemTypeScope* pTypeScope); // 44
+	Get(ISchemaSystemTypeScope* pTypeScope); // 45
+	Get(ISchemaSystemTypeScope* pTypeScope); // 46
+	Get(ISchemaSystemTypeScope* pTypeScope); // 47
+	Get(ISchemaSystemTypeScope* pTypeScope); // 48
+	Get(ISchemaSystemTypeScope* pTypeScope); // 49
+	Get(ISchemaSystemTypeScope* pTypeScope); // 50
+	Get(ISchemaSystemTypeScope* pTypeScope); // 51
+	Get(ISchemaSystemTypeScope* pTypeScope); // 52
+	Get(ISchemaSystemTypeScope* pTypeScope); // 53
+	Get(ISchemaSystemTypeScope* pTypeScope); // 54
+	Get(ISchemaSystemTypeScope* pTypeScope); // 55
+	Get(ISchemaSystemTypeScope* pTypeScope); // 56
+	Get(ISchemaSystemTypeScope* pTypeScope); // 57
+	Get(ISchemaSystemTypeScope* pTypeScope); // 58
+	Get(ISchemaSystemTypeScope* pTypeScope); // 59
+	Get(ISchemaSystemTypeScope* pTypeScope); // 60
+	Get(ISchemaSystemTypeScope* pTypeScope); // 61
+	Get(ISchemaSystemTypeScope* pTypeScope); // 62
+	Get(ISchemaSystemTypeScope* pTypeScope); // 63
+	Get(ISchemaSystemTypeScope* pTypeScope); // 64
+	Get(ISchemaSystemTypeScope* pTypeScope); // 65
+	Get(ISchemaSystemTypeScope* pTypeScope); // 66
+	Get(ISchemaSystemTypeScope* pTypeScope); // 67
+	Get(ISchemaSystemTypeScope* pTypeScope); // 68
+	Get(ISchemaSystemTypeScope* pTypeScope); // 69
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 70
+	Get(ISchemaSystemTypeScope* pTypeScope); // 71
+	Get(ISchemaSystemTypeScope* pTypeScope); // 118
+	Get(ISchemaSystemTypeScope* pTypeScope); // 72
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 204
+	Get(ISchemaSystemTypeScope* pTypeScope); // 73
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 204
+	Get(ISchemaSystemTypeScope* pTypeScope); // 74
+	Schema_StaticClassname(void); // 194
+	Get(ISchemaSystemTypeScope* pTypeScope); // 204
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CStrongHandle<InfoForResourceTypeCTextureBase> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 75
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<unsigned char> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 76
+	Get(ISchemaSystemTypeScope* pTypeScope); // 118
+	Get(ISchemaSystemTypeScope* pTypeScope); // 77
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<short unsigned int> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 78
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<short unsigned int> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 79
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<CUtlString, CUtlMemory<CUtlString, int> > >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 80
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<int> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 81
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<unsigned int> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 82
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<matrix3x4a_t> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 83
+	Get(ISchemaSystemTypeScope* pTypeScope); // 8
+	StaticAccessor(void); // 610
+	SchemaTypeCollectionManipulatorFor<CUtlVector<float> >(void); // 8
+	Get(ISchemaSystemTypeScope* pTypeScope); // 84
+} /* size: 1942, variables: 2, inline expansions: 83 (1807 bytes) */
+
+// <04144176> ../_generated_code/engine2/linuxsteamrt64/release/engine2_schema_anchor.gen_cpp:252
+// variables: 4
+void CSchemaRegistration_engine2::RegisterAllBindings(ISchemaSystem* pSchemaSystem, SchemaRegistrationPhase_t nRegistrationPhase, CBufferString* pFailureReason)
+{
+	const char* pBinaryName; // 252
+	const char* pProjectName; // 252
+	CSchemaType** pTypeTable; // 252
+	int nTypeTableSize; // 252
+} /* size: 290, variables: 4 */
+
+// <0414415F> ../_generated_code/engine2/linuxsteamrt64/release/engine2_schema_anchor.gen_cpp:252
+void CSchemaRegistration_engine2::CSchemaRegistration_engine2()
+{
+} /* size: 0 */
+
+// <04144142> ../_generated_code/engine2/linuxsteamrt64/release/engine2_schema_anchor.gen_cpp:252
+inline void CSchemaRegistration_engine2::CSchemaRegistration_engine2()
+{
+} /* size: 0 */
+
+// <04130A0E> ../_generated_code/engine2/linuxsteamrt64/release/engine2_schema_anchor.gen_cpp:252
+// member functions: 10
+// member variable: 1
+// vtable entry: 1
+// class size: 16
+class CSchemaRegistration_engine2 : public CSchemaRegistration {
+public:
+	/* class CSchemaRegistration <ancestor>; */ /* 0 16 */
+	void ~CSchemaRegistration_engine2(CSchemaRegistration_engine2* );
+	void CSchemaRegistration_engine2(CSchemaRegistration_engine2* , CSchemaRegistration_engine2& );
+	void CSchemaRegistration_engine2(CSchemaRegistration_engine2* , const CSchemaRegistration_engine2& );
+	void CSchemaRegistration_engine2(CSchemaRegistration_engine2* );
+	/* ../_generated_code/engine2/linuxsteamrt64/release/engine2_schema_anchor.gen_cpp:252 */
+	virtual bool RegisterAllBindings(CSchemaRegistration_engine2* , ISchemaSystem* , SchemaRegistrationPhase_t, CBufferString* );
+	void ~CSchemaRegistration_engine2(class CSchemaRegistration_engine2 *); /* linkage=_ZN27CSchemaRegistration_engine2D4Ev */
+	void CSchemaRegistration_engine2(class CSchemaRegistration_engine2 *, class CSchemaRegistration_engine2 &); /* linkage=_ZN27CSchemaRegistration_engine2C4EOS_ */
+	void CSchemaRegistration_engine2(class CSchemaRegistration_engine2 *, const class CSchemaRegistration_engine2  &); /* linkage=_ZN27CSchemaRegistration_engine2C4ERKS_ */
+	void CSchemaRegistration_engine2(class CSchemaRegistration_engine2 *); /* linkage=_ZN27CSchemaRegistration_engine2C4Ev */
+	virtual bool RegisterAllBindings(class CSchemaRegistration_engine2 *, class ISchemaSystem *, enum SchemaRegistrationPhase_t, class CBufferString *); /* linkage=_ZN27CSchemaRegistration_engine219RegisterAllBindingsEP13ISchemaSystem25SchemaRegistrationPhase_tP13CBufferString */
+};
+

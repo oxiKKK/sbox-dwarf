@@ -1,0 +1,714 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 18
+//
+
+// <005E6DB8> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:36
+void CJiggleBoneItem::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <005E6855> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:146
+// function calls: 19
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	CUtlString::CUtlString(); // 23
+	Vector::Vector(
+		vec_t X,
+		vec_t Y,
+		vec_t Z);  // 23
+	Vector::Vector(
+		vec_t X,
+		vec_t Y,
+		vec_t Z);  // 23
+	CJiggleBoneItem::CJiggleBoneItem(); // 148
+	CUtlString::CUtlString(); // 23
+	Vector::Vector(
+		vec_t X,
+		vec_t Y,
+		vec_t Z);  // 23
+	Vector::Vector(
+		vec_t X,
+		vec_t Y,
+		vec_t Z);  // 23
+	CJiggleBoneItem::CJiggleBoneItem(); // 148
+	CUtlString::~CUtlString(); // 14
+	CJiggleBoneItem::~CJiggleBoneItem(); // 148
+	CUtlString::~CUtlString(); // 14
+	CJiggleBoneItem::~CJiggleBoneItem(); // 148
+	GetPrimaryBinding(void); // 175
+	Schema_VerifyBindingIsRegistered(void); // 16
+	GetPrimaryBinding(void); // 16
+	CJiggleBoneItem::Schema_DynamicBinding(); // 149
+	Vector::operator=(
+			const Vector& vOther);  // 14
+	Vector::operator=(
+			const Vector& vOther);  // 14
+	CJiggleBoneItem::operator=(
+			const CJiggleBoneItem  &);  // 147
+} /* size: 0, inline expansions: 19 (472 bytes) */
+
+// <005EC081> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:175
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 175
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <005E89C8> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:175
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 175
+	}
+} /* size: 39 */
+
+// <005E6824> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:175
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 41267
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 175
+	}
+} /* size: 0, variables: 1 */
+
+// <005EC0CF> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:183
+void CJiggleBoneItem::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <005E5A55> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:188
+// function calls: 50
+void CJiggleBoneItem::KV3TransferSave_CJiggleBoneItem(CKV3TransferSaveContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CUtlString::Get(); // 1043
+	SaveValue<CUtlString>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const CUtlString& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CUtlString>(
+					const CUtlString& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CUtlString>(
+					CKV3MemberName memberNameAndHash,
+					const CUtlString& sourceValue);  // 190
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 190
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 190
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 191
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 191
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 192
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 192
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 193
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 193
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 194
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 194
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	Get(ISchemaSystemTypeScope* pTypeScope); // 23
+	SchemaTypeOf<JiggleBoneSimSpace>(void); // 13
+	CSchemaType::As<CSchemaType_DeclaredEnum>(); // 13
+	CSchemaType_DeclaredEnum::LookupEnum(); // 709
+	CSchemaType_DeclaredEnum::GetEnum(); // 14
+	CSchemaEnumeratorInfo::GetName(); // 18
+	SchemaEnumeratorNameFromValue<JiggleBoneSimSpace>(JiggleBoneSimSpace nValue,
+								const char* pDefault);  // 72
+	KV3Transfer_EnumeratorNameFromValue<JiggleBoneSimSpace>(JiggleBoneSimSpace nValue); // 511
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 209
+	KeyValues3::SetValueInt(
+			int value);  // 526
+	SaveValue<JiggleBoneSimSpace>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const JiggleBoneSimSpace& value,
+					type *);  // 509
+	SaveValue<JiggleBoneSimSpace>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const JiggleBoneSimSpace& value,
+					type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<JiggleBoneSimSpace>(
+						const JiggleBoneSimSpace& sourceValue,
+						KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<JiggleBoneSimSpace>(
+						CKV3MemberName memberNameAndHash,
+						const JiggleBoneSimSpace& sourceValue);  // 194
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 195
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 195
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	SaveValue<Vector>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const Vector& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<Vector>(
+				const Vector& sourceValue,
+				KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<Vector>(
+					CKV3MemberName memberNameAndHash,
+					const Vector& sourceValue);  // 195
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 196
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 196
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	SaveValue<Vector>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const Vector& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<Vector>(
+				const Vector& sourceValue,
+				KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<Vector>(
+					CKV3MemberName memberNameAndHash,
+					const Vector& sourceValue);  // 196
+} /* size: 553, inline expansions: 50 (1600 bytes) */
+
+// <005EDABE> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:199
+void CJiggleBoneItem::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 0 */
+
+// <005E46EB> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:204
+// variable: 1
+// function calls: 75
+void CJiggleBoneItem::KV3TransferLoad_CJiggleBoneItem(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 206
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	LoadValue<CUtlString>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				CUtlString& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CUtlString>(
+					CUtlString& destValue,
+					const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<CUtlString>(
+						CKV3MemberName memberNameAndHash,
+						CUtlString& destValue);  // 208
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 208
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 208
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 209
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 209
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 210
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 210
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 211
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 211
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 212
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 212
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 534
+	KeyValues3::GetValueInt64(); // 543
+	Get(ISchemaSystemTypeScope* pTypeScope); // 23
+	SchemaTypeOf<JiggleBoneSimSpace>(void); // 32
+	CSchemaType::As<CSchemaType_DeclaredEnum>(); // 32
+	CSchemaType_DeclaredEnum::LookupEnum(); // 709
+	CSchemaType_DeclaredEnum::GetEnum(); // 33
+	CSchemaEnumeratorInfo::GetValue(); // 38
+	SchemaEnumeratorValueFromName<JiggleBoneSimSpace>(const char* pEnumeratorName,
+								JiggleBoneSimSpace* pOutValue);  // 81
+	KV3Transfer_EnumeratorValueFromName<JiggleBoneSimSpace>(const char* pEnumeratorName,
+								JiggleBoneSimSpace* pOutValue);  // 536
+	LoadValue<JiggleBoneSimSpace>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					JiggleBoneSimSpace& value,
+					type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<JiggleBoneSimSpace>(
+						JiggleBoneSimSpace& destValue,
+						const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<JiggleBoneSimSpace>(
+							CKV3MemberName memberNameAndHash,
+							JiggleBoneSimSpace& destValue);  // 212
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 213
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 213
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	KeyValues3::GetValueFloatArray<3>(
+				float* pOutValues);  // 1341
+	LoadValue<Vector>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				Vector& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<Vector>(
+				Vector& destValue,
+				const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<Vector>(
+						CKV3MemberName memberNameAndHash,
+						Vector& destValue);  // 213
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 214
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 214
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	KeyValues3::GetValueFloatArray<3>(
+				float* pOutValues);  // 1341
+	LoadValue<Vector>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				Vector& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<Vector>(
+				Vector& destValue,
+				const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<Vector>(
+						CKV3MemberName memberNameAndHash,
+						Vector& destValue);  // 214
+} /* size: 649, variables: 1, inline expansions: 75 (2065 bytes) */
+
+// <005E46D3> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:223
+void CJiggleBoneAnimNode::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <005E3F9F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:285
+// function calls: 28
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 314
+	Schema_VerifyBindingIsRegistered(void); // 43
+	GetPrimaryBinding(void); // 43
+	CJiggleBoneAnimNode::Schema_DynamicBinding(); // 288
+	AnimNodeID::operator=(
+			const AnimNodeID& rhs);  // 22
+	AnimOutputID::operator=(
+			const AnimOutputID& rhs);  // 22
+	CNodeConnection::operator=(
+			const CNodeConnection  &);  // 40
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::Count(); // 573
+	CUtlMemory<CJiggleBoneItem, int>::Base(); // 112
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::Base(); // 102
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::begin(); // 574
+	CUtlMemory<CJiggleBoneItem, int>::Base(); // 113
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::Base(); // 105
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::Count(); // 105
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::end(); // 574
+	V_strlen(const char* str); // 393
+	CUtlString::Length(); // 161
+	CUtlString::Get(); // 161
+	CUtlString::operator=(
+			const CUtlString& src);  // 14
+	Vector::operator=(
+			const Vector& vOther);  // 14
+	Vector::operator=(
+			const Vector& vOther);  // 14
+	CJiggleBoneItem::operator=(
+			const CJiggleBoneItem  &);  // 209
+	UtlTraitsCopyRange<CJiggleBoneItem>(const CJiggleBoneItem* pFrom,
+						const CJiggleBoneItem* pFromEnd,
+						CJiggleBoneItem* pTo);  // 200
+	UtlTraitsCopyRange<CJiggleBoneItem>(const CJiggleBoneItem* pFrom,
+						const CJiggleBoneItem* pFromEnd,
+						CJiggleBoneItem* pTo);  // 574
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::operator=(
+			const CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >& other);  // 565
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::operator=(
+			const CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >& other);  // 452
+	CUtlVector<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::operator=(
+			const CUtlVector<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >& src);  // 40
+	CJiggleBoneAnimNode::operator=(
+			const CJiggleBoneAnimNode  &);  // 286
+} /* size: 0, inline expansions: 28 (1969 bytes) */
+
+// <005EC129> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:314
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 314
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <005E8A4A> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:314
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 314
+	}
+} /* size: 39 */
+
+// <005E3F70> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:314
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 41267
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 314
+	}
+} /* size: 0, variables: 1 */
+
+// <005E3F0A> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:322
+void CJiggleBoneAnimNode::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 9 */
+
+// <005E31E1> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:327
+// variables: 4
+// function calls: 46
+void CJiggleBoneAnimNode::KV3TransferSave_CJiggleBoneAnimNode(CKV3TransferSaveContext* pContext)
+{
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 332
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 332
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CUtlStack<KeyValues3::Count(); // 199
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 250
+	KeyValues3::SetToNull(); // 213
+	CKV3TransferSaveContext::SaveClassPointer<const CNodeConnection>(
+						const CNodeConnection* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 172
+	CKV3TransferSaveContext::SaveClassPointer<const CNodeConnection>(
+						const CNodeConnection* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 488
+	SaveValue<CNodeConnection>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const CNodeConnection& value,
+					type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CNodeConnection>(
+					const CNodeConnection& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CNodeConnection>(
+						CKV3MemberName memberNameAndHash,
+						const CNodeConnection& sourceValue);  // 332
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 333
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 333
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	{
+		KeyValues3* pArrayElement; // 680
+		CKV3ArrayIteratorView<false>& __for_range; // 16469
+		iterator __for_begin; // 16479
+		iterator __for_end; // 16489
+		KeyValues3::IterateArray(); // 680
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 396
+		CKV3ArrayIteratorView<false>::begin(); // 680
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 401
+		CKV3ArrayIteratorView<false>::end(); // 680
+		iterator::operator!=(
+				const iterator& rhs);  // 680
+		CUtlStack<KeyValues3::Count(); // 199
+		KeyValues3::Internal_PrepareForInternalType(
+						KeyValues3InternalType_t newType);  // 950
+		KeyValues3::Internal_PrepareForType(
+					KeyValues3Type_t newType);  // 250
+		KeyValues3::SetToNull(); // 213
+		CKV3TransferSaveContext::SaveClassPointer<const CNodeConnection>(
+							const CNodeConnection* const& pClassInstance,
+							KeyValues3* pSaveToValue);  // 172
+		CJiggleBoneItem::KV3TransferSave(
+				CKV3TransferSaveContext* pContext);  // 201
+		CKV3TransferSaveContext::SaveClassPointer<const CJiggleBoneItem>(
+							const CJiggleBoneItem* const& pClassInstance,
+							KeyValues3* pSaveToValue);  // 488
+		SaveValue<CJiggleBoneItem>(CKV3TransferSaveContext* pContext,
+						KeyValues3* pSaveToValue,
+						const CJiggleBoneItem& value,
+						type *);  // 1539
+		CKV3TransferSaveContext::SaveValueDirect<CJiggleBoneItem>(
+						const CJiggleBoneItem& sourceValue,
+						KeyValues3* pSaveToMember);  // 682
+		{
+		}
+		iterator::operator*(); // 680
+	}
+	SaveBlittableArrayElements<CJiggleBoneItem>(CKV3TransferSaveContext* pContext,
+							KeyValues3* pSaveToValue,
+							int nCount,
+							const CJiggleBoneItem* pValues);  // 606
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::Count(); // 830
+	AlignValue<unsigned int>(unsigned int val,
+				uintp alignment);  // 225
+	CKV3TransferSaveContext::NotePooledAllocation(
+				uint nBytes);  // 830
+	NotePooledAllocation(CKV3TransferSaveContext* pSaveContext,
+				const Array_t& arr);  // 604
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::Count(); // 812
+	GetCount(const Array_t& arr); // 605
+	CUtlMemory<CJiggleBoneItem, int>::Base(); // 113
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::Base(); // 842
+	GetBase(const Array_t& arr); // 606
+	SaveValue<CUtlVector<CJiggleBoneItem> >(CKV3TransferSaveContext* pContext,
+						KeyValues3* pSaveToValue,
+						const CUtlVector<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >& value,
+						type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CUtlVector<CJiggleBoneItem> >(
+							const CUtlVector<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >& sourceValue,
+							KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CUtlVector<CJiggleBoneItem> >(
+							CKV3MemberName memberNameAndHash,
+							const CUtlVector<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >& sourceValue);  // 333
+} /* size: 0, inline expansions: 30 (2082 bytes) */
+
+// <005E317B> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:336
+void CJiggleBoneAnimNode::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <005E21FD> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/jiggleboneanimnode_h_schema.gen_cpp:341
+// variables: 5
+// function calls: 58
+void CJiggleBoneAnimNode::KV3TransferLoad_CJiggleBoneAnimNode(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 346
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CUtlStack<const KeyValues3::Count(); // 413
+	CKV3TransferLoadContext::LoadClassInstance<CNodeConnection>(
+						CNodeConnection* pClassInstance,
+						const KeyValues3* pNestedValue);  // 495
+	LoadValue<CNodeConnection>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					CNodeConnection& value,
+					type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CNodeConnection>(
+					CNodeConnection& destValue,
+					const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<CNodeConnection>(
+							CKV3MemberName memberNameAndHash,
+							CNodeConnection& destValue);  // 348
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 348
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 348
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 349
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 349
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 255
+	KeyValues3::IsArray(); // 612
+	CKV3TransferLoadContext::AllocatePooledMemory(
+				uint nElementSize,
+				uint nElementCount);  // 820
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::Count(); // 823
+	CUtlMemory<CJiggleBoneItem, int>::IsExternallyAllocated(); // 577
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 91
+	V_memcpy(void* dest,
+		const void* src,
+		size_t count);  // 587
+	CUtlMemory<CJiggleBoneItem, int>::ConvertToExternalMemory(
+				CJiggleBoneItem* pMemory,
+				int numElements,
+				int nCopyElements,
+				bool bSetGrowable,
+				uint32 nGrowable_GrowSize);  // 306
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::ConvertToExternalMemory(
+				CJiggleBoneItem* pMemory,
+				int numElements,
+				int nCopyElements,
+				bool bSetGrowable,
+				uint32 nGrowable_GrowSize);  // 823
+	SetCount(CKV3TransferLoadContext* pLoadContext,
+		Array_t& arr,
+		int nCount);  // 613
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::Count(); // 812
+	GetCount(const Array_t& arr); // 614
+	CUtlMemory<CJiggleBoneItem, int>::Base(); // 112
+	CUtlVectorBase<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >::Base(); // 838
+	GetBase(Array_t& arr); // 618
+	{
+		const KeyValues3* pArrayElement; // 647
+		CKV3ArrayIteratorView<true>& __for_range; // 16207
+		iterator __for_begin; // 16217
+		iterator __for_end; // 16227
+		KeyValues3::IterateArray(); // 647
+		iterator::operator!=(
+				const iterator& rhs);  // 647
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 396
+		CKV3ArrayIteratorView<true>::begin(); // 647
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 401
+		CKV3ArrayIteratorView<true>::end(); // 647
+		{
+		}
+		iterator::operator*(); // 647
+		CUtlStack<const KeyValues3::Count(); // 413
+		CJiggleBoneItem::KV3TransferLoad(
+				CKV3TransferLoadContext* pContext);  // 415
+		CKV3TransferLoadContext::LoadClassInstance<CJiggleBoneItem>(
+							CJiggleBoneItem* pClassInstance,
+							const KeyValues3* pNestedValue);  // 495
+		LoadValue<CJiggleBoneItem>(CKV3TransferLoadContext* pContext,
+						const KeyValues3* pLoadFromValue,
+						CJiggleBoneItem& value,
+						type *);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<CJiggleBoneItem>(
+						CJiggleBoneItem& destValue,
+						const KeyValues3* pLoadFromMember);  // 651
+	}
+	LoadBlittableArrayElements<CJiggleBoneItem>(CKV3TransferLoadContext* pContext,
+							const KeyValues3* pLoadFromValue,
+							int nCount,
+							CJiggleBoneItem* pValues);  // 618
+	LoadValue<CUtlVector<CJiggleBoneItem> >(CKV3TransferLoadContext* pContext,
+						const KeyValues3* pLoadFromValue,
+						CUtlVector<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >& value,
+						type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CUtlVector<CJiggleBoneItem> >(
+							CUtlVector<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >& destValue,
+							const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<CUtlVector<CJiggleBoneItem> >(
+									CKV3MemberName memberNameAndHash,
+									CUtlVector<CJiggleBoneItem, CUtlMemory<CJiggleBoneItem, int> >& destValue);  // 349
+} /* size: 0, variables: 1, inline expansions: 46 (2672 bytes) */
+

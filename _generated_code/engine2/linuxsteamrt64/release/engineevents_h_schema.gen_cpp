@@ -1,0 +1,872 @@
+
+//
+// _generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp
+//
+//	referenced by: libengine2.so
+//
+//	functions: 106
+//
+
+// <041595B5> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:36
+void EngineLoopState_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04157EF0> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:70
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 99
+	Schema_VerifyBindingIsRegistered(void); // 31
+	GetPrimaryBinding(void); // 31
+	EngineLoopState_t::Schema_DynamicBinding(); // 73
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <041595E0> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:99
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 99
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <04158939> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:99
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 99
+	}
+} /* size: 39 */
+
+// <04157EC0> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:99
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 99
+	}
+} /* size: 0, variables: 1 */
+
+// <04157EA5> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:107
+void EventFrameBoundary_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04157D79> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:132
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 161
+	Schema_VerifyBindingIsRegistered(void); // 50
+	GetPrimaryBinding(void); // 50
+	EventFrameBoundary_t::Schema_DynamicBinding(); // 135
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04157D49> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:161
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 161
+	}
+} /* size: 0, variables: 1 */
+
+// <04157D2E> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:169
+void EventProfileStorageAvailable_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04157C02> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:177
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 206
+	Schema_VerifyBindingIsRegistered(void); // 57
+	GetPrimaryBinding(void); // 57
+	EventProfileStorageAvailable_t::Schema_DynamicBinding(); // 180
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04157BB7> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:214
+void EventSplitScreenStateChanged_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04157A8B> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:222
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 251
+	Schema_VerifyBindingIsRegistered(void); // 63
+	GetPrimaryBinding(void); // 63
+	EventSplitScreenStateChanged_t::Schema_DynamicBinding(); // 225
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <041596C4> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:251
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 251
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <04158AB6> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:251
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 251
+	}
+} /* size: 39 */
+
+// <04157A3F> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:259
+void EventClientOutput_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <041578A4> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:296
+// function calls: 6
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 325
+	Schema_VerifyBindingIsRegistered(void); // 69
+	GetPrimaryBinding(void); // 69
+	EventClientOutput_t::Schema_DynamicBinding(); // 299
+	EventClientOutput_t::EventClientOutput_t(); // 298
+	EventClientOutput_t::EventClientOutput_t(); // 298
+} /* size: 0, inline expansions: 6 (134 bytes) */
+
+// <04157872> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:325
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 325
+	}
+} /* size: 0, variables: 1 */
+
+// <04157856> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:333
+void EventClientPostOutput_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <041576BB> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:370
+// function calls: 6
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 399
+	Schema_VerifyBindingIsRegistered(void); // 88
+	GetPrimaryBinding(void); // 88
+	EventClientPostOutput_t::Schema_DynamicBinding(); // 373
+	EventClientPostOutput_t::EventClientPostOutput_t(); // 372
+	EventClientPostOutput_t::EventClientPostOutput_t(); // 372
+} /* size: 0, inline expansions: 6 (134 bytes) */
+
+// <04157689> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:399
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 399
+	}
+} /* size: 0, variables: 1 */
+
+// <0415766D> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:407
+void EventSimulate_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04157539> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:438
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 467
+	Schema_VerifyBindingIsRegistered(void); // 107
+	GetPrimaryBinding(void); // 107
+	EventSimulate_t::Schema_DynamicBinding(); // 441
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <041597AA> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:467
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 467
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <04158C35> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:467
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 467
+	}
+} /* size: 39 */
+
+// <04157507> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:467
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 467
+	}
+} /* size: 0, variables: 1 */
+
+// <041574EB> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:475
+void EventAdvanceTick_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <041573B7> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:520
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 549
+	Schema_VerifyBindingIsRegistered(void); // 126
+	GetPrimaryBinding(void); // 126
+	EventAdvanceTick_t::Schema_DynamicBinding(); // 523
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04157385> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:549
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 549
+	}
+} /* size: 0, variables: 1 */
+
+// <04157369> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:557
+void EventPostAdvanceTick_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04157235> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:602
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 631
+	Schema_VerifyBindingIsRegistered(void); // 148
+	GetPrimaryBinding(void); // 148
+	EventPostAdvanceTick_t::Schema_DynamicBinding(); // 605
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04159844> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:631
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 631
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <04158D35> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:631
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 631
+	}
+} /* size: 39 */
+
+// <041571E7> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:639
+void EventServerAdvanceTick_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <041570B3> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:658
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 687
+	Schema_VerifyBindingIsRegistered(void); // 171
+	GetPrimaryBinding(void); // 171
+	EventServerAdvanceTick_t::Schema_DynamicBinding(); // 661
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04159891> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:687
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 687
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <04158DB5> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:687
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 687
+	}
+} /* size: 39 */
+
+// <04157065> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:695
+void EventServerPostAdvanceTick_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04156F31> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:714
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 743
+	Schema_VerifyBindingIsRegistered(void); // 184
+	GetPrimaryBinding(void); // 184
+	EventServerPostAdvanceTick_t::Schema_DynamicBinding(); // 717
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <041598DE> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:743
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 743
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <04158E35> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:743
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 743
+	}
+} /* size: 39 */
+
+// <04156EFF> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:743
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 743
+	}
+} /* size: 0, variables: 1 */
+
+// <04156EE3> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:751
+void EventClientAdvanceTick_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0415992B> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:799
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 799
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <04158EB5> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:799
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 799
+	}
+} /* size: 39 */
+
+// <04156D7D> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:799
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 799
+	}
+} /* size: 0, variables: 1 */
+
+// <04156D61> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:807
+void EventClientPostAdvanceTick_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04156C2D> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:826
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 855
+	Schema_VerifyBindingIsRegistered(void); // 210
+	GetPrimaryBinding(void); // 210
+	EventClientPostAdvanceTick_t::Schema_DynamicBinding(); // 829
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04159978> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:855
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 855
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <04158F35> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:855
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 855
+	}
+} /* size: 39 */
+
+// <04156BDF> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:863
+void EventClientSendInput_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04156AAD> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:871
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 900
+	Schema_VerifyBindingIsRegistered(void); // 222
+	GetPrimaryBinding(void); // 222
+	EventClientSendInput_t::Schema_DynamicBinding(); // 874
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <041599C5> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:900
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 900
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <04158FB5> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:900
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 900
+	}
+} /* size: 39 */
+
+// <04156A7B> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:900
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 900
+	}
+} /* size: 0, variables: 1 */
+
+// <04156A5F> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:908
+void EventClientPreSimulate_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0415692B> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:927
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 956
+	Schema_VerifyBindingIsRegistered(void); // 231
+	GetPrimaryBinding(void); // 231
+	EventClientPreSimulate_t::Schema_DynamicBinding(); // 930
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04159A12> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:956
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 956
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <04159035> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:956
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 956
+	}
+} /* size: 39 */
+
+// <041568F9> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:956
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 956
+	}
+} /* size: 0, variables: 1 */
+
+// <041568DD> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:964
+void EventClientSimulate_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <041567A9> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:983
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 1012
+	Schema_VerifyBindingIsRegistered(void); // 242
+	GetPrimaryBinding(void); // 242
+	EventClientSimulate_t::Schema_DynamicBinding(); // 986
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04159A5F> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1012
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 1012
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <041590B5> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1012
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 1012
+	}
+} /* size: 39 */
+
+// <04156777> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1012
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 1012
+	}
+} /* size: 0, variables: 1 */
+
+// <0415675B> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1020
+void EventServerPollNetworking_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04156627> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1039
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 1068
+	Schema_VerifyBindingIsRegistered(void); // 253
+	GetPrimaryBinding(void); // 253
+	EventServerPollNetworking_t::Schema_DynamicBinding(); // 1042
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04159AAC> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1068
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 1068
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <04159135> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1068
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 1068
+	}
+} /* size: 39 */
+
+// <041565F5> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1068
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 1068
+	}
+} /* size: 0, variables: 1 */
+
+// <041565D9> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1076
+void EventServerProcessNetworking_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <041564A3> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1095
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 1124
+	Schema_VerifyBindingIsRegistered(void); // 264
+	GetPrimaryBinding(void); // 264
+	EventServerProcessNetworking_t::Schema_DynamicBinding(); // 1098
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04159AF9> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1124
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 1124
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <041591B5> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1124
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 1124
+	}
+} /* size: 39 */
+
+// <04156471> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1124
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 1124
+	}
+} /* size: 0, variables: 1 */
+
+// <04156455> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1132
+void EventServerSimulate_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0415631F> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1151
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 1180
+	Schema_VerifyBindingIsRegistered(void); // 276
+	GetPrimaryBinding(void); // 276
+	EventServerSimulate_t::Schema_DynamicBinding(); // 1154
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04159B46> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1180
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 1180
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <04159235> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1180
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 1180
+	}
+} /* size: 39 */
+
+// <041562ED> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1180
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 1180
+	}
+} /* size: 0, variables: 1 */
+
+// <041562D1> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1188
+void EventServerPostSimulate_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0415619B> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1207
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 1236
+	Schema_VerifyBindingIsRegistered(void); // 287
+	GetPrimaryBinding(void); // 287
+	EventServerPostSimulate_t::Schema_DynamicBinding(); // 1210
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04159B93> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1236
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 1236
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <041592B5> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1236
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 1236
+	}
+} /* size: 39 */
+
+// <04156169> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1236
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 1236
+	}
+} /* size: 0, variables: 1 */
+
+// <0415614D> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1244
+void EventClientPostSimulate_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04156017> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1263
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 1292
+	Schema_VerifyBindingIsRegistered(void); // 298
+	GetPrimaryBinding(void); // 298
+	EventClientPostSimulate_t::Schema_DynamicBinding(); // 1266
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04155FE5> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1292
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 1292
+	}
+} /* size: 0, variables: 1 */
+
+// <04155FC9> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1300
+void EventClientPauseSimulate_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04155E93> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1319
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 1348
+	Schema_VerifyBindingIsRegistered(void); // 308
+	GetPrimaryBinding(void); // 308
+	EventClientPauseSimulate_t::Schema_DynamicBinding(); // 1322
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04159C2D> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1348
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 1348
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <041593B5> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1348
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 1348
+	}
+} /* size: 39 */
+
+// <04155E61> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1348
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 1348
+	}
+} /* size: 0, variables: 1 */
+
+// <04155E45> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1356
+void EventPostDataUpdate_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04155D11> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1381
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 1410
+	Schema_VerifyBindingIsRegistered(void); // 318
+	GetPrimaryBinding(void); // 318
+	EventPostDataUpdate_t::Schema_DynamicBinding(); // 1384
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04159C7A> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1410
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 1410
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <04159435> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1410
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 1410
+	}
+} /* size: 39 */
+
+// <04155CDF> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1410
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 1410
+	}
+} /* size: 0, variables: 1 */
+
+// <04155CC3> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1418
+void EventPreDataUpdate_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04155B8F> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1443
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 1472
+	Schema_VerifyBindingIsRegistered(void); // 330
+	GetPrimaryBinding(void); // 330
+	EventPreDataUpdate_t::Schema_DynamicBinding(); // 1446
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04159CC7> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1472
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 1472
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <041594B5> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1472
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 1472
+	}
+} /* size: 39 */
+
+// <04155B41> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1480
+void EventAppShutdown_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <04155A0D> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1505
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 1534
+	Schema_VerifyBindingIsRegistered(void); // 341
+	GetPrimaryBinding(void); // 341
+	EventAppShutdown_t::Schema_DynamicBinding(); // 1508
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <04159D14> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1534
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 1534
+} /* size: 0, inline expansions: 1 (12 bytes) */
+
+// <04159535> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1534
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 1534
+	}
+} /* size: 39 */
+
+// <041559DB> ../_generated_code/engine2/linuxsteamrt64/release/engineevents_h_schema.gen_cpp:1534
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 42255
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 1534
+	}
+} /* size: 0, variables: 1 */
+

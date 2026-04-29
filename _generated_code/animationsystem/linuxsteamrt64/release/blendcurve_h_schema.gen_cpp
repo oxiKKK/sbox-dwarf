@@ -1,0 +1,232 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/blendcurve_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <00AA82D5> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/blendcurve_h_schema.gen_cpp:36
+void CBlendCurve::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00AA7F50> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/blendcurve_h_schema.gen_cpp:64
+// function calls: 13
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 93
+	Schema_VerifyBindingIsRegistered(void); // 24
+	GetPrimaryBinding(void); // 24
+	CBlendCurve::Schema_DynamicBinding(); // 67
+	Vector2D::operator=(
+			const Vector2D& vOther);  // 22
+	Vector2D::operator=(
+			const Vector2D& vOther);  // 22
+	CBlendCurve::operator=(
+			const CBlendCurve  &);  // 65
+	Vector2D::Vector2D(
+		vec_t X,
+		vec_t Y);  // 27
+	Vector2D::Vector2D(
+		vec_t X,
+		vec_t Y);  // 27
+	CBlendCurve::CBlendCurve(); // 66
+	Vector2D::Vector2D(
+		vec_t X,
+		vec_t Y);  // 27
+	Vector2D::Vector2D(
+		vec_t X,
+		vec_t Y);  // 27
+	CBlendCurve::CBlendCurve(); // 66
+} /* size: 0, inline expansions: 13 (274 bytes) */
+
+// <00AAC7D8> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/blendcurve_h_schema.gen_cpp:93
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 93
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00AAAE7D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/blendcurve_h_schema.gen_cpp:93
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 93
+	}
+} /* size: 39 */
+
+// <00AA7F1F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/blendcurve_h_schema.gen_cpp:93
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 58931
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 93
+	}
+} /* size: 0, variables: 1 */
+
+// <00AA7EB6> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/blendcurve_h_schema.gen_cpp:101
+void CBlendCurve::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 9 */
+
+// <00AA7775> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/blendcurve_h_schema.gen_cpp:106
+// function calls: 26
+void CBlendCurve::KV3TransferSave_CBlendCurve(CKV3TransferSaveContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	SaveValue<Vector2D>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const Vector2D& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<Vector2D>(
+					const Vector2D& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<Vector2D>(
+					CKV3MemberName memberNameAndHash,
+					const Vector2D& sourceValue);  // 108
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 108
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 108
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	SaveValue<Vector2D>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const Vector2D& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<Vector2D>(
+					const Vector2D& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<Vector2D>(
+					CKV3MemberName memberNameAndHash,
+					const Vector2D& sourceValue);  // 109
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 109
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 109
+} /* size: 345, inline expansions: 26 (860 bytes) */
+
+// <00AA770C> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/blendcurve_h_schema.gen_cpp:112
+void CBlendCurve::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <00AA6E3A> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/blendcurve_h_schema.gen_cpp:117
+// variables: 3
+// function calls: 28
+void CBlendCurve::KV3TransferLoad_CBlendCurve(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 119
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	KeyValues3::GetValueFloatArray<2>(
+				float* pOutValues);  // 1341
+	LoadValue<Vector2D>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				Vector2D& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<Vector2D>(
+					Vector2D& destValue,
+					const KeyValues3* pLoadFromMember);  // 292
+	{
+		KeyValues3 nullValue; // 300
+		KeyValues3::GetValueFloatArray<2>(
+					float* pOutValues);  // 1341
+		LoadValue<Vector2D>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					Vector2D& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<Vector2D>(
+						Vector2D& destValue,
+						const KeyValues3* pLoadFromMember);  // 301
+	}
+	CKV3TransferLoadContext::LoadValueFromMember<Vector2D>(
+					CKV3MemberName memberNameAndHash,
+					Vector2D& destValue,
+					uint& nNextMemberHint);  // 287
+	CKV3TransferLoadContext::LoadValueFromMember<Vector2D>(
+					CKV3MemberName memberNameAndHash,
+					Vector2D& destValue,
+					uint& nNextMemberHint);  // 121
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 121
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 121
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	KeyValues3::GetValueFloatArray<2>(
+				float* pOutValues);  // 1341
+	LoadValue<Vector2D>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				Vector2D& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<Vector2D>(
+					Vector2D& destValue,
+					const KeyValues3* pLoadFromMember);  // 292
+	{
+		KeyValues3 nullValue; // 300
+		KeyValues3::GetValueFloatArray<2>(
+					float* pOutValues);  // 1341
+		LoadValue<Vector2D>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					Vector2D& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<Vector2D>(
+						Vector2D& destValue,
+						const KeyValues3* pLoadFromMember);  // 301
+	}
+	CKV3TransferLoadContext::LoadValueFromMember<Vector2D>(
+					CKV3MemberName memberNameAndHash,
+					Vector2D& destValue,
+					uint& nNextMemberHint);  // 287
+	CKV3TransferLoadContext::LoadValueFromMember<Vector2D>(
+					CKV3MemberName memberNameAndHash,
+					Vector2D& destValue,
+					uint& nNextMemberHint);  // 122
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 122
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 122
+} /* size: 295, variables: 1, inline expansions: 22 (482 bytes) */
+

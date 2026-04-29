@@ -1,0 +1,927 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/compression_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 5
+//
+
+// <009FA274> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/compression_h_schema.gen_cpp:47
+void CCompressorGroup::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <009F134C> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/compression_h_schema.gen_cpp:120
+// function calls: 508
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 149
+	Schema_VerifyBindingIsRegistered(void); // 344
+	GetPrimaryBinding(void); // 344
+	CCompressorGroup::Schema_DynamicBinding(); // 123
+	CUtlVectorBase<char::Count(); // 573
+	CUtlVectorBase<char::RemoveMultipleFromTail(
+				int num);  // 1323
+	CUtlMemory<char::NumAllocated(); // 782
+	CUtlMemory<char::Base(); // 112
+	CUtlVectorBase<char::Base(); // 368
+	CUtlVectorBase<char::ResetDbgInfo(); // 824
+	CUtlVectorBase<char::GrowMemory(
+			int num);  // 784
+	CUtlVectorBase<char::GrowVector(
+			int num);  // 1445
+	CUtlVectorBase<char::InsertMultipleBefore(
+				int elem,
+				int num);  // 1437
+	CUtlVectorBase<char::InsertMultipleBefore(
+				int elem,
+				int num);  // 1294
+	CUtlVectorBase<char::AddMultipleToTail(
+				int num);  // 1319
+	CUtlVectorBase<char::SetCount(
+		int count);  // 573
+	CUtlMemory<char::Base(); // 112
+	CUtlVectorBase<char::Base(); // 102
+	CUtlVectorBase<char::begin(); // 574
+	CUtlMemory<char::Base(); // 113
+	CUtlVectorBase<char::Base(); // 105
+	CUtlVectorBase<char::Count(); // 105
+	CUtlVectorBase<char::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<char*>(char* const* pFrom,
+					char* const* pFromEnd,
+					char** pTo);  // 574
+	CUtlVectorBase<char::operator=(
+			const CUtlVectorBase<char*, CUtlMemory<char*, int> >& other);  // 565
+	CUtlVectorBase<char::operator=(
+			const CUtlVectorBase<char*, CUtlMemory<char*, int> >& other);  // 452
+	CUtlVector<char::operator=(
+			const CUtlVector<char*, CUtlMemory<char*, int> >& src);  // 342
+	CUtlVectorBase<char::Count(); // 573
+	CUtlVectorBase<char::RemoveMultipleFromTail(
+				int num);  // 1323
+	CUtlMemory<char::NumAllocated(); // 782
+	CUtlMemory<char::Base(); // 112
+	CUtlVectorBase<char::Base(); // 368
+	CUtlVectorBase<char::ResetDbgInfo(); // 824
+	CUtlVectorBase<char::GrowMemory(
+			int num);  // 784
+	CUtlVectorBase<char::GrowVector(
+			int num);  // 1445
+	CUtlVectorBase<char::InsertMultipleBefore(
+				int elem,
+				int num);  // 1437
+	CUtlVectorBase<char::InsertMultipleBefore(
+				int elem,
+				int num);  // 1294
+	CUtlVectorBase<char::AddMultipleToTail(
+				int num);  // 1319
+	CUtlVectorBase<char::SetCount(
+		int count);  // 573
+	CUtlMemory<char::Base(); // 112
+	CUtlVectorBase<char::Base(); // 102
+	CUtlVectorBase<char::begin(); // 574
+	CUtlMemory<char::Base(); // 113
+	CUtlVectorBase<char::Base(); // 105
+	CUtlVectorBase<char::Count(); // 105
+	CUtlVectorBase<char::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<char*>(char* const* pFrom,
+					char* const* pFromEnd,
+					char** pTo);  // 574
+	CUtlVectorBase<char::operator=(
+			const CUtlVectorBase<char*, CUtlMemory<char*, int> >& other);  // 565
+	CUtlVectorBase<char::operator=(
+			const CUtlVectorBase<char*, CUtlMemory<char*, int> >& other);  // 452
+	CUtlVector<char::operator=(
+			const CUtlVector<char*, CUtlMemory<char*, int> >& src);  // 342
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::Count(); // 573
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::RemoveMultipleFromTail(
+				int num);  // 1323
+	CUtlMemory<fieldtype_t, int>::NumAllocated(); // 782
+	CUtlMemory<fieldtype_t, int>::IsGrowable(); // 823
+	CUtlMemory<fieldtype_t, int>::IsExternallyAllocated(); // 859
+	CUtlMemory<fieldtype_t, int>::IsExternallyAllocated(); // 861
+	CUtlMemory<fieldtype_t, int>::Grow(
+		int num);  // 806
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::ResetDbgInfo(); // 824
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::GrowMemory(
+			int num);  // 784
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::GrowVector(
+			int num);  // 1445
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::InsertMultipleBefore(
+				int elem,
+				int num);  // 1437
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::InsertMultipleBefore(
+				int elem,
+				int num);  // 1294
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::AddMultipleToTail(
+				int num);  // 1319
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::SetCount(
+		int count);  // 573
+	CUtlMemory<fieldtype_t, int>::Base(); // 112
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::Base(); // 102
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::begin(); // 574
+	CUtlMemory<fieldtype_t, int>::Base(); // 113
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::Base(); // 105
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::Count(); // 105
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<fieldtype_t>(const fieldtype_t* pFrom,
+					const fieldtype_t* pFromEnd,
+					fieldtype_t* pTo);  // 574
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::operator=(
+			const CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >& other);  // 565
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::operator=(
+			const CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >& other);  // 452
+	CUtlVector<fieldtype_t, CUtlMemory<fieldtype_t, int> >::operator=(
+			const CUtlVector<fieldtype_t, CUtlMemory<fieldtype_t, int> >& src);  // 342
+	CUtlVectorBase<int, CUtlMemory<int, int> >::Count(); // 573
+	CUtlMemory<int, int>::Base(); // 112
+	CUtlVectorBase<int, CUtlMemory<int, int> >::Base(); // 102
+	CUtlVectorBase<int, CUtlMemory<int, int> >::begin(); // 574
+	CUtlMemory<int, int>::Base(); // 113
+	CUtlVectorBase<int, CUtlMemory<int, int> >::Base(); // 105
+	CUtlVectorBase<int, CUtlMemory<int, int> >::Count(); // 105
+	CUtlVectorBase<int, CUtlMemory<int, int> >::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 574
+	CUtlVectorBase<int, CUtlMemory<int, int> >::operator=(
+			const CUtlVectorBase<int, CUtlMemory<int, int> >& other);  // 565
+	CUtlVectorBase<int, CUtlMemory<int, int> >::operator=(
+			const CUtlVectorBase<int, CUtlMemory<int, int> >& other);  // 452
+	CUtlVector<int, CUtlMemory<int, int> >::operator=(
+			const CUtlVector<int, CUtlMemory<int, int> >& src);  // 342
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::Count(); // 573
+	CUtlMemory<CUtlString, int>::Base(); // 112
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::Base(); // 102
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::begin(); // 574
+	CUtlMemory<CUtlString, int>::Base(); // 113
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::Base(); // 105
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::Count(); // 105
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::end(); // 574
+	V_strlen(const char* str); // 393
+	CUtlString::Length(); // 161
+	CUtlString::Get(); // 161
+	CUtlString::operator=(
+			const CUtlString& src);  // 209
+	UtlTraitsCopyRange<CUtlString>(const CUtlString* pFrom,
+					const CUtlString* pFromEnd,
+					CUtlString* pTo);  // 200
+	UtlTraitsCopyRange<CUtlString>(const CUtlString* pFrom,
+					const CUtlString* pFromEnd,
+					CUtlString* pTo);  // 574
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::operator=(
+			const CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >& other);  // 565
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::operator=(
+			const CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >& other);  // 452
+	CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >::operator=(
+			const CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >& src);  // 342
+	CUtlVectorBase<int, CUtlMemory<int, int> >::Count(); // 573
+	CUtlMemory<int, int>::Base(); // 112
+	CUtlVectorBase<int, CUtlMemory<int, int> >::Base(); // 102
+	CUtlVectorBase<int, CUtlMemory<int, int> >::begin(); // 574
+	CUtlMemory<int, int>::Base(); // 113
+	CUtlVectorBase<int, CUtlMemory<int, int> >::Base(); // 105
+	CUtlVectorBase<int, CUtlMemory<int, int> >::Count(); // 105
+	CUtlVectorBase<int, CUtlMemory<int, int> >::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 574
+	CUtlVectorBase<int, CUtlMemory<int, int> >::operator=(
+			const CUtlVectorBase<int, CUtlMemory<int, int> >& other);  // 565
+	CUtlVectorBase<int, CUtlMemory<int, int> >::operator=(
+			const CUtlVectorBase<int, CUtlMemory<int, int> >& other);  // 452
+	CUtlVector<int, CUtlMemory<int, int> >::operator=(
+			const CUtlVector<int, CUtlMemory<int, int> >& src);  // 342
+	CUtlVectorBase<CUtlVector<char const::Count(); // 573
+	CUtlMemory<CUtlVector<char const::Base(); // 112
+	CUtlVectorBase<CUtlVector<char const::Base(); // 102
+	CUtlVectorBase<CUtlVector<char const::begin(); // 574
+	CUtlMemory<CUtlVector<char const::Base(); // 113
+	CUtlVectorBase<CUtlVector<char const::Base(); // 105
+	CUtlVectorBase<CUtlVector<char const::Count(); // 105
+	CUtlVectorBase<CUtlVector<char const::end(); // 574
+	CUtlVectorBase<char const::RemoveMultipleFromTail(
+				int num);  // 1323
+	CUtlMemory<char const::NumAllocated(); // 782
+	CUtlMemory<char const::IsGrowable(); // 823
+	CUtlMemory<char const::IsExternallyAllocated(); // 859
+	CUtlMemory<char const::IsExternallyAllocated(); // 861
+	CUtlMemory<char const::Grow(
+		int num);  // 806
+	CUtlVectorBase<char const::ResetDbgInfo(); // 824
+	CUtlVectorBase<char const::GrowMemory(
+			int num);  // 784
+	CUtlVectorBase<char const::GrowVector(
+			int num);  // 1445
+	CUtlVectorBase<char const::InsertMultipleBefore(
+				int elem,
+				int num);  // 1437
+	CUtlVectorBase<char const::InsertMultipleBefore(
+				int elem,
+				int num);  // 1294
+	CUtlVectorBase<char const::AddMultipleToTail(
+				int num);  // 1319
+	CUtlVectorBase<char const::SetCount(
+		int count);  // 573
+	CUtlMemory<char const::Base(); // 112
+	CUtlVectorBase<char const::Base(); // 102
+	CUtlVectorBase<char const::begin(); // 574
+	CUtlMemory<char const::Base(); // 113
+	CUtlVectorBase<char const::Base(); // 105
+	CUtlVectorBase<char const::Count(); // 105
+	CUtlVectorBase<char const::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<char const*>(const char* const* pFrom,
+					const char* const* pFromEnd,
+					const char ** pTo);  // 574
+	CUtlVectorBase<char const::Count(); // 573
+	CUtlVectorBase<char const::operator=(
+			const CUtlVectorBase<char const*, CUtlMemory<char const*, int> >& other);  // 565
+	CUtlVectorBase<char const::operator=(
+			const CUtlVectorBase<char const*, CUtlMemory<char const*, int> >& other);  // 452
+	CUtlVector<char const::operator=(
+			const CUtlVector<char const*, CUtlMemory<char const*, int> >& src);  // 209
+	UtlTraitsCopyRange<CUtlVector<char const*, CUtlMemory<char const*, int> > >(const CUtlVector<char const*, CUtlMemory<char const*, int> >* pFrom,
+											const CUtlVector<char const*, CUtlMemory<char const*, int> >* pFromEnd,
+											CUtlVector<char const*, CUtlMemory<char const*, int> >* pTo);  // 200
+	UtlTraitsCopyRange<CUtlVector<char const*, CUtlMemory<char const*, int> > >(const CUtlVector<char const*, CUtlMemory<char const*, int> >* pFrom,
+											const CUtlVector<char const*, CUtlMemory<char const*, int> >* pFromEnd,
+											CUtlVector<char const*, CUtlMemory<char const*, int> >* pTo);  // 574
+	CUtlVectorBase<CUtlVector<char const::operator=(
+			const CUtlVectorBase<CUtlVector<char const*, CUtlMemory<char const*, int> >, CUtlMemory<CUtlVector<char const*, CUtlMemor other);  // 565
+	CUtlVectorBase<CUtlVector<char const::operator=(
+			const CUtlVectorBase<CUtlVector<char const*, CUtlMemory<char const*, int> >, CUtlMemory<CUtlVector<char const*, CUtlMemor other);  // 452
+	CUtlVector<CUtlVector<char const::operator=(
+			const CUtlVector<CUtlVector<char const*, CUtlMemory<char const*, int> >, CUtlMemory<CUtlVector<char const*, CUtlMemory<ch src);  // 342
+	Count(const CUtlVectorBase<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int this); // 573
+	CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int>::Base(); // 112
+	CUtlVectorBase<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int> >::Base(); // 102
+	CUtlVectorBase<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int> >::begin(); // 574
+	CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int>::Base(); // 113
+	Base(const CUtlVectorBase<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int this); // 105
+	Count(const CUtlVectorBase<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int this); // 105
+	end(const CUtlVectorBase<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int this); // 574
+	CUtlVectorBase<int, CUtlMemory<int, int> >::Count(); // 573
+	CUtlMemory<int, int>::Base(); // 112
+	CUtlVectorBase<int, CUtlMemory<int, int> >::Base(); // 102
+	CUtlVectorBase<int, CUtlMemory<int, int> >::begin(); // 574
+	CUtlMemory<int, int>::Base(); // 113
+	CUtlVectorBase<int, CUtlMemory<int, int> >::Base(); // 105
+	CUtlVectorBase<int, CUtlMemory<int, int> >::Count(); // 105
+	CUtlVectorBase<int, CUtlMemory<int, int> >::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 574
+	CUtlVectorBase<int, CUtlMemory<int, int> >::operator=(
+			const CUtlVectorBase<int, CUtlMemory<int, int> >& other);  // 565
+	CUtlVectorBase<int, CUtlMemory<int, int> >::operator=(
+			const CUtlVectorBase<int, CUtlMemory<int, int> >& other);  // 452
+	CUtlVector<int, CUtlMemory<int, int> >::operator=(
+			const CUtlVector<int, CUtlMemory<int, int> >& src);  // 209
+	UtlTraitsCopyRange<CUtlVector<int> >(const CUtlVector<int, CUtlMemory<int, int> >* pFrom,
+						const CUtlVector<int, CUtlMemory<int, int> >* pFromEnd,
+						CUtlVector<int, CUtlMemory<int, int> >* pTo);  // 200
+	UtlTraitsCopyRange<CUtlVector<int> >(const CUtlVector<int, CUtlMemory<int, int> >* pFrom,
+						const CUtlVector<int, CUtlMemory<int, int> >* pFromEnd,
+						CUtlVector<int, CUtlMemory<int, int> >* pTo);  // 574
+	CUtlVectorBase<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int> >::operator=(
+			const CUtlVectorBase<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int> >& other);  // 565
+	CUtlVectorBase<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int> >::operator=(
+			const CUtlVectorBase<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int> >& other);  // 452
+	CUtlVector<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int> >::operator=(
+			const CUtlVector<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int> >& src);  // 342
+	CUtlVectorBase<unsigned int, CUtlMemory<unsigned int, int> >::Count(); // 573
+	CUtlMemory<unsigned int, int>::Base(); // 112
+	CUtlVectorBase<unsigned int, CUtlMemory<unsigned int, int> >::Base(); // 102
+	CUtlVectorBase<unsigned int, CUtlMemory<unsigned int, int> >::begin(); // 574
+	CUtlMemory<unsigned int, int>::Base(); // 113
+	CUtlVectorBase<unsigned int, CUtlMemory<unsigned int, int> >::Base(); // 105
+	CUtlVectorBase<unsigned int, CUtlMemory<unsigned int, int> >::Count(); // 105
+	CUtlVectorBase<unsigned int, CUtlMemory<unsigned int, int> >::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<unsigned int>(const unsigned int* pFrom,
+					const unsigned int* pFromEnd,
+					unsigned int* pTo);  // 574
+	CUtlVectorBase<unsigned int, CUtlMemory<unsigned int, int> >::operator=(
+			const CUtlVectorBase<unsigned int, CUtlMemory<unsigned int, int> >& other);  // 565
+	CUtlVectorBase<unsigned int, CUtlMemory<unsigned int, int> >::operator=(
+			const CUtlVectorBase<unsigned int, CUtlMemory<unsigned int, int> >& other);  // 452
+	CUtlVector<unsigned int, CUtlMemory<unsigned int, int> >::operator=(
+			const CUtlVector<unsigned int, CUtlMemory<unsigned int, int> >& src);  // 342
+	CUtlVectorBase<CCompressor<float>::Count(); // 573
+	CUtlMemory<CCompressor<float>::Base(); // 112
+	CUtlVectorBase<CCompressor<float>::Base(); // 102
+	CUtlVectorBase<CCompressor<float>::begin(); // 574
+	CUtlMemory<CCompressor<float>::Base(); // 113
+	CUtlVectorBase<CCompressor<float>::Base(); // 105
+	CUtlVectorBase<CCompressor<float>::Count(); // 105
+	CUtlVectorBase<CCompressor<float>::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<CCompressor<float>*>(CCompressor<float>* const* pFrom,
+						CCompressor<float>* const* pFromEnd,
+						CCompressor<float>** pTo);  // 574
+	CUtlVectorBase<CCompressor<float>::operator=(
+			const CUtlVectorBase<CCompressor<float>*, CUtlMemory<CCompressor<float>*, int> >& other);  // 565
+	CUtlVectorBase<CCompressor<float>::operator=(
+			const CUtlVectorBase<CCompressor<float>*, CUtlMemory<CCompressor<float>*, int> >& other);  // 452
+	CUtlVector<CCompressor<float>::operator=(
+			const CUtlVector<CCompressor<float>*, CUtlMemory<CCompressor<float>*, int> >& src);  // 342
+	CUtlVectorBase<CCompressor<Vector>::Count(); // 573
+	CUtlMemory<CCompressor<Vector>::Base(); // 112
+	CUtlVectorBase<CCompressor<Vector>::Base(); // 102
+	CUtlVectorBase<CCompressor<Vector>::begin(); // 574
+	CUtlMemory<CCompressor<Vector>::Base(); // 113
+	CUtlVectorBase<CCompressor<Vector>::Base(); // 105
+	CUtlVectorBase<CCompressor<Vector>::Count(); // 105
+	CUtlVectorBase<CCompressor<Vector>::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<CCompressor<Vector>*>(CCompressor<Vector>* const* pFrom,
+						CCompressor<Vector>* const* pFromEnd,
+						CCompressor<Vector>** pTo);  // 574
+	CUtlVectorBase<CCompressor<Vector>::operator=(
+			const CUtlVectorBase<CCompressor<Vector>*, CUtlMemory<CCompressor<Vector>*, int> >& other);  // 565
+	CUtlVectorBase<CCompressor<Vector>::operator=(
+			const CUtlVectorBase<CCompressor<Vector>*, CUtlMemory<CCompressor<Vector>*, int> >& other);  // 452
+	CUtlVector<CCompressor<Vector>::operator=(
+			const CUtlVector<CCompressor<Vector>*, CUtlMemory<CCompressor<Vector>*, int> >& src);  // 342
+	CUtlVectorBase<CCompressor<Quaternion>::Count(); // 573
+	CUtlMemory<CCompressor<Quaternion>::Base(); // 112
+	CUtlVectorBase<CCompressor<Quaternion>::Base(); // 102
+	CUtlVectorBase<CCompressor<Quaternion>::begin(); // 574
+	CUtlMemory<CCompressor<Quaternion>::Base(); // 113
+	CUtlVectorBase<CCompressor<Quaternion>::Base(); // 105
+	CUtlVectorBase<CCompressor<Quaternion>::Count(); // 105
+	CUtlVectorBase<CCompressor<Quaternion>::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<CCompressor<Quaternion>*>(CCompressor<Quaternion>* const* pFrom,
+							CCompressor<Quaternion>* const* pFromEnd,
+							CCompressor<Quaternion>** pTo);  // 574
+	CUtlVectorBase<CCompressor<Quaternion>::operator=(
+			const CUtlVectorBase<CCompressor<Quaternion>*, CUtlMemory<CCompressor<Quaternion>*, int> >& other);  // 565
+	CUtlVectorBase<CCompressor<Quaternion>::operator=(
+			const CUtlVectorBase<CCompressor<Quaternion>*, CUtlMemory<CCompressor<Quaternion>*, int> >& other);  // 452
+	CUtlVector<CCompressor<Quaternion>::operator=(
+			const CUtlVector<CCompressor<Quaternion>*, CUtlMemory<CCompressor<Quaternion>*, int> >& src);  // 342
+	CUtlVectorBase<CCompressor<int>::Count(); // 573
+	CUtlMemory<CCompressor<int>::Base(); // 112
+	CUtlVectorBase<CCompressor<int>::Base(); // 102
+	CUtlVectorBase<CCompressor<int>::begin(); // 574
+	CUtlMemory<CCompressor<int>::Base(); // 113
+	CUtlVectorBase<CCompressor<int>::Base(); // 105
+	CUtlVectorBase<CCompressor<int>::Count(); // 105
+	CUtlVectorBase<CCompressor<int>::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<CCompressor<int>*>(CCompressor<int>* const* pFrom,
+						CCompressor<int>* const* pFromEnd,
+						CCompressor<int>** pTo);  // 574
+	CUtlVectorBase<CCompressor<int>::operator=(
+			const CUtlVectorBase<CCompressor<int>*, CUtlMemory<CCompressor<int>*, int> >& other);  // 565
+	CUtlVectorBase<CCompressor<int>::operator=(
+			const CUtlVectorBase<CCompressor<int>*, CUtlMemory<CCompressor<int>*, int> >& other);  // 452
+	CUtlVector<CCompressor<int>::operator=(
+			const CUtlVector<CCompressor<int>*, CUtlMemory<CCompressor<int>*, int> >& src);  // 342
+	CUtlVectorBase<CCompressor<bool>::Count(); // 573
+	CUtlMemory<CCompressor<bool>::Base(); // 112
+	CUtlVectorBase<CCompressor<bool>::Base(); // 102
+	CUtlVectorBase<CCompressor<bool>::begin(); // 574
+	CUtlMemory<CCompressor<bool>::Base(); // 113
+	CUtlVectorBase<CCompressor<bool>::Base(); // 105
+	CUtlVectorBase<CCompressor<bool>::Count(); // 105
+	CUtlVectorBase<CCompressor<bool>::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<CCompressor<bool>*>(CCompressor<bool>* const* pFrom,
+						CCompressor<bool>* const* pFromEnd,
+						CCompressor<bool>** pTo);  // 574
+	CUtlVectorBase<CCompressor<bool>::operator=(
+			const CUtlVectorBase<CCompressor<bool>*, CUtlMemory<CCompressor<bool>*, int> >& other);  // 565
+	CUtlVectorBase<CCompressor<bool>::operator=(
+			const CUtlVectorBase<CCompressor<bool>*, CUtlMemory<CCompressor<bool>*, int> >& other);  // 452
+	CUtlVector<CCompressor<bool>::operator=(
+			const CUtlVector<CCompressor<bool>*, CUtlMemory<CCompressor<bool>*, int> >& src);  // 342
+	CUtlVectorBase<CCompressor<Color>::Count(); // 573
+	CUtlMemory<CCompressor<Color>::Base(); // 112
+	CUtlVectorBase<CCompressor<Color>::Base(); // 102
+	CUtlVectorBase<CCompressor<Color>::begin(); // 574
+	CUtlMemory<CCompressor<Color>::Base(); // 113
+	CUtlVectorBase<CCompressor<Color>::Base(); // 105
+	CUtlVectorBase<CCompressor<Color>::Count(); // 105
+	CUtlVectorBase<CCompressor<Color>::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<CCompressor<Color>*>(CCompressor<Color>* const* pFrom,
+						CCompressor<Color>* const* pFromEnd,
+						CCompressor<Color>** pTo);  // 574
+	CUtlVectorBase<CCompressor<Color>::operator=(
+			const CUtlVectorBase<CCompressor<Color>*, CUtlMemory<CCompressor<Color>*, int> >& other);  // 565
+	CUtlVectorBase<CCompressor<Color>::operator=(
+			const CUtlVectorBase<CCompressor<Color>*, CUtlMemory<CCompressor<Color>*, int> >& other);  // 452
+	CUtlVector<CCompressor<Color>::operator=(
+			const CUtlVector<CCompressor<Color>*, CUtlMemory<CCompressor<Color>*, int> >& src);  // 342
+	CUtlVectorBase<CCompressor<Vector2D>::Count(); // 573
+	CUtlMemory<CCompressor<Vector2D>::Base(); // 112
+	CUtlVectorBase<CCompressor<Vector2D>::Base(); // 102
+	CUtlVectorBase<CCompressor<Vector2D>::begin(); // 574
+	CUtlMemory<CCompressor<Vector2D>::Base(); // 113
+	CUtlVectorBase<CCompressor<Vector2D>::Base(); // 105
+	CUtlVectorBase<CCompressor<Vector2D>::Count(); // 105
+	CUtlVectorBase<CCompressor<Vector2D>::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<CCompressor<Vector2D>*>(CCompressor<Vector2D>* const* pFrom,
+							CCompressor<Vector2D>* const* pFromEnd,
+							CCompressor<Vector2D>** pTo);  // 574
+	CUtlVectorBase<CCompressor<Vector2D>::operator=(
+			const CUtlVectorBase<CCompressor<Vector2D>*, CUtlMemory<CCompressor<Vector2D>*, int> >& other);  // 565
+	CUtlVectorBase<CCompressor<Vector2D>::operator=(
+			const CUtlVectorBase<CCompressor<Vector2D>*, CUtlMemory<CCompressor<Vector2D>*, int> >& other);  // 452
+	CUtlVector<CCompressor<Vector2D>::operator=(
+			const CUtlVector<CCompressor<Vector2D>*, CUtlMemory<CCompressor<Vector2D>*, int> >& src);  // 342
+	CUtlVectorBase<CCompressor<Vector4D>::Count(); // 573
+	CUtlMemory<CCompressor<Vector4D>::Base(); // 112
+	CUtlVectorBase<CCompressor<Vector4D>::Base(); // 102
+	CUtlVectorBase<CCompressor<Vector4D>::begin(); // 574
+	CUtlMemory<CCompressor<Vector4D>::Base(); // 113
+	CUtlVectorBase<CCompressor<Vector4D>::Base(); // 105
+	CUtlVectorBase<CCompressor<Vector4D>::Count(); // 105
+	CUtlVectorBase<CCompressor<Vector4D>::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<int>(const int* pFrom,
+				const int* pFromEnd,
+				int* pTo);  // 173
+	UtlTraitsCopyRange<CCompressor<Vector4D>*>(CCompressor<Vector4D>* const* pFrom,
+							CCompressor<Vector4D>* const* pFromEnd,
+							CCompressor<Vector4D>** pTo);  // 574
+	CUtlVectorBase<CCompressor<Vector4D>::operator=(
+			const CUtlVectorBase<CCompressor<Vector4D>*, CUtlMemory<CCompressor<Vector4D>*, int> >& other);  // 565
+	CUtlVectorBase<CCompressor<Vector4D>::operator=(
+			const CUtlVectorBase<CCompressor<Vector4D>*, CUtlMemory<CCompressor<Vector4D>*, int> >& other);  // 452
+	CUtlVector<CCompressor<Vector4D>::operator=(
+			const CUtlVector<CCompressor<Vector4D>*, CUtlMemory<CCompressor<Vector4D>*, int> >& src);  // 342
+	CCompressorGroup::operator=(
+			const CCompressorGroup  &);  // 121
+	CUtlMemory<char::ValidateGrowSize(); // 475
+	CUtlMemory<char::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<char::ResetDbgInfo(); // 530
+	CUtlVectorBase<char::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<char::CUtlVector(); // 347
+	CUtlMemory<char::ValidateGrowSize(); // 475
+	CUtlMemory<char::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<char::ResetDbgInfo(); // 530
+	CUtlVectorBase<char::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<char::CUtlVector(); // 347
+	CUtlMemory<fieldtype_t, int>::ValidateGrowSize(); // 475
+	CUtlMemory<fieldtype_t, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::ResetDbgInfo(); // 530
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<fieldtype_t, CUtlMemory<fieldtype_t, int> >::CUtlVector(); // 347
+	CUtlMemory<int, int>::ValidateGrowSize(); // 475
+	CUtlMemory<int, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<int, CUtlMemory<int, int> >::ResetDbgInfo(); // 530
+	CUtlVectorBase<int, CUtlMemory<int, int> >::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<int, CUtlMemory<int, int> >::CUtlVector(); // 347
+	CUtlMemory<CUtlString, int>::ValidateGrowSize(); // 475
+	CUtlMemory<CUtlString, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::ResetDbgInfo(); // 530
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >::CUtlVector(); // 347
+	CUtlMemory<int, int>::ValidateGrowSize(); // 475
+	CUtlMemory<int, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<int, CUtlMemory<int, int> >::ResetDbgInfo(); // 530
+	CUtlVectorBase<int, CUtlMemory<int, int> >::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<int, CUtlMemory<int, int> >::CUtlVector(); // 347
+	CUtlMemory<CUtlVector<char const::ValidateGrowSize(); // 475
+	CUtlMemory<CUtlVector<char const::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CUtlVector<char const::ResetDbgInfo(); // 530
+	CUtlVectorBase<CUtlVector<char const::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CUtlVector<char const::CUtlVector(); // 347
+	CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int>::ValidateGrowSize(); // 475
+	CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int> >::ResetDbgInfo(); // 530
+	CUtlVectorBase<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int> >::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int> >::CUtlVector(); // 347
+	CUtlMemory<unsigned int, int>::ValidateGrowSize(); // 475
+	CUtlMemory<unsigned int, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<unsigned int, CUtlMemory<unsigned int, int> >::ResetDbgInfo(); // 530
+	CUtlVectorBase<unsigned int, CUtlMemory<unsigned int, int> >::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<unsigned int, CUtlMemory<unsigned int, int> >::CUtlVector(); // 347
+	CUtlMemory<CCompressor<float>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<float>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<float>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<float>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<float>::CUtlVector(); // 347
+	CUtlMemory<CCompressor<Vector>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<Vector>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<Vector>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<Vector>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<Vector>::CUtlVector(); // 347
+	CUtlMemory<CCompressor<Quaternion>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<Quaternion>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<Quaternion>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<Quaternion>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<Quaternion>::CUtlVector(); // 347
+	CUtlMemory<CCompressor<int>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<int>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<int>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<int>::CUtlVector(); // 347
+	CUtlMemory<CCompressor<bool>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<bool>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<bool>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<bool>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<bool>::CUtlVector(); // 347
+	CUtlMemory<CCompressor<Color>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<Color>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<Color>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<Color>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<Color>::CUtlVector(); // 347
+	CUtlMemory<CCompressor<Vector2D>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<Vector2D>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<Vector2D>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<Vector2D>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<Vector2D>::CUtlVector(); // 347
+	CUtlMemory<CCompressor<Vector4D>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<Vector4D>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<Vector4D>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<Vector4D>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<Vector4D>::CUtlVector(); // 347
+	CCompressorGroup::CCompressorGroup(); // 122
+	CUtlMemory<char::ValidateGrowSize(); // 475
+	CUtlMemory<char::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<char::ResetDbgInfo(); // 530
+	CUtlVectorBase<char::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<char::CUtlVector(); // 347
+	CUtlMemory<char::ValidateGrowSize(); // 475
+	CUtlMemory<char::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<char::ResetDbgInfo(); // 530
+	CUtlVectorBase<char::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<char::CUtlVector(); // 347
+	CUtlMemory<fieldtype_t, int>::ValidateGrowSize(); // 475
+	CUtlMemory<fieldtype_t, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::ResetDbgInfo(); // 530
+	CUtlVectorBase<fieldtype_t, CUtlMemory<fieldtype_t, int> >::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<fieldtype_t, CUtlMemory<fieldtype_t, int> >::CUtlVector(); // 347
+	CUtlMemory<int, int>::ValidateGrowSize(); // 475
+	CUtlMemory<int, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<int, CUtlMemory<int, int> >::ResetDbgInfo(); // 530
+	CUtlVectorBase<int, CUtlMemory<int, int> >::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<int, CUtlMemory<int, int> >::CUtlVector(); // 347
+	CUtlMemory<CUtlString, int>::ValidateGrowSize(); // 475
+	CUtlMemory<CUtlString, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::ResetDbgInfo(); // 530
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >::CUtlVector(); // 347
+	CUtlMemory<int, int>::ValidateGrowSize(); // 475
+	CUtlMemory<int, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<int, CUtlMemory<int, int> >::ResetDbgInfo(); // 530
+	CUtlVectorBase<int, CUtlMemory<int, int> >::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<int, CUtlMemory<int, int> >::CUtlVector(); // 347
+	CUtlMemory<CUtlVector<char const::ValidateGrowSize(); // 475
+	CUtlMemory<CUtlVector<char const::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CUtlVector<char const::ResetDbgInfo(); // 530
+	CUtlVectorBase<CUtlVector<char const::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CUtlVector<char const::CUtlVector(); // 347
+	CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int>::ValidateGrowSize(); // 475
+	CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int> >::ResetDbgInfo(); // 530
+	CUtlVectorBase<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int> >::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CUtlVector<int, CUtlMemory<int, int> >, CUtlMemory<CUtlVector<int, CUtlMemory<int, int> >, int> >::CUtlVector(); // 347
+	CUtlMemory<unsigned int, int>::ValidateGrowSize(); // 475
+	CUtlMemory<unsigned int, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<unsigned int, CUtlMemory<unsigned int, int> >::ResetDbgInfo(); // 530
+	CUtlVectorBase<unsigned int, CUtlMemory<unsigned int, int> >::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<unsigned int, CUtlMemory<unsigned int, int> >::CUtlVector(); // 347
+	CUtlMemory<CCompressor<float>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<float>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<float>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<float>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<float>::CUtlVector(); // 347
+	CUtlMemory<CCompressor<Vector>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<Vector>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<Vector>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<Vector>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<Vector>::CUtlVector(); // 347
+	CUtlMemory<CCompressor<Quaternion>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<Quaternion>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<Quaternion>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<Quaternion>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<Quaternion>::CUtlVector(); // 347
+	CUtlMemory<CCompressor<int>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<int>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<int>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<int>::CUtlVector(); // 347
+	CUtlMemory<CCompressor<bool>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<bool>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<bool>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<bool>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<bool>::CUtlVector(); // 347
+	CUtlMemory<CCompressor<Color>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<Color>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<Color>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<Color>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<Color>::CUtlVector(); // 347
+	CUtlMemory<CCompressor<Vector2D>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<Vector2D>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<Vector2D>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<Vector2D>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<Vector2D>::CUtlVector(); // 347
+	CUtlMemory<CCompressor<Vector4D>::ValidateGrowSize(); // 475
+	CUtlMemory<CCompressor<Vector4D>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<CCompressor<Vector4D>::ResetDbgInfo(); // 530
+	CUtlVectorBase<CCompressor<Vector4D>::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<CCompressor<Vector4D>::CUtlVector(); // 347
+	CCompressorGroup::CCompressorGroup(); // 122
+} /* size: 0, inline expansions: 508 (21762 bytes) */
+
+// <00A565DE> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/compression_h_schema.gen_cpp:149
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 149
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00A4B732> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/compression_h_schema.gen_cpp:149
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 149
+	}
+} /* size: 39 */
+
+// <009F131A> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/compression_h_schema.gen_cpp:149
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 29173
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 149
+	}
+} /* size: 0, variables: 1 */
+

@@ -1,0 +1,232 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/rootanimnode_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 11
+//
+
+// <005CF33F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/rootanimnode_h_schema.gen_cpp:36
+void CRootAnimNode::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <005CF028> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/rootanimnode_h_schema.gen_cpp:87
+// function calls: 8
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 116
+	Schema_VerifyBindingIsRegistered(void); // 16
+	GetPrimaryBinding(void); // 16
+	CRootAnimNode::Schema_DynamicBinding(); // 90
+	AnimNodeID::operator=(
+			const AnimNodeID& rhs);  // 22
+	AnimOutputID::operator=(
+			const AnimOutputID& rhs);  // 22
+	CNodeConnection::operator=(
+			const CNodeConnection  &);  // 13
+	CRootAnimNode::operator=(
+			const CRootAnimNode  &);  // 88
+} /* size: 0, inline expansions: 8 (223 bytes) */
+
+// <005EC300> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/rootanimnode_h_schema.gen_cpp:116
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 116
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <005E8D59> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/rootanimnode_h_schema.gen_cpp:116
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 116
+	}
+} /* size: 39 */
+
+// <005CEFFA> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/rootanimnode_h_schema.gen_cpp:116
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 41267
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 116
+	}
+} /* size: 0, variables: 1 */
+
+// <005CEBCE> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/rootanimnode_h_schema.gen_cpp:124
+// function calls: 14
+void CRootAnimNode::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 134
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 134
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	SaveValue<CNodeConnection>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const CNodeConnection& value,
+					type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CNodeConnection>(
+					const CNodeConnection& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CNodeConnection>(
+						CKV3MemberName memberNameAndHash,
+						const CNodeConnection& sourceValue);  // 134
+	CRootAnimNode::KV3TransferSave_CRootAnimNode(
+					CKV3TransferSaveContext* pContext);  // 126
+} /* size: 217, inline expansions: 14 (517 bytes) */
+
+// <005EDF5E> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/rootanimnode_h_schema.gen_cpp:129
+// function calls: 13
+void CRootAnimNode::KV3TransferSave_CRootAnimNode(CKV3TransferSaveContext* pContext)
+{
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 134
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 134
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	SaveValue<CNodeConnection>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const CNodeConnection& value,
+					type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CNodeConnection>(
+					const CNodeConnection& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CNodeConnection>(
+						CKV3MemberName memberNameAndHash,
+						const CNodeConnection& sourceValue);  // 134
+} /* size: 0, inline expansions: 13 (0 bytes) */
+
+// <005CEBA9> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/rootanimnode_h_schema.gen_cpp:129
+void CRootAnimNode::KV3TransferSave_CRootAnimNode(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <005CE6FB> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/rootanimnode_h_schema.gen_cpp:137
+// function calls: 16
+void CRootAnimNode::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 149
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 149
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CUtlStack<const KeyValues3::Count(); // 413
+	CKV3TransferLoadContext::LoadClassInstance<CNodeConnection>(
+						CNodeConnection* pClassInstance,
+						const KeyValues3* pNestedValue);  // 495
+	LoadValue<CNodeConnection>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					CNodeConnection& value,
+					type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CNodeConnection>(
+					CNodeConnection& destValue,
+					const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<CNodeConnection>(
+							CKV3MemberName memberNameAndHash,
+							CNodeConnection& destValue);  // 149
+	CRootAnimNode::KV3TransferLoad_CRootAnimNode(
+					CKV3TransferLoadContext* pContext);  // 139
+} /* size: 205, inline expansions: 16 (643 bytes) */
+
+// <005EC34E> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/rootanimnode_h_schema.gen_cpp:142
+// variable: 1
+// function calls: 15
+void CRootAnimNode::KV3TransferLoad_CRootAnimNode(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 147
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 149
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 149
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CUtlStack<const KeyValues3::Count(); // 413
+	CKV3TransferLoadContext::LoadClassInstance<CNodeConnection>(
+						CNodeConnection* pClassInstance,
+						const KeyValues3* pNestedValue);  // 495
+	LoadValue<CNodeConnection>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					CNodeConnection& value,
+					type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CNodeConnection>(
+					CNodeConnection& destValue,
+					const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<CNodeConnection>(
+							CKV3MemberName memberNameAndHash,
+							CNodeConnection& destValue);  // 149
+} /* size: 0, variables: 1, inline expansions: 15 (0 bytes) */
+
+// <005CE6CA> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/rootanimnode_h_schema.gen_cpp:142
+// variable: 1
+void CRootAnimNode::KV3TransferLoad_CRootAnimNode(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 147
+} /* size: 0, variables: 1 */
+

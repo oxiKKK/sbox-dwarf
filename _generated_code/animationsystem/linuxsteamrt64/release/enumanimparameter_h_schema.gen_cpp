@@ -1,0 +1,388 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/enumanimparameter_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <0078FD30> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/enumanimparameter_h_schema.gen_cpp:36
+void CEnumAnimParameter::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0078F5A5> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/enumanimparameter_h_schema.gen_cpp:97
+// function calls: 30
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 126
+	Schema_VerifyBindingIsRegistered(void); // 13
+	GetPrimaryBinding(void); // 13
+	CEnumAnimParameter::Schema_DynamicBinding(); // 100
+	CMutableRefCountBase<true, CRefMT>::operator=(
+			const CMutableRefCountBase<true, CRefMT>  &);  // 339
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::operator=(
+			const CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >  &);  // 15
+	V_strlen(const char* str); // 393
+	CUtlString::Length(); // 161
+	CUtlString::Get(); // 161
+	CUtlString::operator=(
+			const CUtlString& src);  // 15
+	AnimParamID::operator=(
+			const AnimParamID& rhs);  // 15
+	CAnimParameterBase::operator=(
+			const CAnimParameterBase  &);  // 10
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::Count(); // 573
+	CUtlMemory<CUtlString, int>::Base(); // 112
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::Base(); // 102
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::begin(); // 574
+	CUtlMemory<CUtlString, int>::Base(); // 113
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::Base(); // 105
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::Count(); // 105
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::end(); // 574
+	V_strlen(const char* str); // 393
+	CUtlString::Length(); // 161
+	CUtlString::Get(); // 161
+	CUtlString::operator=(
+			const CUtlString& src);  // 209
+	UtlTraitsCopyRange<CUtlString>(const CUtlString* pFrom,
+					const CUtlString* pFromEnd,
+					CUtlString* pTo);  // 200
+	UtlTraitsCopyRange<CUtlString>(const CUtlString* pFrom,
+					const CUtlString* pFromEnd,
+					CUtlString* pTo);  // 574
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::operator=(
+			const CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >& other);  // 565
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::operator=(
+			const CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >& other);  // 452
+	CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >::operator=(
+			const CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >& src);  // 10
+	CEnumAnimParameter::operator=(
+			const CEnumAnimParameter  &);  // 98
+} /* size: 0, inline expansions: 30 (1260 bytes) */
+
+// <00794ED9> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/enumanimparameter_h_schema.gen_cpp:126
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 126
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <007946EC> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/enumanimparameter_h_schema.gen_cpp:126
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 126
+	}
+} /* size: 39 */
+
+// <0078F577> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/enumanimparameter_h_schema.gen_cpp:126
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 38078
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 126
+	}
+} /* size: 0, variables: 1 */
+
+// <0078F512> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/enumanimparameter_h_schema.gen_cpp:134
+void CEnumAnimParameter::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 9 */
+
+// <0078E74E> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/enumanimparameter_h_schema.gen_cpp:139
+// variables: 4
+// function calls: 55
+void CEnumAnimParameter::KV3TransferSave_CEnumAnimParameter(CKV3TransferSaveContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 209
+	KeyValues3::SetValueInt(
+			int value);  // 769
+	SaveValue<unsigned char>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const uint8& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<unsigned char>(
+					const unsigned char& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<unsigned char>(
+					CKV3MemberName memberNameAndHash,
+					const unsigned char& sourceValue);  // 144
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 144
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 144
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 145
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 145
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::Count(); // 830
+	AlignValue<unsigned int>(unsigned int val,
+				uintp alignment);  // 225
+	CKV3TransferSaveContext::NotePooledAllocation(
+				uint nBytes);  // 830
+	NotePooledAllocation(CKV3TransferSaveContext* pSaveContext,
+				const Array_t& arr);  // 604
+	{
+		KeyValues3* pArrayElement; // 680
+		CKV3ArrayIteratorView<false>& __for_range; // 50958
+		iterator __for_begin; // 50969
+		iterator __for_end; // 50980
+		{
+			KeyValues3::Internal_Type(); // 90
+			KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+			KeyValues3::GetType(); // 74
+			KeyValues3::GetType(); // 74
+		}
+		{
+		}
+		CKV3ArrayIteratorView<false>::CKV3ArrayIteratorView(
+					KV3Pointer_t pKV3);  // 67
+		CKV3ArrayIteratorView<false>::CKV3ArrayIteratorView(
+					KV3Pointer_t pKV3);  // 921
+		KeyValues3::IterateArray(); // 680
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 396
+		CKV3ArrayIteratorView<false>::begin(); // 680
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 401
+		CKV3ArrayIteratorView<false>::end(); // 680
+		iterator::operator!=(
+				const iterator& rhs);  // 680
+		{
+		}
+		iterator::operator*(); // 680
+		CUtlString::Get(); // 1043
+		SaveValue<CUtlString>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const CUtlString& value);  // 1539
+		CKV3TransferSaveContext::SaveValueDirect<CUtlString>(
+						const CUtlString& sourceValue,
+						KeyValues3* pSaveToMember);  // 682
+	}
+	SaveBlittableArrayElements<CUtlString>(CKV3TransferSaveContext* pContext,
+						KeyValues3* pSaveToValue,
+						int nCount,
+						const CUtlString* pValues);  // 606
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::Count(); // 812
+	GetCount(const Array_t& arr); // 605
+	CUtlMemory<CUtlString, int>::Base(); // 113
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::Base(); // 842
+	GetBase(const Array_t& arr); // 606
+	SaveValue<CUtlVector<CUtlString, CUtlMemory<CUtlString, int> > >(CKV3TransferSaveContext* pContext,
+									KeyValues3* pSaveToValue,
+									const CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >& value,
+									type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CUtlVector<CUtlString, CUtlMemory<CUtlString, int> > >(
+										const CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >& sourceValue,
+										KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CUtlVector<CUtlString, CUtlMemory<CUtlString, int> > >(
+										CKV3MemberName memberNameAndHash,
+										const CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >& sourceValue);  // 145
+} /* size: 0, inline expansions: 39 (1779 bytes) */
+
+// <0078E6E9> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/enumanimparameter_h_schema.gen_cpp:148
+void CEnumAnimParameter::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <0078D64F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/enumanimparameter_h_schema.gen_cpp:153
+// variables: 5
+// function calls: 66
+void CEnumAnimParameter::KV3TransferLoad_CEnumAnimParameter(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 158
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 160
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 160
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 696
+	{
+	}
+	KV3Helper_StringToNumber<int>(const char* pString); // 715
+	KeyValues3::GetValueAsNumeric<int>(); // 694
+	KeyValues3::GetValueAsNumeric<int>(); // 184
+	KeyValues3::GetValueInt(); // 769
+	LoadValue<unsigned char>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				uint8& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<unsigned char>(
+					unsigned char& destValue,
+					const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<unsigned char>(
+							CKV3MemberName memberNameAndHash,
+							unsigned char& destValue);  // 160
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 161
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 161
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 255
+	KeyValues3::IsArray(); // 612
+	CKV3TransferLoadContext::AllocatePooledMemory(
+				uint nElementSize,
+				uint nElementCount);  // 820
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::Count(); // 823
+	CUtlMemory<CUtlString, int>::IsExternallyAllocated(); // 577
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 91
+	V_memcpy(void* dest,
+		const void* src,
+		size_t count);  // 587
+	CUtlMemory<CUtlString, int>::ConvertToExternalMemory(
+				CUtlString* pMemory,
+				int numElements,
+				int nCopyElements,
+				bool bSetGrowable,
+				uint32 nGrowable_GrowSize);  // 306
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::ConvertToExternalMemory(
+				CUtlString* pMemory,
+				int numElements,
+				int nCopyElements,
+				bool bSetGrowable,
+				uint32 nGrowable_GrowSize);  // 823
+	SetCount(CKV3TransferLoadContext* pLoadContext,
+		Array_t& arr,
+		int nCount);  // 613
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::Count(); // 812
+	GetCount(const Array_t& arr); // 614
+	CUtlMemory<CUtlString, int>::Base(); // 112
+	CUtlVectorBase<CUtlString, CUtlMemory<CUtlString, int> >::Base(); // 838
+	GetBase(Array_t& arr); // 618
+	{
+		const KeyValues3* pArrayElement; // 647
+		CKV3ArrayIteratorView<true>& __for_range; // 50745
+		iterator __for_begin; // 50756
+		iterator __for_end; // 50767
+		{
+			KeyValues3::Internal_Type(); // 90
+			KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+			KeyValues3::GetType(); // 74
+			KeyValues3::GetType(); // 74
+		}
+		{
+		}
+		CKV3ArrayIteratorView<true>::CKV3ArrayIteratorView(
+					KV3Pointer_t pKV3);  // 67
+		CKV3ArrayIteratorView<true>::CKV3ArrayIteratorView(
+					KV3Pointer_t pKV3);  // 922
+		KeyValues3::IterateArray(); // 647
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 396
+		CKV3ArrayIteratorView<true>::begin(); // 647
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 401
+		CKV3ArrayIteratorView<true>::end(); // 647
+		iterator::operator!=(
+				const iterator& rhs);  // 647
+		{
+		}
+		iterator::operator*(); // 647
+		LoadValue<CUtlString>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					CUtlString& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<CUtlString>(
+						CUtlString& destValue,
+						const KeyValues3* pLoadFromMember);  // 651
+	}
+	LoadBlittableArrayElements<CUtlString>(CKV3TransferLoadContext* pContext,
+						const KeyValues3* pLoadFromValue,
+						int nCount,
+						CUtlString* pValues);  // 618
+	LoadValue<CUtlVector<CUtlString, CUtlMemory<CUtlString, int> > >(CKV3TransferLoadContext* pContext,
+									const KeyValues3* pLoadFromValue,
+									CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >& value,
+									type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CUtlVector<CUtlString, CUtlMemory<CUtlString, int> > >(
+										CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >& destValue,
+										const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<CUtlVector<CUtlString, CUtlMemory<CUtlString, int> > >(
+												CKV3MemberName memberNameAndHash,
+												CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >& destValue);  // 161
+} /* size: 0, variables: 1, inline expansions: 51 (2963 bytes) */
+

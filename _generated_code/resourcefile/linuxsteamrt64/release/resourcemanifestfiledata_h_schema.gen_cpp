@@ -1,0 +1,61 @@
+
+//
+// _generated_code/resourcefile/linuxsteamrt64/release/resourcemanifestfiledata_h_schema.gen_cpp
+//
+//	referenced by: libengine2.so
+//				   libschemasystem.so
+//
+//	functions: 6
+//
+
+// <0679A6BD> ../_generated_code/resourcefile/linuxsteamrt64/release/resourcemanifestfiledata_h_schema.gen_cpp:34
+void InfoForResourceTypeCResourceManifestInternal::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0679A58D> ../_generated_code/resourcefile/linuxsteamrt64/release/resourcemanifestfiledata_h_schema.gen_cpp:50
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 79
+	Schema_VerifyBindingIsRegistered(void); // 56
+	GetPrimaryBinding(void); // 56
+	InfoForResourceTypeCResourceManifestInternal::Schema_DynamicBinding(); // 53
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <0679A8C6> ../_generated_code/resourcefile/linuxsteamrt64/release/resourcemanifestfiledata_h_schema.gen_cpp:79
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 79
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <0679A843> ../_generated_code/resourcefile/linuxsteamrt64/release/resourcemanifestfiledata_h_schema.gen_cpp:79
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 79
+	}
+} /* size: 39 */
+
+// <0679A544> ../_generated_code/resourcefile/linuxsteamrt64/release/resourcemanifestfiledata_h_schema.gen_cpp:79
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 15780
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 79
+	}
+} /* size: 0, variables: 1 */
+
+// <0060ECE6> ../_generated_code/resourcefile/linuxsteamrt64/release/resourcemanifestfiledata_h_schema.gen_cpp:79
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 32299
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 79
+	}
+} /* size: 0, variables: 1 */
+

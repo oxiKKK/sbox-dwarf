@@ -1,0 +1,56 @@
+
+//
+// _generated_code/mathlib_extended/linuxsteamrt64/release/aabb_h_schema.gen_cpp
+//
+//	referenced by: libengine2.so
+//
+//	functions: 5
+//
+
+// <05926CE8> ../../_generated_code/mathlib_extended/linuxsteamrt64/release/aabb_h_schema.gen_cpp:34
+void AABB_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <05926AD4> ../../_generated_code/mathlib_extended/linuxsteamrt64/release/aabb_h_schema.gen_cpp:62
+// function calls: 7
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 91
+	Schema_VerifyBindingIsRegistered(void); // 19
+	GetPrimaryBinding(void); // 19
+	AABB_t::Schema_DynamicBinding(); // 65
+	Vector::operator=(
+			const Vector& vOther);  // 17
+	Vector::operator=(
+			const Vector& vOther);  // 17
+	AABB_t::operator=(
+			const AABB_t  &);  // 63
+} /* size: 0, inline expansions: 7 (242 bytes) */
+
+// <05926FCF> ../../_generated_code/mathlib_extended/linuxsteamrt64/release/aabb_h_schema.gen_cpp:91
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 91
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <05926F4C> ../../_generated_code/mathlib_extended/linuxsteamrt64/release/aabb_h_schema.gen_cpp:91
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 91
+	}
+} /* size: 39 */
+
+// <05926AA1> ../../_generated_code/mathlib_extended/linuxsteamrt64/release/aabb_h_schema.gen_cpp:91
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 30802
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 91
+	}
+} /* size: 0, variables: 1 */
+

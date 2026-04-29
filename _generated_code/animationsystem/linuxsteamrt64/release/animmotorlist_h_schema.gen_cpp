@@ -1,0 +1,298 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/animmotorlist_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <0075B3F6> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmotorlist_h_schema.gen_cpp:36
+void CAnimMotorList::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0075AA00> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmotorlist_h_schema.gen_cpp:61
+// variables: 2
+// function calls: 46
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 90
+	Schema_VerifyBindingIsRegistered(void); // 12
+	GetPrimaryBinding(void); // 12
+	CAnimMotorList::Schema_DynamicBinding(); // 64
+	{
+		int i; // 1721
+		CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::operator[](
+				int i);  // 602
+		Element(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor this,
+			int i);  // 1723
+		ThreadInterlockedDecrement(volatile int32* p); // 159
+		Decrement(int* p); // 295
+		CMutableRefCountBase<true, CRefMT>::DoRelease(); // 293
+		CMutableRefCountBase<true, CRefMT>::DoRelease(); // 344
+		CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::Release(); // 27
+		Release<CAnimMotorBase>(CAnimMotorBase* pObj); // 344
+		CSmartPtr<CAnimMotorBase, CRefCountAccessor>::~CSmartPtr(); // 1526
+		Destruct<CSmartPtr<CAnimMotorBase> >(CSmartPtr<CAnimMotorBase, CRefCountAccessor>* pMemory); // 1723
+	}
+	RemoveAll(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor this); // 1798
+	CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::IsExternallyAllocated(); // 905
+	CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::Purge(); // 903
+	CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::Purge(); // 1799
+	Purge(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor this); // 560
+	ValidateAlignment<CSmartPtr<CAnimMotorBase> >(void); // 508
+	CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::Purge(); // 510
+	CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::~CUtlMemory(); // 562
+	~CUtlVectorBase(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor this); // 410
+	~CUtlVector(const CUtlVector<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, i this); // 10
+	CAnimMotorList::~CAnimMotorList(); // 63
+	{
+		int i; // 1721
+		CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::operator[](
+				int i);  // 602
+		Element(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor this,
+			int i);  // 1723
+		ThreadInterlockedDecrement(volatile int32* p); // 159
+		Decrement(int* p); // 295
+		CMutableRefCountBase<true, CRefMT>::DoRelease(); // 293
+		CMutableRefCountBase<true, CRefMT>::DoRelease(); // 344
+		CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::Release(); // 27
+		Release<CAnimMotorBase>(CAnimMotorBase* pObj); // 344
+		CSmartPtr<CAnimMotorBase, CRefCountAccessor>::~CSmartPtr(); // 1526
+		Destruct<CSmartPtr<CAnimMotorBase> >(CSmartPtr<CAnimMotorBase, CRefCountAccessor>* pMemory); // 1723
+	}
+	RemoveAll(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor this); // 1798
+	CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::IsExternallyAllocated(); // 905
+	CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::Purge(); // 903
+	CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::Purge(); // 1799
+	Purge(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor this); // 560
+	ValidateAlignment<CSmartPtr<CAnimMotorBase> >(void); // 508
+	CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::Purge(); // 510
+	CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::~CUtlMemory(); // 562
+	~CUtlVectorBase(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor this); // 410
+	~CUtlVector(const CUtlVector<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, i this); // 10
+	CAnimMotorList::~CAnimMotorList(); // 63
+} /* size: 0, inline expansions: 26 (1463 bytes) */
+
+// <0075D97F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmotorlist_h_schema.gen_cpp:90
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 90
+} /* size: 0, inline expansions: 1 (12 bytes) */
+
+// <0075D227> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmotorlist_h_schema.gen_cpp:90
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 90
+	}
+} /* size: 39 */
+
+// <0075A9D2> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmotorlist_h_schema.gen_cpp:90
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 26232
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 90
+	}
+} /* size: 0, variables: 1 */
+
+// <0075A403> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmotorlist_h_schema.gen_cpp:98
+// function calls: 23
+void CAnimMotorList::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	Count(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAc this); // 830
+	AlignValue<unsigned int>(unsigned int val,
+				uintp alignment);  // 225
+	CKV3TransferSaveContext::NotePooledAllocation(
+				uint nBytes);  // 830
+	NotePooledAllocation(CKV3TransferSaveContext* pSaveContext,
+				const Array_t& arr);  // 604
+	Count(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAc this); // 812
+	GetCount(const Array_t& arr); // 605
+	CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::Base(); // 113
+	Base(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAc this); // 842
+	GetBase(const Array_t& arr); // 606
+	SaveValue<CUtlVector<CSmartPtr<CAnimMotorBase> > >(CKV3TransferSaveContext* pContext,
+								KeyValues3* pSaveToValue,
+								const CUtlVector<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, i value,
+								type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CUtlVector<CSmartPtr<CAnimMotorBase> > >(
+								const CUtlVector<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, i sourceValue,
+								KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CUtlVector<CSmartPtr<CAnimMotorBase> > >(
+									CKV3MemberName memberNameAndHash,
+									const CUtlVector<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, i sourceValue);  // 105
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 105
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 105
+	CAnimMotorList::KV3TransferSave_CAnimMotorList(
+					CKV3TransferSaveContext* pContext);  // 100
+} /* size: 225, inline expansions: 23 (739 bytes) */
+
+// <0075A3DE> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmotorlist_h_schema.gen_cpp:103
+void CAnimMotorList::KV3TransferSave_CAnimMotorList(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <00759586> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmotorlist_h_schema.gen_cpp:108
+// variables: 4
+// function calls: 59
+void CAnimMotorList::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 255
+	KeyValues3::IsArray(); // 612
+	CKV3TransferLoadContext::AllocatePooledMemory(
+				uint nElementSize,
+				uint nElementCount);  // 820
+	Count(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAc this); // 823
+	CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::IsExternallyAllocated(); // 577
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 91
+	V_memcpy(void* dest,
+		const void* src,
+		size_t count);  // 587
+	CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::ConvertToExternalMemory(
+				CSmartPtr<CAnimMotorBase, CRefCountAccessor>* pMemory,
+				int numElements,
+				int nCopyElements,
+				bool bSetGrowable,
+				uint32 nGrowable_GrowSize);  // 306
+	ConvertToExternalMemory(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor this,
+				CSmartPtr<CAnimMotorBase, CRefCountAccessor>* pMemory,
+				int numElements,
+				int nCopyElements,
+				bool bSetGrowable,
+				uint32 nGrowable_GrowSize);  // 823
+	SetCount(CKV3TransferLoadContext* pLoadContext,
+		Array_t& arr,
+		int nCount);  // 613
+	Count(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAc this); // 812
+	GetCount(const Array_t& arr); // 614
+	CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int>::Base(); // 112
+	Base(const CUtlVectorBase<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor this); // 838
+	GetBase(Array_t& arr); // 618
+	{
+		const KeyValues3* pArrayElement; // 647
+		CKV3ArrayIteratorView<true>& __for_range; // 11890
+		iterator __for_begin; // 11901
+		iterator __for_end; // 11912
+		{
+			KeyValues3::Internal_Type(); // 90
+			KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+			KeyValues3::GetType(); // 74
+			KeyValues3::GetType(); // 74
+		}
+		{
+		}
+		CKV3ArrayIteratorView<true>::CKV3ArrayIteratorView(
+					KV3Pointer_t pKV3);  // 67
+		CKV3ArrayIteratorView<true>::CKV3ArrayIteratorView(
+					KV3Pointer_t pKV3);  // 922
+		KeyValues3::IterateArray(); // 647
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 396
+		CKV3ArrayIteratorView<true>::begin(); // 647
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 401
+		CKV3ArrayIteratorView<true>::end(); // 647
+		iterator::operator!=(
+				const iterator& rhs);  // 647
+		{
+		}
+		iterator::operator*(); // 647
+		ThreadInterlockedIncrement(volatile int32* p); // 158
+		Increment(int* p); // 290
+		CMutableRefCountBase<true, CRefMT>::DoAddRef(); // 343
+		CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::AddRef(); // 21
+		AddRef<CAnimMotorBase>(CAnimMotorBase* pObj); // 366
+		ThreadInterlockedDecrement(volatile int32* p); // 159
+		Decrement(int* p); // 295
+		CMutableRefCountBase<true, CRefMT>::DoRelease(); // 293
+		CMutableRefCountBase<true, CRefMT>::DoRelease(); // 344
+		CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::Release(); // 27
+		Release<CAnimMotorBase>(CAnimMotorBase* pObj); // 370
+		CSmartPtr<CAnimMotorBase, CRefCountAccessor>::operator=(
+				CAnimMotorBase* pObj);  // 725
+		LoadValue<CSmartPtr<CAnimMotorBase> >(CKV3TransferLoadContext* pContext,
+							const KeyValues3* pLoadFromValue,
+							CSmartPtr<CAnimMotorBase, CRefCountAccessor>& value);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<CSmartPtr<CAnimMotorBase> >(
+								CSmartPtr<CAnimMotorBase, CRefCountAccessor>& destValue,
+								const KeyValues3* pLoadFromMember);  // 651
+	}
+	LoadBlittableArrayElements<CSmartPtr<CAnimMotorBase> >(CKV3TransferLoadContext* pContext,
+								const KeyValues3* pLoadFromValue,
+								int nCount,
+								CSmartPtr<CAnimMotorBase, CRefCountAccessor>* pValues);  // 618
+	LoadValue<CUtlVector<CSmartPtr<CAnimMotorBase> > >(CKV3TransferLoadContext* pContext,
+								const KeyValues3* pLoadFromValue,
+								CUtlVector<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int> >  value,
+								type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CUtlVector<CSmartPtr<CAnimMotorBase> > >(
+								CUtlVector<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int> >  destValue,
+								const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<CUtlVector<CSmartPtr<CAnimMotorBase> > >(
+										CKV3MemberName memberNameAndHash,
+										CUtlVector<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, CUtlMemory<CSmartPtr<CAnimMotorBase, CRefCountAccessor>, int> >  destValue);  // 117
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 117
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 117
+	CAnimMotorList::KV3TransferLoad_CAnimMotorList(
+					CKV3TransferLoadContext* pContext);  // 110
+} /* size: 0, inline expansions: 32 (3008 bytes) */
+
+// <00759555> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmotorlist_h_schema.gen_cpp:113
+// variable: 1
+void CAnimMotorList::KV3TransferLoad_CAnimMotorList(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 115
+} /* size: 0, variables: 1 */
+

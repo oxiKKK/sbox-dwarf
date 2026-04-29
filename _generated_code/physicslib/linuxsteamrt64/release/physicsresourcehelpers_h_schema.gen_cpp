@@ -1,0 +1,53 @@
+
+//
+// _generated_code/physicslib/linuxsteamrt64/release/physicsresourcehelpers_h_schema.gen_cpp
+//
+//	referenced by: libengine2.so
+//
+//	functions: 5
+//
+
+// <066B5BB3> ../_generated_code/physicslib/linuxsteamrt64/release/physicsresourcehelpers_h_schema.gen_cpp:34
+void VertexPositionNormal_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <066B567D> ../_generated_code/physicslib/linuxsteamrt64/release/physicsresourcehelpers_h_schema.gen_cpp:62
+// function calls: 5
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 26
+	VertexPositionNormal_t::Schema_DynamicBinding(); // 65
+	Vector::operator=(
+			const Vector& vOther);  // 24
+	Vector::operator=(
+			const Vector& vOther);  // 24
+	VertexPositionNormal_t::operator=(
+			const VertexPositionNormal_t  &);  // 63
+} /* size: 185, inline expansions: 5 (148 bytes) */
+
+// <066B5BDE> ../_generated_code/physicslib/linuxsteamrt64/release/physicsresourcehelpers_h_schema.gen_cpp:91
+void Schema_VerifyBindingIsRegistered(void)
+{
+} /* size: 0 */
+
+// <066B5659> ../_generated_code/physicslib/linuxsteamrt64/release/physicsresourcehelpers_h_schema.gen_cpp:99
+void VertexPositionColor_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <066B544B> ../_generated_code/physicslib/linuxsteamrt64/release/physicsresourcehelpers_h_schema.gen_cpp:124
+// function calls: 6
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 40
+	VertexPositionColor_t::Schema_DynamicBinding(); // 127
+	Vector::operator=(
+			const Vector& vOther);  // 38
+	VertexColor_t::AsUint32(); // 203
+	VertexColor_t::operator=(
+			const VertexColor_t& src);  // 38
+	VertexPositionColor_t::operator=(
+			const VertexPositionColor_t  &);  // 125
+} /* size: 153, inline expansions: 6 (103 bytes) */
+

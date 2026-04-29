@@ -1,0 +1,52 @@
+
+//
+// _generated_code/mathlib_extended/linuxsteamrt64/release/ssequaternion_h_schema.gen_cpp
+//
+//	referenced by: libengine2.so
+//
+//	functions: 5
+//
+
+// <0593202D> ../../_generated_code/mathlib_extended/linuxsteamrt64/release/ssequaternion_h_schema.gen_cpp:34
+void FourQuaternions::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <05931EBA> ../../_generated_code/mathlib_extended/linuxsteamrt64/release/ssequaternion_h_schema.gen_cpp:68
+// function calls: 5
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 97
+	Schema_VerifyBindingIsRegistered(void); // 182
+	GetPrimaryBinding(void); // 182
+	FourQuaternions::Schema_DynamicBinding(); // 71
+	FourQuaternions::operator=(
+			const FourQuaternions& src);  // 69
+} /* size: 0, inline expansions: 5 (156 bytes) */
+
+// <0593228C> ../../_generated_code/mathlib_extended/linuxsteamrt64/release/ssequaternion_h_schema.gen_cpp:97
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 97
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <05932209> ../../_generated_code/mathlib_extended/linuxsteamrt64/release/ssequaternion_h_schema.gen_cpp:97
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 97
+	}
+} /* size: 39 */
+
+// <05931E72> ../../_generated_code/mathlib_extended/linuxsteamrt64/release/ssequaternion_h_schema.gen_cpp:97
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 46801
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 97
+	}
+} /* size: 0, variables: 1 */
+

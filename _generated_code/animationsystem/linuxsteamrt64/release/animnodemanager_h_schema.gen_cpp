@@ -1,0 +1,179 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/animnodemanager_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 11
+//
+
+// <004298CA> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodemanager_h_schema.gen_cpp:36
+void CAnimNodeManager::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00428ADE> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodemanager_h_schema.gen_cpp:44
+// variables: 6
+// function calls: 55
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 73
+	Schema_VerifyBindingIsRegistered(void); // 13
+	GetPrimaryBinding(void); // 13
+	CAnimNodeManager::Schema_DynamicBinding(); // 47
+	CMutableRefCountBase<true, CRefMT>::operator=(
+			const CMutableRefCountBase<true, CRefMT>  &);  // 339
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::operator=(
+			const CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >  &);  // 10
+	ThreadInterlockedIncrement(volatile int32* p); // 158
+	Increment(int* p); // 290
+	CMutableRefCountBase<true, CRefMT>::DoAddRef(); // 343
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::AddRef(); // 21
+	AddRef<CAnimGraphContext>(CAnimGraphContext* pObj); // 366
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::Release(); // 27
+	Release<CAnimGraphContext>(CAnimGraphContext* pObj); // 370
+	CSmartPtr<CAnimGraphContext, CRefCountAccessor>::operator=(
+			CAnimGraphContext* pObj);  // 406
+	CSmartPtr<CAnimGraphContext, CRefCountAccessor>::operator=(
+			const CSmartPtr<CAnimGraphContext, CRefCountAccessor>& other);  // 10
+	AnimNodeID::operator=(
+			const AnimNodeID& rhs);  // 10
+	{
+		const entry_t* srcTable; // 817
+		CUtlMemory<CUtlHashtableEntry<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor> >, int>::IsExternallyAllocated(); // 905
+		CUtlMemory<CUtlHashtableEntry<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor> >, int>::Purge(); // 903
+		CUtlMemory<CUtlHashtableEntry<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor> >, int>::Purge(); // 284
+		Purge(const CUtlHashtable<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor>, DefaultHashFunctor<AnimNodeID>, DefaultEqual this); // 809
+		Reserve(const CUtlHashtable<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor>, DefaultHashFunctor<AnimNodeID>, DefaultEqual this,
+			int expected);  // 287
+		Reserve(const CUtlHashtable<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor>, DefaultHashFunctor<AnimNodeID>, DefaultEqual this,
+			int expected);  // 810
+		CUtlMemory<CUtlHashtableEntry<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor> >, int>::Base(); // 817
+		{
+			int i; // 818
+			CUtlMemory<CUtlHashtableEntry<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor> >, int>::Count(); // 818
+			CUtlHashtableEntry<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor> >::IsValid(); // 820
+			{
+				int newIdx; // 825
+				CUtlMemory<CUtlHashtableEntry<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor> >, int>::operator[](
+						int i);  // 826
+				AnimNodeID::AnimNodeID(
+						const AnimNodeID& rhs);  // 51
+				ThreadInterlockedIncrement(volatile int32* p); // 158
+				Increment(int* p); // 290
+				CMutableRefCountBase<true, CRefMT>::DoAddRef(); // 343
+				CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::AddRef(); // 21
+				AddRef<CAnimNodeBase>(CAnimNodeBase* pObj); // 366
+				CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::Release(); // 27
+				Release<CAnimNodeBase>(CAnimNodeBase* pObj); // 370
+				CSmartPtr<CAnimNodeBase, CRefCountAccessor>::operator=(
+						CAnimNodeBase* pObj);  // 406
+				CSmartPtr<CAnimNodeBase, CRefCountAccessor>::operator=(
+						const CSmartPtr<CAnimNodeBase, CRefCountAccessor>& other);  // 328
+				CSmartPtr<CAnimNodeBase, CRefCountAccessor>::CSmartPtr(
+						const CSmartPtr<CAnimNodeBase, CRefCountAccessor>& other);  // 51
+				CUtlKeyValuePair<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor> >::CUtlKeyValuePair(
+						const CUtlKeyValuePair<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor> >  &);  // 1514
+				Construct<CUtlKeyValuePair<AnimNodeID, CSmartPtr<CAnimNodeBase> >, const CUtlKeyValuePair<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor> >&>(CUtlKeyValuePair<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor> >* pMemory); // 826
+			}
+		}
+	}
+	operator=(const CUtlHashtable<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor>, DefaultHashFunctor<AnimNodeID>, DefaultEqual this,
+			const CUtlHashtable<AnimNodeID, CSmartPtr<CAnimNodeBase, CRefCountAccessor>, DefaultHashFunctor<AnimNodeID>, DefaultEqual src);  // 10
+	{
+		const entry_t* srcTable; // 817
+		CUtlMemory<CUtlHashtableEntry<AnimNodeID, CAnimNodeBase::IsExternallyAllocated(); // 905
+		CUtlMemory<CUtlHashtableEntry<AnimNodeID, CAnimNodeBase::Purge(); // 903
+		CUtlMemory<CUtlHashtableEntry<AnimNodeID, CAnimNodeBase::Purge(); // 284
+		CUtlHashtable<AnimNodeID, CAnimNodeBase::Purge(); // 809
+		CUtlHashtable<AnimNodeID, CAnimNodeBase::Reserve(
+			int expected);  // 287
+		CUtlHashtable<AnimNodeID, CAnimNodeBase::Reserve(
+			int expected);  // 810
+		CUtlMemory<CUtlHashtableEntry<AnimNodeID, CAnimNodeBase::Base(); // 817
+		{
+			int i; // 818
+			CUtlMemory<CUtlHashtableEntry<AnimNodeID, CAnimNodeBase::Count(); // 818
+			CUtlHashtableEntry<AnimNodeID, CAnimNodeBase::IsValid(); // 820
+			{
+				int newIdx; // 825
+				CUtlMemory<CUtlHashtableEntry<AnimNodeID, CAnimNodeBase::operator[](
+						int i);  // 826
+				AnimNodeID::AnimNodeID(
+						const AnimNodeID& rhs);  // 51
+				CUtlKeyValuePair<AnimNodeID, CAnimNodeBase::CUtlKeyValuePair(
+						const CUtlKeyValuePair<AnimNodeID, CAnimNodeBase*>  &);  // 1514
+				Construct<CUtlKeyValuePair<AnimNodeID, CAnimNodeBase*>, const CUtlKeyValuePair<AnimNodeID, CAnimNodeBase*>&>(CUtlKeyValuePair<AnimNodeID, CAnimNodeBase*>* pMemory); // 826
+			}
+		}
+	}
+	CUtlHashtable<AnimNodeID, CAnimNodeBase::operator=(
+			const CUtlHashtable<AnimNodeID, CAnimNodeBase*, DefaultHashFunctor<AnimNodeID>, DefaultEqualFunctor<AnimNodeID>, undefine src);  // 10
+	CAnimNodeManager::operator=(
+			const CAnimNodeManager  &);  // 45
+} /* size: 0, inline expansions: 19 (1586 bytes) */
+
+// <0044D2D1> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodemanager_h_schema.gen_cpp:73
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 73
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <0044A1F8> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodemanager_h_schema.gen_cpp:73
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 73
+	}
+} /* size: 39 */
+
+// <00428AB0> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodemanager_h_schema.gen_cpp:73
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 13155
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 73
+	}
+} /* size: 0, variables: 1 */
+
+// <00449989> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodemanager_h_schema.gen_cpp:81
+// function call: 1
+void CAnimNodeManager::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CAnimNodeManager::KV3TransferSave_CAnimNodeManager(
+					CKV3TransferSaveContext* pContext);  // 83
+} /* size: 9, inline expansions: 1 (5 bytes) */
+
+// <00428A8B> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodemanager_h_schema.gen_cpp:81
+void CAnimNodeManager::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <00428A66> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodemanager_h_schema.gen_cpp:86
+void CAnimNodeManager::KV3TransferSave_CAnimNodeManager(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <00449A20> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodemanager_h_schema.gen_cpp:91
+// function call: 1
+void CAnimNodeManager::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+	CAnimNodeManager::KV3TransferLoad_CAnimNodeManager(
+					CKV3TransferLoadContext* pContext);  // 93
+} /* size: 9, inline expansions: 1 (5 bytes) */
+
+// <00428A41> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodemanager_h_schema.gen_cpp:91
+void CAnimNodeManager::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 0 */
+
+// <00428A10> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodemanager_h_schema.gen_cpp:96
+// variable: 1
+void CAnimNodeManager::KV3TransferLoad_CAnimNodeManager(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 98
+} /* size: 0, variables: 1 */
+

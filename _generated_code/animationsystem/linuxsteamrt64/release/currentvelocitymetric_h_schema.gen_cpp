@@ -1,0 +1,140 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/currentvelocitymetric_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <00715937> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/currentvelocitymetric_h_schema.gen_cpp:36
+void CCurrentVelocityMetric::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00715381> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/currentvelocitymetric_h_schema.gen_cpp:63
+// function calls: 23
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 92
+	Schema_VerifyBindingIsRegistered(void); // 12
+	GetPrimaryBinding(void); // 12
+	CCurrentVelocityMetric::Schema_DynamicBinding(); // 66
+	CMutableRefCountBase<true, CRefMT>::operator=(
+			const CMutableRefCountBase<true, CRefMT>  &);  // 339
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::operator=(
+			const CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >  &);  // 18
+	ThreadInterlockedIncrement(volatile int32* p); // 158
+	Increment(int* p); // 290
+	CMutableRefCountBase<true, CRefMT>::DoAddRef(); // 343
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::AddRef(); // 21
+	AddRef<CAnimGraphContext>(CAnimGraphContext* pObj); // 366
+	ThreadInterlockedDecrement(volatile int32* p); // 159
+	Decrement(int* p); // 295
+	CMutableRefCountBase<true, CRefMT>::DoRelease(); // 293
+	CMutableRefCountBase<true, CRefMT>::DoRelease(); // 344
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::Release(); // 27
+	Release<CAnimGraphContext>(CAnimGraphContext* pObj); // 370
+	CSmartPtr<CAnimGraphContext, CRefCountAccessor>::operator=(
+			CAnimGraphContext* pObj);  // 406
+	CSmartPtr<CAnimGraphContext, CRefCountAccessor>::operator=(
+			const CSmartPtr<CAnimGraphContext, CRefCountAccessor>& other);  // 18
+	CMotionMetricBase::operator=(
+			const CMotionMetricBase  &);  // 9
+	CCurrentVelocityMetric::operator=(
+			const CCurrentVelocityMetric  &);  // 64
+	CCurrentVelocityMetric::CCurrentVelocityMetric(); // 65
+	CCurrentVelocityMetric::CCurrentVelocityMetric(); // 65
+} /* size: 0, inline expansions: 23 (676 bytes) */
+
+// <00719C5D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/currentvelocitymetric_h_schema.gen_cpp:92
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 92
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00718F89> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/currentvelocitymetric_h_schema.gen_cpp:92
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 92
+	}
+} /* size: 39 */
+
+// <00715353> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/currentvelocitymetric_h_schema.gen_cpp:92
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 21758
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 92
+	}
+} /* size: 0, variables: 1 */
+
+// <00714E94> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/currentvelocitymetric_h_schema.gen_cpp:100
+// function calls: 18
+void CCurrentVelocityMetric::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 221
+	KeyValues3::SetValueFloat(
+			float value);  // 776
+	SaveValue<float>(CKV3TransferSaveContext* pContext,
+			KeyValues3* pSaveToValue,
+			const float& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<float>(
+				const float& sourceValue,
+				KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<float>(
+				CKV3MemberName memberNameAndHash,
+				const float& sourceValue);  // 110
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 110
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 110
+	CMotionMetricBase::KV3TransferSave_CMotionMetricBase(
+						CKV3TransferSaveContext* pContext);  // 108
+	CCurrentVelocityMetric::KV3TransferSave_CCurrentVelocityMetric(
+						CKV3TransferSaveContext* pContext);  // 102
+} /* size: 234, inline expansions: 18 (896 bytes) */
+
+// <00714E6F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/currentvelocitymetric_h_schema.gen_cpp:105
+void CCurrentVelocityMetric::KV3TransferSave_CCurrentVelocityMetric(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <00714DC8> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/currentvelocitymetric_h_schema.gen_cpp:112
+// function call: 1
+void CCurrentVelocityMetric::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+	CCurrentVelocityMetric::KV3TransferLoad_CCurrentVelocityMetric(
+						CKV3TransferLoadContext* pContext);  // 114
+} /* size: 9, inline expansions: 1 (5 bytes) */
+
+// <00714D97> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/currentvelocitymetric_h_schema.gen_cpp:117
+// variable: 1
+void CCurrentVelocityMetric::KV3TransferLoad_CCurrentVelocityMetric(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 122
+} /* size: 0, variables: 1 */
+

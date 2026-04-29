@@ -1,0 +1,316 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/subgraphanimnode_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <005ABFAC> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/subgraphanimnode_h_schema.gen_cpp:36
+void CSubGraphAnimNode::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <005AB447> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/subgraphanimnode_h_schema.gen_cpp:110
+// variables: 3
+// function calls: 42
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 139
+	Schema_VerifyBindingIsRegistered(void); // 18
+	GetPrimaryBinding(void); // 18
+	CSubGraphAnimNode::Schema_DynamicBinding(); // 113
+	AnimNodeID::operator=(
+			const AnimNodeID& rhs);  // 15
+	AnimNodeID::operator=(
+			const AnimNodeID& rhs);  // 15
+	{
+		const entry_t* srcTable; // 817
+		CUtlMemory<CUtlHashtableEntry<AnimOutputID, CNodeConnection>, int>::IsExternallyAllocated(); // 905
+		CUtlMemory<CUtlHashtableEntry<AnimOutputID, CNodeConnection>, int>::Purge(); // 903
+		CUtlMemory<CUtlHashtableEntry<AnimOutputID, CNodeConnection>, int>::Purge(); // 284
+		Purge(const CUtlHashtable<AnimOutputID, CNodeConnection, DefaultHashFunctor<AnimOutputID>, DefaultEqualFunctor<AnimOutputID>, u this); // 809
+		Reserve(const CUtlHashtable<AnimOutputID, CNodeConnection, DefaultHashFunctor<AnimOutputID>, DefaultEqualFunctor<AnimOutputID>, u this,
+			int expected);  // 287
+		Reserve(const CUtlHashtable<AnimOutputID, CNodeConnection, DefaultHashFunctor<AnimOutputID>, DefaultEqualFunctor<AnimOutputID>, u this,
+			int expected);  // 810
+		CUtlMemory<CUtlHashtableEntry<AnimOutputID, CNodeConnection>, int>::Base(); // 817
+		{
+			int i; // 818
+			CUtlMemory<CUtlHashtableEntry<AnimOutputID, CNodeConnection>, int>::Count(); // 818
+			CUtlHashtableEntry<AnimOutputID, CNodeConnection>::IsValid(); // 820
+			{
+				int newIdx; // 825
+				CUtlMemory<CUtlHashtableEntry<AnimOutputID, CNodeConnection>, int>::operator[](
+						int i);  // 826
+				AnimOutputID::AnimOutputID(
+						const AnimOutputID& rhs);  // 51
+				AnimOutputID::AnimOutputID(
+						const AnimOutputID& rhs);  // 22
+				AnimNodeID::AnimNodeID(
+						const AnimNodeID& rhs);  // 22
+				CNodeConnection::CNodeConnection(
+						const CNodeConnection  &);  // 51
+				CUtlKeyValuePair<AnimOutputID, CNodeConnection>::CUtlKeyValuePair(
+						const CUtlKeyValuePair<AnimOutputID, CNodeConnection>  &);  // 1514
+				Construct<CUtlKeyValuePair<AnimOutputID, CNodeConnection>, const CUtlKeyValuePair<AnimOutputID, CNodeConnection>&>(CUtlKeyValuePair<AnimOutputID, CNodeConnection>* pMemory); // 826
+			}
+		}
+	}
+	operator=(const CUtlHashtable<AnimOutputID, CNodeConnection, DefaultHashFunctor<AnimOutputID>, DefaultEqualFunctor<AnimOutputID>, u this,
+			const CUtlHashtable<AnimOutputID, CNodeConnection, DefaultHashFunctor<AnimOutputID>, DefaultEqualFunctor<AnimOutputID>, u src);  // 15
+	ThreadInterlockedIncrement(volatile int32* p); // 158
+	Increment(int* p); // 290
+	CMutableRefCountBase<true, CRefMT>::DoAddRef(); // 343
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::AddRef(); // 21
+	AddRef<CSubGraph>(CSubGraph* pObj); // 366
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::Release(); // 27
+	Release<CSubGraph>(CSubGraph* pObj); // 370
+	CSmartPtr<CSubGraph, CRefCountAccessor>::operator=(
+			CSubGraph* pObj);  // 406
+	CSmartPtr<CSubGraph, CRefCountAccessor>::operator=(
+			const CSmartPtr<CSubGraph, CRefCountAccessor>& other);  // 15
+	ThreadInterlockedIncrement(volatile int32* p); // 158
+	Increment(int* p); // 290
+	CMutableRefCountBase<true, CRefMT>::DoAddRef(); // 343
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::AddRef(); // 21
+	AddRef<CAnimNodeManager>(CAnimNodeManager* pObj); // 366
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::Release(); // 27
+	Release<CAnimNodeManager>(CAnimNodeManager* pObj); // 370
+	CSmartPtr<CAnimNodeManager, CRefCountAccessor>::operator=(
+			CAnimNodeManager* pObj);  // 406
+	CSmartPtr<CAnimNodeManager, CRefCountAccessor>::operator=(
+			const CSmartPtr<CAnimNodeManager, CRefCountAccessor>& other);  // 15
+	CSubGraphAnimNode::operator=(
+			const CSubGraphAnimNode  &);  // 111
+} /* size: 0, inline expansions: 26 (1211 bytes) */
+
+// <005ED92D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/subgraphanimnode_h_schema.gen_cpp:139
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 139
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <005E9373> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/subgraphanimnode_h_schema.gen_cpp:139
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 139
+	}
+} /* size: 39 */
+
+// <005AB419> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/subgraphanimnode_h_schema.gen_cpp:139
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 41267
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 139
+	}
+} /* size: 0, variables: 1 */
+
+// <005AB3B4> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/subgraphanimnode_h_schema.gen_cpp:147
+void CSubGraphAnimNode::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 9 */
+
+// <005AA90D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/subgraphanimnode_h_schema.gen_cpp:152
+// function calls: 34
+void CSubGraphAnimNode::KV3TransferSave_CSubGraphAnimNode(CKV3TransferSaveContext* pContext)
+{
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 157
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 157
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CUtlStack<KeyValues3::Count(); // 199
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 250
+	KeyValues3::SetToNull(); // 213
+	CKV3TransferSaveContext::SaveClassPointer<const CNodeConnection>(
+						const CNodeConnection* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 172
+	CKV3TransferSaveContext::SaveClassPointer<const AnimNodeID>(
+						const AnimNodeID* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 488
+	SaveValue<AnimNodeID>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const AnimNodeID& value,
+				type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<AnimNodeID>(
+					const AnimNodeID& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<AnimNodeID>(
+					CKV3MemberName memberNameAndHash,
+					const AnimNodeID& sourceValue);  // 157
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 158
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 158
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CUtlStack<KeyValues3::Count(); // 199
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 250
+	KeyValues3::SetToNull(); // 213
+	CKV3TransferSaveContext::SaveClassPointer<const CNodeConnection>(
+						const CNodeConnection* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 172
+	CKV3TransferSaveContext::SaveClassPointer<const AnimNodeID>(
+						const AnimNodeID* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 488
+	SaveValue<AnimNodeID>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const AnimNodeID& value,
+				type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<AnimNodeID>(
+					const AnimNodeID& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<AnimNodeID>(
+					CKV3MemberName memberNameAndHash,
+					const AnimNodeID& sourceValue);  // 158
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 159
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 159
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CUtlString::Get(); // 1043
+	SaveValue<CUtlString>(CKV3TransferSaveContext* pContext,
+				KeyValues3* pSaveToValue,
+				const CUtlString& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CUtlString>(
+					const CUtlString& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CUtlString>(
+					CKV3MemberName memberNameAndHash,
+					const CUtlString& sourceValue);  // 159
+} /* size: 536, inline expansions: 34 (1773 bytes) */
+
+// <005AA8A8> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/subgraphanimnode_h_schema.gen_cpp:163
+void CSubGraphAnimNode::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <005A9C94> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/subgraphanimnode_h_schema.gen_cpp:168
+// variable: 1
+// function calls: 43
+void CSubGraphAnimNode::KV3TransferLoad_CSubGraphAnimNode(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 173
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 175
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 175
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CUtlStack<const KeyValues3::Count(); // 413
+	CKV3TransferLoadContext::LoadClassInstance<AnimNodeID>(
+					AnimNodeID* pClassInstance,
+					const KeyValues3* pNestedValue);  // 495
+	LoadValue<AnimNodeID>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				AnimNodeID& value,
+				type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<AnimNodeID>(
+					AnimNodeID& destValue,
+					const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<AnimNodeID>(
+						CKV3MemberName memberNameAndHash,
+						AnimNodeID& destValue);  // 175
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 176
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 176
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CUtlStack<const KeyValues3::Count(); // 413
+	CKV3TransferLoadContext::LoadClassInstance<AnimNodeID>(
+					AnimNodeID* pClassInstance,
+					const KeyValues3* pNestedValue);  // 495
+	LoadValue<AnimNodeID>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				AnimNodeID& value,
+				type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<AnimNodeID>(
+					AnimNodeID& destValue,
+					const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<AnimNodeID>(
+						CKV3MemberName memberNameAndHash,
+						AnimNodeID& destValue);  // 176
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 177
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 177
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	LoadValue<CUtlString>(CKV3TransferLoadContext* pContext,
+				const KeyValues3* pLoadFromValue,
+				CUtlString& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CUtlString>(
+					CUtlString& destValue,
+					const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<CUtlString>(
+						CKV3MemberName memberNameAndHash,
+						CUtlString& destValue);  // 177
+} /* size: 399, variables: 1, inline expansions: 43 (1157 bytes) */
+

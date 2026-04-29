@@ -1,0 +1,392 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/animnodelist_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <0042C223> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodelist_h_schema.gen_cpp:36
+void CAnimNodeList::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0042B88D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodelist_h_schema.gen_cpp:61
+// function calls: 22
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 90
+	Schema_VerifyBindingIsRegistered(void); // 12
+	GetPrimaryBinding(void); // 12
+	CAnimNodeList::Schema_DynamicBinding(); // 64
+	CMutableRefCountBase<true, CRefMT>::operator=(
+			const CMutableRefCountBase<true, CRefMT>  &);  // 339
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::operator=(
+			const CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >  &);  // 10
+	CUtlVectorBase<CAnimNodeBase::Count(); // 573
+	CUtlMemory<CAnimNodeBase::Base(); // 112
+	CUtlVectorBase<CAnimNodeBase::Base(); // 102
+	CUtlVectorBase<CAnimNodeBase::begin(); // 574
+	CUtlMemory<CAnimNodeBase::Base(); // 113
+	CUtlVectorBase<CAnimNodeBase::Base(); // 105
+	CUtlVectorBase<CAnimNodeBase::Count(); // 105
+	CUtlVectorBase<CAnimNodeBase::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<CAnimNodeBase*>(CAnimNodeBase* const* pFrom,
+						CAnimNodeBase* const* pFromEnd,
+						CAnimNodeBase** pTo);  // 173
+	UtlTraitsCopyRange<CAnimNodeBase*>(CAnimNodeBase* const* pFrom,
+						CAnimNodeBase* const* pFromEnd,
+						CAnimNodeBase** pTo);  // 574
+	CUtlVectorBase<CAnimNodeBase::operator=(
+			const CUtlVectorBase<CAnimNodeBase*, CUtlMemory<CAnimNodeBase*, int> >& other);  // 565
+	CUtlVectorBase<CAnimNodeBase::operator=(
+			const CUtlVectorBase<CAnimNodeBase*, CUtlMemory<CAnimNodeBase*, int> >& other);  // 452
+	CUtlVector<CAnimNodeBase::operator=(
+			const CUtlVector<CAnimNodeBase*, CUtlMemory<CAnimNodeBase*, int> >& src);  // 10
+	CAnimNodeList::operator=(
+			const CAnimNodeList  &);  // 62
+} /* size: 0, inline expansions: 22 (650 bytes) */
+
+// <0044D283> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodelist_h_schema.gen_cpp:90
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 90
+} /* size: 0, inline expansions: 1 (12 bytes) */
+
+// <0044A177> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodelist_h_schema.gen_cpp:90
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 90
+	}
+} /* size: 39 */
+
+// <0042B85F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodelist_h_schema.gen_cpp:90
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 13155
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 90
+	}
+} /* size: 0, variables: 1 */
+
+// <0042AB3F> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodelist_h_schema.gen_cpp:98
+// variables: 4
+// function calls: 50
+void CAnimNodeList::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	CUtlVectorBase<CAnimNodeBase::Count(); // 830
+	AlignValue<unsigned int>(unsigned int val,
+				uintp alignment);  // 225
+	CKV3TransferSaveContext::NotePooledAllocation(
+				uint nBytes);  // 830
+	NotePooledAllocation(CKV3TransferSaveContext* pSaveContext,
+				const Array_t& arr);  // 604
+	{
+		KeyValues3* pArrayElement; // 680
+		CKV3ArrayIteratorView<false>& __for_range; // 27090
+		iterator __for_begin; // 27100
+		iterator __for_end; // 27110
+		KeyValues3::IterateArray(); // 680
+		iterator::operator!=(
+				const iterator& rhs);  // 680
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 396
+		CKV3ArrayIteratorView<false>::begin(); // 680
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 401
+		CKV3ArrayIteratorView<false>::end(); // 680
+		V_strcpy_safe<256>(char& pDest,
+					const char* pSrc);  // 62
+		GetPrimaryBinding(void); // 38
+		Schema_StaticBinding(void); // 56
+		{
+			CSchemaClassInfo::HasFlag1(
+				SchemaClassFlags1_t nFlag);  // 173
+			CSchemaClassInfo::IsAbstractBinding(); // 58
+		}
+		CSchemaClassInfo::GetName(); // 62
+		{
+			_DebuggerBreakInlineExpressionWrapper(void); // 58
+		}
+		KV3TransferSchema_ClassName<CAnimNodeBase>(const CAnimNodeBase* pObject,
+								char& pOutPolymorphicClassName);  // 53
+		KV3TransferSchema_ClassName<CAnimNodeBase>(const CAnimNodeBase* pObject,
+								char& pOutPolymorphicClassName);  // 39
+		KV3TransferPolymorphicClassname(const CAnimNodeBase* pObject,
+						char& pOutPolymorphicClassName);  // 135
+		GetPolymorphicClassName<CAnimNodeBase>(const CAnimNodeBase* pObject,
+							char& pOutPolymorphicClassName,
+							type *, ...);  // 185
+		CUtlStack<KeyValues3::Count(); // 199
+		KeyValues3::Internal_PrepareForInternalType(
+						KeyValues3InternalType_t newType);  // 950
+		KeyValues3::Internal_PrepareForType(
+					KeyValues3Type_t newType);  // 250
+		KeyValues3::SetToNull(); // 213
+		CKV3TransferSaveContext::SaveClassPointer<const AnimParamID>(
+							const AnimParamID* const& pClassInstance,
+							KeyValues3* pSaveToValue);  // 172
+		CKV3TransferSaveContext::SaveClassPointer<CAnimNodeBase>(
+						CAnimNodeBase* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 697
+		SaveValue<CAnimNodeBase*>(CKV3TransferSaveContext* pContext,
+						KeyValues3* pSaveToValue,
+						CAnimNodeBase* const& value,
+						type *);  // 1539
+		CKV3TransferSaveContext::SaveValueDirect<CAnimNodeBase*>(
+						CAnimNodeBase* const& sourceValue,
+						KeyValues3* pSaveToMember);  // 682
+		{
+		}
+		iterator::operator*(); // 680
+	}
+	SaveBlittableArrayElements<CAnimNodeBase*>(CKV3TransferSaveContext* pContext,
+							KeyValues3* pSaveToValue,
+							int nCount,
+							CAnimNodeBase* const* pValues);  // 606
+	CUtlVectorBase<CAnimNodeBase::Count(); // 812
+	GetCount(const Array_t& arr); // 605
+	CUtlMemory<CAnimNodeBase::Base(); // 113
+	CUtlVectorBase<CAnimNodeBase::Base(); // 842
+	GetBase(const Array_t& arr); // 606
+	SaveValue<CUtlVector<CAnimNodeBase*> >(CKV3TransferSaveContext* pContext,
+						KeyValues3* pSaveToValue,
+						const CUtlVector<CAnimNodeBase*, CUtlMemory<CAnimNodeBase*, int> >& value,
+						type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CUtlVector<CAnimNodeBase*> >(
+							const CUtlVector<CAnimNodeBase*, CUtlMemory<CAnimNodeBase*, int> >& sourceValue,
+							KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CUtlVector<CAnimNodeBase*> >(
+							CKV3MemberName memberNameAndHash,
+							const CUtlVector<CAnimNodeBase*, CUtlMemory<CAnimNodeBase*, int> >& sourceValue);  // 105
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 105
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 105
+	CAnimNodeList::KV3TransferSave_CAnimNodeList(
+					CKV3TransferSaveContext* pContext);  // 100
+} /* size: 0, inline expansions: 24 (2802 bytes) */
+
+// <0042AB1A> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodelist_h_schema.gen_cpp:103
+void CAnimNodeList::KV3TransferSave_CAnimNodeList(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <0042AAB4> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodelist_h_schema.gen_cpp:108
+void CAnimNodeList::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <004298E2> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animnodelist_h_schema.gen_cpp:113
+// variables: 10
+// function calls: 66
+void CAnimNodeList::KV3TransferLoad_CAnimNodeList(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 115
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 106
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			uint& nNextValueHint,
+			const KeyValues3* pDefaultValue);  // 289
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 289
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 255
+	KeyValues3::IsArray(); // 612
+	CKV3TransferLoadContext::AllocatePooledMemory(
+				uint nElementSize,
+				uint nElementCount);  // 820
+	CUtlVectorBase<CAnimNodeBase::Count(); // 823
+	CUtlMemory<CAnimNodeBase::IsExternallyAllocated(); // 577
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 91
+	V_memcpy(void* dest,
+		const void* src,
+		size_t count);  // 587
+	CUtlMemory<CAnimNodeBase::ConvertToExternalMemory(
+				CAnimNodeBase** pMemory,
+				int numElements,
+				int nCopyElements,
+				bool bSetGrowable,
+				uint32 nGrowable_GrowSize);  // 306
+	CUtlVectorBase<CAnimNodeBase::ConvertToExternalMemory(
+				CAnimNodeBase** pMemory,
+				int numElements,
+				int nCopyElements,
+				bool bSetGrowable,
+				uint32 nGrowable_GrowSize);  // 823
+	SetCount(CKV3TransferLoadContext* pLoadContext,
+		Array_t& arr,
+		int nCount);  // 613
+	CUtlVectorBase<CAnimNodeBase::Count(); // 812
+	GetCount(const Array_t& arr); // 614
+	CUtlMemory<CAnimNodeBase::Base(); // 112
+	CUtlVectorBase<CAnimNodeBase::Base(); // 838
+	GetBase(Array_t& arr); // 618
+	{
+		const KeyValues3* pArrayElement; // 647
+		CKV3ArrayIteratorView<true>& __for_range; // 26886
+		iterator __for_begin; // 26896
+		iterator __for_end; // 26906
+		KeyValues3::IterateArray(); // 647
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 396
+		CKV3ArrayIteratorView<true>::begin(); // 647
+		iterator::iterator(
+			const KV3Pointer_t* pArrayElements,
+			int nStartingIndex,
+			int nArrayElementCount);  // 401
+		CKV3ArrayIteratorView<true>::end(); // 647
+		iterator::operator!=(
+				const iterator& rhs);  // 647
+		{
+		}
+		iterator::operator*(); // 647
+		LoadValue<CAnimNodeBase*>(CKV3TransferLoadContext* pContext,
+						const KeyValues3* pLoadFromValue,
+						CAnimNodeBase *& value,
+						type *);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<CAnimNodeBase*>(
+						CAnimNodeBase *& destValue,
+						const KeyValues3* pLoadFromMember);  // 651
+	}
+	LoadBlittableArrayElements<CAnimNodeBase*>(CKV3TransferLoadContext* pContext,
+							const KeyValues3* pLoadFromValue,
+							int nCount,
+							CAnimNodeBase** pValues);  // 618
+	LoadValue<CUtlVector<CAnimNodeBase*> >(CKV3TransferLoadContext* pContext,
+						const KeyValues3* pLoadFromValue,
+						CUtlVector<CAnimNodeBase*, CUtlMemory<CAnimNodeBase*, int> >& value,
+						type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CUtlVector<CAnimNodeBase*> >(
+							CUtlVector<CAnimNodeBase*, CUtlMemory<CAnimNodeBase*, int> >& destValue,
+							const KeyValues3* pLoadFromMember);  // 292
+	{
+		KeyValues3 nullValue; // 300
+		KeyValues3::Internal_Type(); // 90
+		KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+		KeyValues3::GetType(); // 255
+		KeyValues3::IsArray(); // 612
+		CKV3TransferLoadContext::AllocatePooledMemory(
+					uint nElementSize,
+					uint nElementCount);  // 820
+		CUtlVectorBase<CAnimNodeBase::Count(); // 823
+		CUtlMemory<CAnimNodeBase::IsExternallyAllocated(); // 577
+		memcpy(void* __dest,
+			const void* __src,
+			size_t __len);  // 91
+		V_memcpy(void* dest,
+			const void* src,
+			size_t count);  // 587
+		CUtlMemory<CAnimNodeBase::ConvertToExternalMemory(
+					CAnimNodeBase** pMemory,
+					int numElements,
+					int nCopyElements,
+					bool bSetGrowable,
+					uint32 nGrowable_GrowSize);  // 306
+		CUtlVectorBase<CAnimNodeBase::ConvertToExternalMemory(
+					CAnimNodeBase** pMemory,
+					int numElements,
+					int nCopyElements,
+					bool bSetGrowable,
+					uint32 nGrowable_GrowSize);  // 823
+		SetCount(CKV3TransferLoadContext* pLoadContext,
+			Array_t& arr,
+			int nCount);  // 613
+		CUtlVectorBase<CAnimNodeBase::Count(); // 812
+		GetCount(const Array_t& arr); // 614
+		CUtlMemory<CAnimNodeBase::Base(); // 112
+		CUtlVectorBase<CAnimNodeBase::Base(); // 838
+		GetBase(Array_t& arr); // 618
+		{
+			const KeyValues3* pArrayElement; // 647
+			CKV3ArrayIteratorView<true>& __for_range; // 26886
+			iterator __for_begin; // 26896
+			iterator __for_end; // 26906
+			KeyValues3::IterateArray(); // 647
+			iterator::iterator(
+				const KV3Pointer_t* pArrayElements,
+				int nStartingIndex,
+				int nArrayElementCount);  // 396
+			CKV3ArrayIteratorView<true>::begin(); // 647
+			iterator::iterator(
+				const KV3Pointer_t* pArrayElements,
+				int nStartingIndex,
+				int nArrayElementCount);  // 401
+			CKV3ArrayIteratorView<true>::end(); // 647
+			iterator::operator!=(
+					const iterator& rhs);  // 647
+			{
+			}
+			iterator::operator*(); // 647
+			LoadValue<CAnimNodeBase*>(CKV3TransferLoadContext* pContext,
+							const KeyValues3* pLoadFromValue,
+							CAnimNodeBase *& value,
+							type *);  // 1548
+			CKV3TransferLoadContext::LoadValueDirect<CAnimNodeBase*>(
+							CAnimNodeBase *& destValue,
+							const KeyValues3* pLoadFromMember);  // 651
+		}
+		LoadBlittableArrayElements<CAnimNodeBase*>(CKV3TransferLoadContext* pContext,
+								const KeyValues3* pLoadFromValue,
+								int nCount,
+								CAnimNodeBase** pValues);  // 618
+		LoadValue<CUtlVector<CAnimNodeBase*> >(CKV3TransferLoadContext* pContext,
+							const KeyValues3* pLoadFromValue,
+							CUtlVector<CAnimNodeBase*, CUtlMemory<CAnimNodeBase*, int> >& value,
+							type *);  // 1548
+		CKV3TransferLoadContext::LoadValueDirect<CUtlVector<CAnimNodeBase*> >(
+								CUtlVector<CAnimNodeBase*, CUtlMemory<CAnimNodeBase*, int> >& destValue,
+								const KeyValues3* pLoadFromMember);  // 301
+	}
+	CKV3TransferLoadContext::LoadValueFromMember<CUtlVector<CAnimNodeBase*> >(
+							CKV3MemberName memberNameAndHash,
+							CUtlVector<CAnimNodeBase*, CUtlMemory<CAnimNodeBase*, int> >& destValue,
+							uint& nNextMemberHint);  // 287
+	CKV3TransferLoadContext::LoadValueFromMember<CUtlVector<CAnimNodeBase*> >(
+							CKV3MemberName memberNameAndHash,
+							CUtlVector<CAnimNodeBase*, CUtlMemory<CAnimNodeBase*, int> >& destValue,
+							uint& nNextMemberHint);  // 117
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 117
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 117
+} /* size: 0, variables: 1, inline expansions: 28 (2644 bytes) */
+

@@ -1,0 +1,80 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/inputstreamanimnode_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <005EC008> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/inputstreamanimnode_h_schema.gen_cpp:36
+void CInputStreamAnimNode::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <005E7032> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/inputstreamanimnode_h_schema.gen_cpp:63
+// function calls: 5
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 92
+	Schema_VerifyBindingIsRegistered(void); // 16
+	GetPrimaryBinding(void); // 16
+	CInputStreamAnimNode::Schema_DynamicBinding(); // 66
+	CInputStreamAnimNode::operator=(
+			const CInputStreamAnimNode  &);  // 64
+} /* size: 0, inline expansions: 5 (159 bytes) */
+
+// <005EC033> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/inputstreamanimnode_h_schema.gen_cpp:92
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 92
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <005E8946> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/inputstreamanimnode_h_schema.gen_cpp:92
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 92
+	}
+} /* size: 39 */
+
+// <005E7004> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/inputstreamanimnode_h_schema.gen_cpp:92
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 41267
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 92
+	}
+} /* size: 0, variables: 1 */
+
+// <005E6F62> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/inputstreamanimnode_h_schema.gen_cpp:100
+// function call: 1
+void CInputStreamAnimNode::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CInputStreamAnimNode::KV3TransferSave_CInputStreamAnimNode(
+						CKV3TransferSaveContext* pContext);  // 102
+} /* size: 9, inline expansions: 1 (5 bytes) */
+
+// <005E6F3D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/inputstreamanimnode_h_schema.gen_cpp:105
+void CInputStreamAnimNode::KV3TransferSave_CInputStreamAnimNode(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <005E6E96> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/inputstreamanimnode_h_schema.gen_cpp:112
+// function call: 1
+void CInputStreamAnimNode::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+	CInputStreamAnimNode::KV3TransferLoad_CInputStreamAnimNode(
+						CKV3TransferLoadContext* pContext);  // 114
+} /* size: 9, inline expansions: 1 (5 bytes) */
+
+// <005E6E65> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/inputstreamanimnode_h_schema.gen_cpp:117
+// variable: 1
+void CInputStreamAnimNode::KV3TransferLoad_CInputStreamAnimNode(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 122
+} /* size: 0, variables: 1 */
+

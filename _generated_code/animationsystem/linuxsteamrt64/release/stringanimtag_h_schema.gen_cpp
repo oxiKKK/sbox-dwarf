@@ -1,0 +1,93 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/stringanimtag_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <00678137> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/stringanimtag_h_schema.gen_cpp:36
+void CStringAnimTag::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00677D10> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/stringanimtag_h_schema.gen_cpp:63
+// function calls: 13
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 92
+	Schema_VerifyBindingIsRegistered(void); // 13
+	GetPrimaryBinding(void); // 13
+	CStringAnimTag::Schema_DynamicBinding(); // 66
+	CMutableRefCountBase<true, CRefMT>::operator=(
+			const CMutableRefCountBase<true, CRefMT>  &);  // 339
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::operator=(
+			const CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >  &);  // 13
+	V_strlen(const char* str); // 393
+	CUtlString::Length(); // 161
+	CUtlString::Get(); // 161
+	CUtlString::operator=(
+			const CUtlString& src);  // 13
+	AnimTagID::operator=(
+			const AnimTagID& rhs);  // 13
+	CAnimTagBase::operator=(
+			const CAnimTagBase  &);  // 10
+	CStringAnimTag::operator=(
+			const CStringAnimTag  &);  // 64
+} /* size: 0, inline expansions: 13 (591 bytes) */
+
+// <00681A78> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/stringanimtag_h_schema.gen_cpp:92
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 92
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00681396> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/stringanimtag_h_schema.gen_cpp:92
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 92
+	}
+} /* size: 39 */
+
+// <00677CE2> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/stringanimtag_h_schema.gen_cpp:92
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 64989
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 92
+	}
+} /* size: 0, variables: 1 */
+
+// <00677C41> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/stringanimtag_h_schema.gen_cpp:100
+// function call: 1
+void CStringAnimTag::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CStringAnimTag::KV3TransferSave_CStringAnimTag(
+					CKV3TransferSaveContext* pContext);  // 102
+} /* size: 9, inline expansions: 1 (5 bytes) */
+
+// <00677C1C> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/stringanimtag_h_schema.gen_cpp:105
+void CStringAnimTag::KV3TransferSave_CStringAnimTag(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <00677B76> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/stringanimtag_h_schema.gen_cpp:112
+// function call: 1
+void CStringAnimTag::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+	CStringAnimTag::KV3TransferLoad_CStringAnimTag(
+					CKV3TransferLoadContext* pContext);  // 114
+} /* size: 9, inline expansions: 1 (5 bytes) */
+
+// <00677B45> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/stringanimtag_h_schema.gen_cpp:117
+// variable: 1
+void CStringAnimTag::KV3TransferLoad_CStringAnimTag(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 122
+} /* size: 0, variables: 1 */
+

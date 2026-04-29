@@ -1,0 +1,274 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/animmovementmanager_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <006818CC> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmovementmanager_h_schema.gen_cpp:36
+void CAnimMovementManager::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0067FA39> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmovementmanager_h_schema.gen_cpp:64
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 93
+	Schema_VerifyBindingIsRegistered(void); // 21
+	GetPrimaryBinding(void); // 21
+	CAnimMovementManager::Schema_DynamicBinding(); // 67
+} /* size: 0, inline expansions: 4 (144 bytes) */
+
+// <006818F7> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmovementmanager_h_schema.gen_cpp:93
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 93
+} /* size: 0, inline expansions: 1 (12 bytes) */
+
+// <00681116> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmovementmanager_h_schema.gen_cpp:93
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 93
+	}
+} /* size: 39 */
+
+// <0067FA0B> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmovementmanager_h_schema.gen_cpp:93
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 64989
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 93
+	}
+} /* size: 0, variables: 1 */
+
+// <0067F9A6> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmovementmanager_h_schema.gen_cpp:101
+void CAnimMovementManager::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 9 */
+
+// <0067E8CD> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmovementmanager_h_schema.gen_cpp:106
+// function calls: 60
+void CAnimMovementManager::KV3TransferSave_CAnimMovementManager(CKV3TransferSaveContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	GetPrimaryBinding(void); // 12
+	Schema_StaticBinding(void); // 56
+	{
+		CSchemaClassInfo::HasFlag1(
+			SchemaClassFlags1_t nFlag);  // 173
+		CSchemaClassInfo::IsAbstractBinding(); // 58
+	}
+	CSchemaClassInfo::GetName(); // 62
+	V_strcpy_safe<256>(char& pDest,
+				const char* pSrc);  // 62
+	{
+		_DebuggerBreakInlineExpressionWrapper(void); // 58
+	}
+	KV3TransferSchema_ClassName<CAnimMotorList>(const CAnimMotorList* pObject,
+							char& pOutPolymorphicClassName);  // 53
+	KV3TransferSchema_ClassName<CAnimMotorList>(const CAnimMotorList* pObject,
+							char& pOutPolymorphicClassName);  // 13
+	KV3TransferPolymorphicClassname(const CAnimMotorList* pObject,
+					char& pOutPolymorphicClassName);  // 135
+	GetPolymorphicClassName<const CAnimMotorList>(const CAnimMotorList* pObject,
+							char& pOutPolymorphicClassName,
+							type *, ...);  // 185
+	CUtlStack<KeyValues3::Count(); // 199
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 250
+	KeyValues3::SetToNull(); // 213
+	CKV3TransferSaveContext::SaveClassPointer<const CAnimMotorList>(
+						const CAnimMotorList* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 172
+	CKV3TransferSaveContext::SaveClassPointer<const CAnimMotorList>(
+						const CAnimMotorList* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 488
+	SaveValue<CAnimMotorList>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const CAnimMotorList& value,
+					type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CAnimMotorList>(
+					const CAnimMotorList& sourceValue,
+					KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CAnimMotorList>(
+						CKV3MemberName memberNameAndHash,
+						const CAnimMotorList& sourceValue);  // 108
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 108
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 108
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	GetPrimaryBinding(void); // 11
+	Schema_StaticBinding(void); // 56
+	{
+		CSchemaClassInfo::HasFlag1(
+			SchemaClassFlags1_t nFlag);  // 173
+		CSchemaClassInfo::IsAbstractBinding(); // 58
+	}
+	CSchemaClassInfo::GetName(); // 62
+	V_strcpy_safe<256>(char& pDest,
+				const char* pSrc);  // 62
+	{
+		_DebuggerBreakInlineExpressionWrapper(void); // 58
+	}
+	KV3TransferSchema_ClassName<CAnimMovementSettings>(const CAnimMovementSettings* pObject,
+								char& pOutPolymorphicClassName);  // 53
+	KV3TransferSchema_ClassName<CAnimMovementSettings>(const CAnimMovementSettings* pObject,
+								char& pOutPolymorphicClassName);  // 12
+	KV3TransferPolymorphicClassname(const CAnimMovementSettings* pObject,
+					char& pOutPolymorphicClassName);  // 135
+	GetPolymorphicClassName<const CAnimMovementSettings>(const CAnimMovementSettings* pObject,
+								char& pOutPolymorphicClassName,
+								type *, ...);  // 185
+	CUtlStack<KeyValues3::Count(); // 199
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 250
+	KeyValues3::SetToNull(); // 213
+	CKV3TransferSaveContext::SaveClassPointer<const CAnimMotorList>(
+						const CAnimMotorList* const& pClassInstance,
+						KeyValues3* pSaveToValue);  // 172
+	CKV3TransferSaveContext::SaveClassPointer<const CAnimMovementSettings>(
+							const CAnimMovementSettings* const& pClassInstance,
+							KeyValues3* pSaveToValue);  // 488
+	SaveValue<CAnimMovementSettings>(CKV3TransferSaveContext* pContext,
+					KeyValues3* pSaveToValue,
+					const CAnimMovementSettings& value,
+					type *);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<CAnimMovementSettings>(
+						const CAnimMovementSettings& sourceValue,
+						KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<CAnimMovementSettings>(
+						CKV3MemberName memberNameAndHash,
+						const CAnimMovementSettings& sourceValue);  // 109
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 109
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 109
+} /* size: 0, inline expansions: 54 (4108 bytes) */
+
+// <0067E868> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmovementmanager_h_schema.gen_cpp:112
+void CAnimMovementManager::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 9 */
+
+// <0067E004> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animmovementmanager_h_schema.gen_cpp:117
+// variable: 1
+// function calls: 30
+void CAnimMovementManager::KV3TransferLoad_CAnimMovementManager(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 119
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CUtlStack<const KeyValues3::Count(); // 413
+	CKV3TransferLoadContext::LoadClassInstance<CAnimMotorList>(
+						CAnimMotorList* pClassInstance,
+						const KeyValues3* pNestedValue);  // 495
+	LoadValue<CAnimMotorList>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					CAnimMotorList& value,
+					type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CAnimMotorList>(
+					CAnimMotorList& destValue,
+					const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<CAnimMotorList>(
+							CKV3MemberName memberNameAndHash,
+							CAnimMotorList& destValue);  // 121
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 121
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 121
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 122
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 122
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CUtlStack<const KeyValues3::Count(); // 413
+	CKV3TransferLoadContext::LoadClassInstance<CAnimMovementSettings>(
+						CAnimMovementSettings* pClassInstance,
+						const KeyValues3* pNestedValue);  // 495
+	LoadValue<CAnimMovementSettings>(CKV3TransferLoadContext* pContext,
+					const KeyValues3* pLoadFromValue,
+					CAnimMovementSettings& value,
+					type *);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<CAnimMovementSettings>(
+						CAnimMovementSettings& destValue,
+						const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<CAnimMovementSettings>(
+								CKV3MemberName memberNameAndHash,
+								CAnimMovementSettings& destValue);  // 122
+} /* size: 337, variables: 1, inline expansions: 30 (978 bytes) */
+

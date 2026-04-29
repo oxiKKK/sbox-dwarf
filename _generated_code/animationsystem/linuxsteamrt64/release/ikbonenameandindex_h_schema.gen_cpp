@@ -1,0 +1,65 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/ikbonenameandindex_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 5
+//
+
+// <00D271DB> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ikbonenameandindex_h_schema.gen_cpp:36
+void IKBoneNameAndIndex_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 5 */
+
+// <00CB0793> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ikbonenameandindex_h_schema.gen_cpp:69
+// function calls: 17
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 98
+	Schema_VerifyBindingIsRegistered(void); // 12
+	GetPrimaryBinding(void); // 12
+	IKBoneNameAndIndex_t::Schema_DynamicBinding(); // 72
+	V_strlen(const char* str); // 393
+	CUtlString::Length(); // 161
+	CUtlString::Get(); // 161
+	CUtlString::operator=(
+			const CUtlString& src);  // 9
+	IKBoneNameAndIndex_t::operator=(
+			const IKBoneNameAndIndex_t  &);  // 70
+	CUtlString::CUtlString(); // 26
+	IKBoneNameAndIndex_t::IKBoneNameAndIndex_t(); // 71
+	CUtlString::CUtlString(); // 26
+	IKBoneNameAndIndex_t::IKBoneNameAndIndex_t(); // 71
+	CUtlString::~CUtlString(); // 9
+	IKBoneNameAndIndex_t::~IKBoneNameAndIndex_t(); // 71
+	CUtlString::~CUtlString(); // 9
+	IKBoneNameAndIndex_t::~IKBoneNameAndIndex_t(); // 71
+} /* size: 0, inline expansions: 17 (491 bytes) */
+
+// <00D320AA> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ikbonenameandindex_h_schema.gen_cpp:98
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 98
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00D27E19> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ikbonenameandindex_h_schema.gen_cpp:98
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 98
+	}
+} /* size: 39 */
+
+// <00CB0762> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/ikbonenameandindex_h_schema.gen_cpp:98
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 22509
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 98
+	}
+} /* size: 0, variables: 1 */
+

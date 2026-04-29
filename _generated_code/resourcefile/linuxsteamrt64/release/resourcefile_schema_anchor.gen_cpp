@@ -1,0 +1,93 @@
+
+//
+// _generated_code/resourcefile/linuxsteamrt64/release/resourcefile_schema_anchor.gen_cpp
+//
+//	referenced by: libengine2.so
+//				   libschemasystem.so
+//
+//	functions: 4
+//	class: 1
+//
+
+// <0678D12D> ../_generated_code/resourcefile/linuxsteamrt64/release/resourcefile_schema_anchor.gen_cpp:35
+// variables: 2
+// function calls: 32
+void ImplSchema_ProjectTypesInit_resourcefile(void)
+{
+	CSchemaType** pTypes; // 35
+	ISchemaSystemTypeScope* pTypeScope; // 35
+	Get(ISchemaSystemTypeScope* pTypeScope); // 37
+	Get(ISchemaSystemTypeScope* pTypeScope); // 38
+	Get(ISchemaSystemTypeScope* pTypeScope); // 39
+	Get(ISchemaSystemTypeScope* pTypeScope); // 40
+	Get(ISchemaSystemTypeScope* pTypeScope); // 41
+	Get(ISchemaSystemTypeScope* pTypeScope); // 42
+	Get(ISchemaSystemTypeScope* pTypeScope); // 43
+	Get(ISchemaSystemTypeScope* pTypeScope); // 44
+	Get(ISchemaSystemTypeScope* pTypeScope); // 45
+	Get(ISchemaSystemTypeScope* pTypeScope); // 46
+	Get(ISchemaSystemTypeScope* pTypeScope); // 47
+	Get(ISchemaSystemTypeScope* pTypeScope); // 48
+	Get(ISchemaSystemTypeScope* pTypeScope); // 49
+	Get(ISchemaSystemTypeScope* pTypeScope); // 50
+	Get(ISchemaSystemTypeScope* pTypeScope); // 51
+	Get(ISchemaSystemTypeScope* pTypeScope); // 52
+	Get(ISchemaSystemTypeScope* pTypeScope); // 53
+	Get(ISchemaSystemTypeScope* pTypeScope); // 54
+	Get(ISchemaSystemTypeScope* pTypeScope); // 55
+	Get(ISchemaSystemTypeScope* pTypeScope); // 56
+	Get(ISchemaSystemTypeScope* pTypeScope); // 57
+	Get(ISchemaSystemTypeScope* pTypeScope); // 58
+	Get(ISchemaSystemTypeScope* pTypeScope); // 59
+	Get(ISchemaSystemTypeScope* pTypeScope); // 60
+	Get(ISchemaSystemTypeScope* pTypeScope); // 61
+	Get(ISchemaSystemTypeScope* pTypeScope); // 62
+	Get(ISchemaSystemTypeScope* pTypeScope); // 63
+	Get(ISchemaSystemTypeScope* pTypeScope); // 64
+	Get(ISchemaSystemTypeScope* pTypeScope); // 65
+	Get(ISchemaSystemTypeScope* pTypeScope); // 66
+	Get(ISchemaSystemTypeScope* pTypeScope); // 67
+	Get(ISchemaSystemTypeScope* pTypeScope); // 68
+} /* size: 980, variables: 2, inline expansions: 32 (688 bytes) */
+
+// <0678CFA5> ../_generated_code/resourcefile/linuxsteamrt64/release/resourcefile_schema_anchor.gen_cpp:89
+// variables: 4
+void CSchemaRegistration_resourcefile::RegisterAllBindings(ISchemaSystem* pSchemaSystem, SchemaRegistrationPhase_t nRegistrationPhase, CBufferString* pFailureReason)
+{
+	const char* pBinaryName; // 89
+	const char* pProjectName; // 89
+	CSchemaType** pTypeTable; // 89
+	int nTypeTableSize; // 89
+} /* size: 226, variables: 4 */
+
+// <0678CF8E> ../_generated_code/resourcefile/linuxsteamrt64/release/resourcefile_schema_anchor.gen_cpp:89
+void CSchemaRegistration_resourcefile::CSchemaRegistration_resourcefile()
+{
+} /* size: 0 */
+
+// <0678CF72> ../_generated_code/resourcefile/linuxsteamrt64/release/resourcefile_schema_anchor.gen_cpp:89
+inline void CSchemaRegistration_resourcefile::CSchemaRegistration_resourcefile()
+{
+} /* size: 0 */
+
+// <06787090> ../_generated_code/resourcefile/linuxsteamrt64/release/resourcefile_schema_anchor.gen_cpp:89
+// member functions: 10
+// member variable: 1
+// vtable entry: 1
+// class size: 16
+class CSchemaRegistration_resourcefile : public CSchemaRegistration {
+public:
+	/* class CSchemaRegistration <ancestor>; */ /* 0 16 */
+	void ~CSchemaRegistration_resourcefile(CSchemaRegistration_resourcefile* );
+	void CSchemaRegistration_resourcefile(CSchemaRegistration_resourcefile* , CSchemaRegistration_resourcefile& );
+	void CSchemaRegistration_resourcefile(CSchemaRegistration_resourcefile* , const CSchemaRegistration_resourcefile& );
+	void CSchemaRegistration_resourcefile(CSchemaRegistration_resourcefile* );
+	/* ../_generated_code/resourcefile/linuxsteamrt64/release/resourcefile_schema_anchor.gen_cpp:89 */
+	virtual bool RegisterAllBindings(CSchemaRegistration_resourcefile* , ISchemaSystem* , SchemaRegistrationPhase_t, CBufferString* );
+	void ~CSchemaRegistration_resourcefile(class CSchemaRegistration_resourcefile *); /* linkage=_ZN32CSchemaRegistration_resourcefileD4Ev */
+	void CSchemaRegistration_resourcefile(class CSchemaRegistration_resourcefile *, class CSchemaRegistration_resourcefile &); /* linkage=_ZN32CSchemaRegistration_resourcefileC4EOS_ */
+	void CSchemaRegistration_resourcefile(class CSchemaRegistration_resourcefile *, const class CSchemaRegistration_resourcefile  &); /* linkage=_ZN32CSchemaRegistration_resourcefileC4ERKS_ */
+	void CSchemaRegistration_resourcefile(class CSchemaRegistration_resourcefile *); /* linkage=_ZN32CSchemaRegistration_resourcefileC4Ev */
+	virtual bool RegisterAllBindings(class CSchemaRegistration_resourcefile *, class ISchemaSystem *, enum SchemaRegistrationPhase_t, class CBufferString *); /* linkage=_ZN32CSchemaRegistration_resourcefile19RegisterAllBindingsEP13ISchemaSystem25SchemaRegistrationPhase_tP13CBufferString */
+};
+

@@ -1,0 +1,95 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/pathanimmotor_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 9
+//
+
+// <007549FA> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/pathanimmotor_h_schema.gen_cpp:36
+void CPathAnimMotor::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <007545FE> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/pathanimmotor_h_schema.gen_cpp:63
+// function calls: 14
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 92
+	Schema_VerifyBindingIsRegistered(void); // 12
+	GetPrimaryBinding(void); // 12
+	CPathAnimMotor::Schema_DynamicBinding(); // 66
+	CMutableRefCountBase<true, CRefMT>::operator=(
+			const CMutableRefCountBase<true, CRefMT>  &);  // 339
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::operator=(
+			const CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >  &);  // 18
+	V_strlen(const char* str); // 393
+	CUtlString::Length(); // 161
+	CUtlString::Get(); // 161
+	CUtlString::operator=(
+			const CUtlString& src);  // 18
+	CAnimMotorBase::operator=(
+			const CAnimMotorBase  &);  // 10
+	CAnimInputDamping::operator=(
+			const CAnimInputDamping  &);  // 10
+	CPathAnimMotorBase::operator=(
+			const CPathAnimMotorBase  &);  // 9
+	CPathAnimMotor::operator=(
+			const CPathAnimMotor  &);  // 64
+} /* size: 0, inline expansions: 14 (894 bytes) */
+
+// <0075DA69> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/pathanimmotor_h_schema.gen_cpp:92
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 92
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <0075D3AA> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/pathanimmotor_h_schema.gen_cpp:92
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 92
+	}
+} /* size: 39 */
+
+// <007545D0> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/pathanimmotor_h_schema.gen_cpp:92
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 26232
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 92
+	}
+} /* size: 0, variables: 1 */
+
+// <0075452E> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/pathanimmotor_h_schema.gen_cpp:100
+// function call: 1
+void CPathAnimMotor::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CPathAnimMotor::KV3TransferSave_CPathAnimMotor(
+					CKV3TransferSaveContext* pContext);  // 102
+} /* size: 9, inline expansions: 1 (5 bytes) */
+
+// <00754509> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/pathanimmotor_h_schema.gen_cpp:105
+void CPathAnimMotor::KV3TransferSave_CPathAnimMotor(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <00754462> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/pathanimmotor_h_schema.gen_cpp:112
+// function call: 1
+void CPathAnimMotor::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+	CPathAnimMotor::KV3TransferLoad_CPathAnimMotor(
+					CKV3TransferLoadContext* pContext);  // 114
+} /* size: 9, inline expansions: 1 (5 bytes) */
+
+// <00754431> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/pathanimmotor_h_schema.gen_cpp:117
+// variable: 1
+void CPathAnimMotor::KV3TransferLoad_CPathAnimMotor(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 122
+} /* size: 0, variables: 1 */
+

@@ -1,0 +1,152 @@
+
+//
+// _generated_code/schemasystem/linuxsteamrt64/release/internalregistration_h_schema.gen_cpp
+//
+//	referenced by: libschemasystem.so
+//
+//	functions: 4
+//
+
+// <0020EACD> ../_generated_code/schemasystem/linuxsteamrt64/release/internalregistration_h_schema.gen_cpp:34
+void CSchemaSystemInternalRegistration::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0020D726> ../_generated_code/schemasystem/linuxsteamrt64/release/internalregistration_h_schema.gen_cpp:110
+// function calls: 89
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 18
+	CSchemaSystemInternalRegistration::Schema_DynamicBinding(); // 113
+	Vector2D::operator=(
+			const Vector2D& vOther);  // 15
+	Vector::operator=(
+			const Vector& vOther);  // 15
+	VectorAligned::operator=(
+			const VectorAligned& src);  // 15
+	QAngle::operator=(
+			const QAngle& vOther);  // 15
+	Color::GetRawColor(); // 147
+	Color::SetRawColor(
+			int32 Color);  // 147
+	Color::operator=(
+			const Color& rhs);  // 15
+	Vector4D::operator=(
+			const Vector4D& vOther);  // 15
+	VectorAligned::operator=(
+			const VectorAligned& src);  // 26
+	QuaternionAligned::operator=(
+			const QuaternionAligned& vOther);  // 26
+	CTransform::operator=(
+			const CTransform  &);  // 15
+	V_strlen(const char* str); // 393
+	CUtlString::Length(); // 161
+	CUtlString::Get(); // 161
+	CUtlString::operator=(
+			const CUtlString& src);  // 15
+	CUtlSymbol::operator=(
+			const CUtlSymbol& src);  // 15
+	CResourceArrayBase::Count(); // 409
+	ResolveOffset(const int32* pOffset); // 304
+	CResourceArrayBase::GetRawPtr(); // 416
+	CResourceArray<CResourcePointer<CResourceString> >::GetPtr(); // 409
+	CResourceArrayBase::Count(); // 410
+	CResourceArray<CResourcePointer<CResourceString> >::operator=(
+			const CResourceArray<CResourcePointer<CResourceString> >& that);  // 15
+	CSchemaSystemInternalRegistration::operator=(
+			const CSchemaSystemInternalRegistration  &);  // 111
+	Vector2D::Vector2D(); // 15
+	Vector::Vector(); // 15
+	VectorAligned::VectorAligned(); // 15
+	QAngle::QAngle(); // 15
+	RadianEuler::RadianEuler(); // 15
+	DegreeEuler::DegreeEuler(); // 15
+	Quaternion::Quaternion(); // 15
+	matrix3x4_t::matrix3x4_t(); // 15
+	matrix3x4_t::matrix3x4_t(); // 303
+	matrix3x4a_t::matrix3x4a_t(); // 15
+	Color::Color(); // 15
+	CUtlSymbol::CUtlSymbol(); // 15
+	Vector4D::Vector4D(); // 15
+	VectorAligned::VectorAligned(); // 31
+	QuaternionAligned::QuaternionAligned(); // 31
+	CTransform::CTransform(); // 15
+	CUtlMemory<unsigned char, int>::ValidateGrowSize(); // 475
+	CUtlMemory<unsigned char, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 80
+	CUtlBinaryBlock::CUtlBinaryBlock(
+			int growSize,
+			int initSize);  // 15
+	CUtlString::CUtlString(); // 15
+	CUtlStringToken::CUtlStringToken(); // 15
+	CResourceArrayBase::CResourceArrayBase(); // 370
+	CResourceArray<CResourcePointer<CResourceString> >::CResourceArray(); // 15
+	CSchemaSystemInternalRegistration::CSchemaSystemInternalRegistration(); // 112
+	CUtlString::~CUtlString(); // 15
+	ValidateAlignment<unsigned char>(void); // 508
+	CUtlMemory<unsigned char, int>::IsExternallyAllocated(); // 905
+	CUtlMemory<unsigned char, int>::Purge(); // 903
+	CUtlMemory<unsigned char, int>::Purge(); // 510
+	CUtlMemory<unsigned char, int>::~CUtlMemory(); // 19
+	CUtlBinaryBlock::~CUtlBinaryBlock(); // 15
+	CSchemaSystemInternalRegistration::~CSchemaSystemInternalRegistration(); // 112
+	Vector2D::Vector2D(); // 15
+	Vector::Vector(); // 15
+	VectorAligned::VectorAligned(); // 15
+	QAngle::QAngle(); // 15
+	RadianEuler::RadianEuler(); // 15
+	DegreeEuler::DegreeEuler(); // 15
+	Quaternion::Quaternion(); // 15
+	matrix3x4_t::matrix3x4_t(); // 15
+	matrix3x4_t::matrix3x4_t(); // 303
+	matrix3x4a_t::matrix3x4a_t(); // 15
+	Color::Color(); // 15
+	Vector4D::Vector4D(); // 15
+	VectorAligned::VectorAligned(); // 31
+	QuaternionAligned::QuaternionAligned(); // 31
+	CTransform::CTransform(); // 15
+	CUtlMemory<unsigned char, int>::ValidateGrowSize(); // 475
+	CUtlMemory<unsigned char, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 80
+	CUtlBinaryBlock::CUtlBinaryBlock(
+			int growSize,
+			int initSize);  // 15
+	CUtlSymbol::CUtlSymbol(); // 15
+	CUtlString::CUtlString(); // 15
+	CUtlStringToken::CUtlStringToken(); // 15
+	CResourceArrayBase::CResourceArrayBase(); // 370
+	CResourceArray<CResourcePointer<CResourceString> >::CResourceArray(); // 15
+	CSchemaSystemInternalRegistration::CSchemaSystemInternalRegistration(); // 112
+	CUtlString::~CUtlString(); // 15
+	ValidateAlignment<unsigned char>(void); // 508
+	CUtlMemory<unsigned char, int>::IsExternallyAllocated(); // 905
+	CUtlMemory<unsigned char, int>::Purge(); // 903
+	CUtlMemory<unsigned char, int>::Purge(); // 510
+	CUtlMemory<unsigned char, int>::~CUtlMemory(); // 19
+	CUtlBinaryBlock::~CUtlBinaryBlock(); // 15
+	CSchemaSystemInternalRegistration::~CSchemaSystemInternalRegistration(); // 112
+} /* size: 1048, inline expansions: 89 (1984 bytes) */
+
+// <0020F271> ../_generated_code/schemasystem/linuxsteamrt64/release/internalregistration_h_schema.gen_cpp:139
+// function calls: 3
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 139
+	{
+		Schema_StaticClassname(void); // 139
+	}
+	Schema_VerifyBindingIsRegistered(void); // 139
+} /* size: 0, inline expansions: 2 (54 bytes) */
+
+// <0020D6F3> ../_generated_code/schemasystem/linuxsteamrt64/release/internalregistration_h_schema.gen_cpp:139
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 735
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 139
+	}
+} /* size: 0, variables: 1 */
+

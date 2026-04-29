@@ -1,0 +1,266 @@
+
+//
+// _generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp
+//
+//	referenced by: libmeshsystem.so
+//
+//	functions: 14
+//
+
+// <0059B030> ../_generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp:158
+void RenderInputLayoutField_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0059AA6B> ../_generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp:201
+// function calls: 4
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 230
+	Schema_VerifyBindingIsRegistered(void); // 208
+	GetPrimaryBinding(void); // 208
+	RenderInputLayoutField_t::Schema_DynamicBinding(); // 204
+} /* size: 0, inline expansions: 4 (126 bytes) */
+
+// <0059B05B> ../_generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp:230
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 230
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <0059AF2C> ../_generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp:230
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 230
+	}
+} /* size: 39 */
+
+// <0059AA3A> ../_generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp:230
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 35817
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 230
+	}
+} /* size: 0, variables: 1 */
+
+// <0059AA1E> ../_generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp:238
+void VsInputSignatureElement_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0059A6AB> ../_generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp:272
+// function calls: 12
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	VsInputSignatureElement_t::VsInputSignatureElement_t(); // 274
+	memset(void* __dest,
+		int __ch,
+		size_t __len);  // 67
+	V_memset(void* dest,
+		int fill,
+		size_t count);  // 343
+	memset(void* __dest,
+		int __ch,
+		size_t __len);  // 67
+	V_memset(void* dest,
+		int fill,
+		size_t count);  // 344
+	memset(void* __dest,
+		int __ch,
+		size_t __len);  // 67
+	V_memset(void* dest,
+		int fill,
+		size_t count);  // 345
+	VsInputSignatureElement_t::VsInputSignatureElement_t(); // 274
+	GetPrimaryBinding(void); // 301
+	Schema_VerifyBindingIsRegistered(void); // 334
+	GetPrimaryBinding(void); // 334
+	VsInputSignatureElement_t::Schema_DynamicBinding(); // 275
+} /* size: 0, inline expansions: 12 (273 bytes) */
+
+// <0059B0A8> ../_generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp:301
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 301
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <0059AFAE> ../_generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp:301
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 301
+	}
+} /* size: 39 */
+
+// <0059A678> ../_generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp:301
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 35817
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 301
+	}
+} /* size: 0, variables: 1 */
+
+// <0059A65B> ../_generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp:309
+void VsInputSignature_t::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00599571> ../_generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp:334
+// variable: 1
+// function calls: 75
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 372
+	VsInputSignature_t::Schema_DynamicBinding(); // 337
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::Count(); // 573
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::RemoveMultipleFromTail(
+				int num);  // 1323
+	CUtlMemory<VsInputSignatureElement_t, int>::NumAllocated(); // 782
+	CUtlMemory<VsInputSignatureElement_t, int>::IsGrowable(); // 823
+	CUtlMemory<VsInputSignatureElement_t, int>::IsExternallyAllocated(); // 859
+	CUtlMemory<VsInputSignatureElement_t, int>::IsExternallyAllocated(); // 861
+	CUtlMemory<VsInputSignatureElement_t, int>::Grow(
+		int num);  // 806
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::ResetDbgInfo(); // 824
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::GrowMemory(
+			int num);  // 784
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::GrowVector(
+			int num);  // 1445
+	{
+		int i; // 1451
+		memset(void* __dest,
+			int __ch,
+			size_t __len);  // 67
+		V_memset(void* dest,
+			int fill,
+			size_t count);  // 343
+		memset(void* __dest,
+			int __ch,
+			size_t __len);  // 67
+		V_memset(void* dest,
+			int fill,
+			size_t count);  // 344
+		memset(void* __dest,
+			int __ch,
+			size_t __len);  // 67
+		V_memset(void* dest,
+			int fill,
+			size_t count);  // 345
+		VsInputSignatureElement_t::VsInputSignatureElement_t(); // 1479
+		Construct<VsInputSignatureElement_t>(VsInputSignatureElement_t* pMemory); // 1453
+		CUtlMemory<VsInputSignatureElement_t, int>::operator[](
+				int i);  // 602
+		CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::Element(
+			int i);  // 1453
+	}
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::InsertMultipleBefore(
+				int elem,
+				int num);  // 1437
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::InsertMultipleBefore(
+				int elem,
+				int num);  // 1294
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::AddMultipleToTail(
+				int num);  // 1319
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::SetCount(
+		int count);  // 573
+	CUtlMemory<VsInputSignatureElement_t, int>::Base(); // 112
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::Base(); // 102
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::begin(); // 574
+	CUtlMemory<VsInputSignatureElement_t, int>::Base(); // 113
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::Base(); // 105
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::Count(); // 105
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::end(); // 574
+	memcpy(void* __dest,
+		const void* __src,
+		size_t __len);  // 85
+	V_memcpy(void* dest,
+		const void* src,
+		ptrdiff_t count);  // 180
+	UtlTraitsCopyRange<VsInputSignatureElement_t>(const VsInputSignatureElement_t* pFrom,
+							const VsInputSignatureElement_t* pFromEnd,
+							VsInputSignatureElement_t* pTo);  // 173
+	UtlTraitsCopyRange<VsInputSignatureElement_t>(const VsInputSignatureElement_t* pFrom,
+							const VsInputSignatureElement_t* pFromEnd,
+							VsInputSignatureElement_t* pTo);  // 574
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::operator=(
+			const CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >& other);  // 565
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::operator=(
+			const CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >& other);  // 452
+	CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::operator=(
+			const CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >& src);  // 370
+	VsInputSignature_t::operator=(
+			const VsInputSignature_t  &);  // 335
+	CUtlMemory<VsInputSignatureElement_t, int>::ValidateGrowSize(); // 475
+	CUtlMemory<VsInputSignatureElement_t, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::ResetDbgInfo(); // 530
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::CUtlVector(); // 370
+	VsInputSignature_t::VsInputSignature_t(); // 336
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::RemoveAll(); // 1798
+	CUtlMemory<VsInputSignatureElement_t, int>::IsExternallyAllocated(); // 905
+	CUtlMemory<VsInputSignatureElement_t, int>::Purge(); // 903
+	CUtlMemory<VsInputSignatureElement_t, int>::Purge(); // 1799
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::Purge(); // 560
+	ValidateAlignment<VsInputSignatureElement_t>(void); // 508
+	CUtlMemory<VsInputSignatureElement_t, int>::Purge(); // 510
+	CUtlMemory<VsInputSignatureElement_t, int>::~CUtlMemory(); // 562
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::~CUtlVectorBase(); // 410
+	CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::~CUtlVector(); // 370
+	VsInputSignature_t::~VsInputSignature_t(); // 336
+	CUtlMemory<VsInputSignatureElement_t, int>::ValidateGrowSize(); // 475
+	CUtlMemory<VsInputSignatureElement_t, int>::CUtlMemory(
+			int nGrowSize,
+			int nInitAllocationCount);  // 527
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::ResetDbgInfo(); // 530
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::CUtlVectorBase(
+			int growSize,
+			int initCapacity);  // 418
+	CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::CUtlVector(); // 370
+	VsInputSignature_t::VsInputSignature_t(); // 336
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::RemoveAll(); // 1798
+	CUtlMemory<VsInputSignatureElement_t, int>::IsExternallyAllocated(); // 905
+	CUtlMemory<VsInputSignatureElement_t, int>::Purge(); // 903
+	CUtlMemory<VsInputSignatureElement_t, int>::Purge(); // 1799
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::Purge(); // 560
+	ValidateAlignment<VsInputSignatureElement_t>(void); // 508
+	CUtlMemory<VsInputSignatureElement_t, int>::Purge(); // 510
+	CUtlMemory<VsInputSignatureElement_t, int>::~CUtlMemory(); // 562
+	CUtlVectorBase<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::~CUtlVectorBase(); // 410
+	CUtlVector<VsInputSignatureElement_t, CUtlMemory<VsInputSignatureElement_t, int> >::~CUtlVector(); // 370
+	VsInputSignature_t::~VsInputSignature_t(); // 336
+} /* size: 772, inline expansions: 65 (4892 bytes) */
+
+// <0059B0F6> ../_generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp:363
+// function calls: 3
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 363
+	{
+		Schema_StaticClassname(void); // 363
+	}
+	Schema_VerifyBindingIsRegistered(void); // 363
+} /* size: 0, inline expansions: 2 (54 bytes) */
+
+// <0059953E> ../_generated_code/meshsystem/linuxsteamrt64/release/rendersystemtypes_h_schema.gen_cpp:363
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 35817
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 363
+	}
+} /* size: 0, variables: 1 */
+

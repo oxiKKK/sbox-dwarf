@@ -1,0 +1,92 @@
+
+//
+// _generated_code/schemalib/linuxsteamrt64/release/schemalib_schema_anchor.gen_cpp
+//
+//	referenced by: libschemasystem.so
+//
+//	functions: 4
+//	class: 1
+//
+
+// <006D59BE> ../_generated_code/schemalib/linuxsteamrt64/release/schemalib_schema_anchor.gen_cpp:35
+// variables: 2
+// function calls: 32
+void ImplSchema_ProjectTypesInit_schemalib(void)
+{
+	CSchemaType** pTypes; // 35
+	ISchemaSystemTypeScope* pTypeScope; // 35
+	Get(ISchemaSystemTypeScope* pTypeScope); // 37
+	Get(ISchemaSystemTypeScope* pTypeScope); // 38
+	Get(ISchemaSystemTypeScope* pTypeScope); // 39
+	Get(ISchemaSystemTypeScope* pTypeScope); // 40
+	Get(ISchemaSystemTypeScope* pTypeScope); // 41
+	Get(ISchemaSystemTypeScope* pTypeScope); // 42
+	Get(ISchemaSystemTypeScope* pTypeScope); // 43
+	Get(ISchemaSystemTypeScope* pTypeScope); // 44
+	Get(ISchemaSystemTypeScope* pTypeScope); // 45
+	Get(ISchemaSystemTypeScope* pTypeScope); // 46
+	Get(ISchemaSystemTypeScope* pTypeScope); // 47
+	Get(ISchemaSystemTypeScope* pTypeScope); // 48
+	Get(ISchemaSystemTypeScope* pTypeScope); // 49
+	Get(ISchemaSystemTypeScope* pTypeScope); // 50
+	Get(ISchemaSystemTypeScope* pTypeScope); // 51
+	Get(ISchemaSystemTypeScope* pTypeScope); // 52
+	Get(ISchemaSystemTypeScope* pTypeScope); // 53
+	Get(ISchemaSystemTypeScope* pTypeScope); // 54
+	Get(ISchemaSystemTypeScope* pTypeScope); // 55
+	Get(ISchemaSystemTypeScope* pTypeScope); // 56
+	Get(ISchemaSystemTypeScope* pTypeScope); // 57
+	Get(ISchemaSystemTypeScope* pTypeScope); // 58
+	Get(ISchemaSystemTypeScope* pTypeScope); // 59
+	Get(ISchemaSystemTypeScope* pTypeScope); // 60
+	Get(ISchemaSystemTypeScope* pTypeScope); // 61
+	Get(ISchemaSystemTypeScope* pTypeScope); // 62
+	Get(ISchemaSystemTypeScope* pTypeScope); // 63
+	Get(ISchemaSystemTypeScope* pTypeScope); // 64
+	Get(ISchemaSystemTypeScope* pTypeScope); // 65
+	Get(ISchemaSystemTypeScope* pTypeScope); // 66
+	Get(ISchemaSystemTypeScope* pTypeScope); // 67
+	Get(ISchemaSystemTypeScope* pTypeScope); // 68
+} /* size: 980, variables: 2, inline expansions: 32 (688 bytes) */
+
+// <006D589A> ../_generated_code/schemalib/linuxsteamrt64/release/schemalib_schema_anchor.gen_cpp:76
+// variables: 4
+void CSchemaRegistration_schemalib::RegisterAllBindings(ISchemaSystem* pSchemaSystem, SchemaRegistrationPhase_t nRegistrationPhase, CBufferString* pFailureReason)
+{
+	const char* pBinaryName; // 76
+	const char* pProjectName; // 76
+	CSchemaType** pTypeTable; // 76
+	int nTypeTableSize; // 76
+} /* size: 103, variables: 4 */
+
+// <006D5883> ../_generated_code/schemalib/linuxsteamrt64/release/schemalib_schema_anchor.gen_cpp:76
+void CSchemaRegistration_schemalib::CSchemaRegistration_schemalib()
+{
+} /* size: 0 */
+
+// <006D5867> ../_generated_code/schemalib/linuxsteamrt64/release/schemalib_schema_anchor.gen_cpp:76
+inline void CSchemaRegistration_schemalib::CSchemaRegistration_schemalib()
+{
+} /* size: 0 */
+
+// <006CF985> ../_generated_code/schemalib/linuxsteamrt64/release/schemalib_schema_anchor.gen_cpp:76
+// member functions: 10
+// member variable: 1
+// vtable entry: 1
+// class size: 16
+class CSchemaRegistration_schemalib : public CSchemaRegistration {
+public:
+	/* class CSchemaRegistration <ancestor>; */ /* 0 16 */
+	void ~CSchemaRegistration_schemalib(CSchemaRegistration_schemalib* );
+	void CSchemaRegistration_schemalib(CSchemaRegistration_schemalib* , CSchemaRegistration_schemalib& );
+	void CSchemaRegistration_schemalib(CSchemaRegistration_schemalib* , const CSchemaRegistration_schemalib& );
+	void CSchemaRegistration_schemalib(CSchemaRegistration_schemalib* );
+	/* ../_generated_code/schemalib/linuxsteamrt64/release/schemalib_schema_anchor.gen_cpp:76 */
+	virtual bool RegisterAllBindings(CSchemaRegistration_schemalib* , ISchemaSystem* , SchemaRegistrationPhase_t, CBufferString* );
+	void ~CSchemaRegistration_schemalib(class CSchemaRegistration_schemalib *); /* linkage=_ZN29CSchemaRegistration_schemalibD4Ev */
+	void CSchemaRegistration_schemalib(class CSchemaRegistration_schemalib *, class CSchemaRegistration_schemalib &); /* linkage=_ZN29CSchemaRegistration_schemalibC4EOS_ */
+	void CSchemaRegistration_schemalib(class CSchemaRegistration_schemalib *, const class CSchemaRegistration_schemalib  &); /* linkage=_ZN29CSchemaRegistration_schemalibC4ERKS_ */
+	void CSchemaRegistration_schemalib(class CSchemaRegistration_schemalib *); /* linkage=_ZN29CSchemaRegistration_schemalibC4Ev */
+	virtual bool RegisterAllBindings(class CSchemaRegistration_schemalib *, class ISchemaSystem *, enum SchemaRegistrationPhase_t, class CBufferString *); /* linkage=_ZN29CSchemaRegistration_schemalib19RegisterAllBindingsEP13ISchemaSystem25SchemaRegistrationPhase_tP13CBufferString */
+};
+

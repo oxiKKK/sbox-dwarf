@@ -1,0 +1,92 @@
+
+//
+// _generated_code/soundsystem_lowlevel/linuxsteamrt64/release/soundsystem_lowlevel_schema_anchor.gen_cpp
+//
+//	referenced by: libengine2.so
+//
+//	functions: 4
+//	class: 1
+//
+
+// <06E27FF4> ../../_generated_code/soundsystem_lowlevel/linuxsteamrt64/release/soundsystem_lowlevel_schema_anchor.gen_cpp:35
+// variables: 2
+// function calls: 32
+void ImplSchema_ProjectTypesInit_soundsystem_lowlevel(void)
+{
+	CSchemaType** pTypes; // 35
+	ISchemaSystemTypeScope* pTypeScope; // 35
+	Get(ISchemaSystemTypeScope* pTypeScope); // 37
+	Get(ISchemaSystemTypeScope* pTypeScope); // 38
+	Get(ISchemaSystemTypeScope* pTypeScope); // 39
+	Get(ISchemaSystemTypeScope* pTypeScope); // 40
+	Get(ISchemaSystemTypeScope* pTypeScope); // 41
+	Get(ISchemaSystemTypeScope* pTypeScope); // 42
+	Get(ISchemaSystemTypeScope* pTypeScope); // 43
+	Get(ISchemaSystemTypeScope* pTypeScope); // 44
+	Get(ISchemaSystemTypeScope* pTypeScope); // 45
+	Get(ISchemaSystemTypeScope* pTypeScope); // 46
+	Get(ISchemaSystemTypeScope* pTypeScope); // 47
+	Get(ISchemaSystemTypeScope* pTypeScope); // 48
+	Get(ISchemaSystemTypeScope* pTypeScope); // 49
+	Get(ISchemaSystemTypeScope* pTypeScope); // 50
+	Get(ISchemaSystemTypeScope* pTypeScope); // 51
+	Get(ISchemaSystemTypeScope* pTypeScope); // 52
+	Get(ISchemaSystemTypeScope* pTypeScope); // 53
+	Get(ISchemaSystemTypeScope* pTypeScope); // 54
+	Get(ISchemaSystemTypeScope* pTypeScope); // 55
+	Get(ISchemaSystemTypeScope* pTypeScope); // 56
+	Get(ISchemaSystemTypeScope* pTypeScope); // 57
+	Get(ISchemaSystemTypeScope* pTypeScope); // 58
+	Get(ISchemaSystemTypeScope* pTypeScope); // 59
+	Get(ISchemaSystemTypeScope* pTypeScope); // 60
+	Get(ISchemaSystemTypeScope* pTypeScope); // 61
+	Get(ISchemaSystemTypeScope* pTypeScope); // 62
+	Get(ISchemaSystemTypeScope* pTypeScope); // 63
+	Get(ISchemaSystemTypeScope* pTypeScope); // 64
+	Get(ISchemaSystemTypeScope* pTypeScope); // 65
+	Get(ISchemaSystemTypeScope* pTypeScope); // 66
+	Get(ISchemaSystemTypeScope* pTypeScope); // 67
+	Get(ISchemaSystemTypeScope* pTypeScope); // 68
+} /* size: 980, variables: 2, inline expansions: 32 (688 bytes) */
+
+// <06E27E6C> ../../_generated_code/soundsystem_lowlevel/linuxsteamrt64/release/soundsystem_lowlevel_schema_anchor.gen_cpp:95
+// variables: 4
+void CSchemaRegistration_soundsystem_lowlevel::RegisterAllBindings(ISchemaSystem* pSchemaSystem, SchemaRegistrationPhase_t nRegistrationPhase, CBufferString* pFailureReason)
+{
+	const char* pBinaryName; // 95
+	const char* pProjectName; // 95
+	CSchemaType** pTypeTable; // 95
+	int nTypeTableSize; // 95
+} /* size: 226, variables: 4 */
+
+// <06E27E55> ../../_generated_code/soundsystem_lowlevel/linuxsteamrt64/release/soundsystem_lowlevel_schema_anchor.gen_cpp:95
+void CSchemaRegistration_soundsystem_lowlevel::CSchemaRegistration_soundsystem_lowlevel()
+{
+} /* size: 0 */
+
+// <06E27E39> ../../_generated_code/soundsystem_lowlevel/linuxsteamrt64/release/soundsystem_lowlevel_schema_anchor.gen_cpp:95
+inline void CSchemaRegistration_soundsystem_lowlevel::CSchemaRegistration_soundsystem_lowlevel()
+{
+} /* size: 0 */
+
+// <06E21F56> ../../_generated_code/soundsystem_lowlevel/linuxsteamrt64/release/soundsystem_lowlevel_schema_anchor.gen_cpp:95
+// member functions: 10
+// member variable: 1
+// vtable entry: 1
+// class size: 16
+class CSchemaRegistration_soundsystem_lowlevel : public CSchemaRegistration {
+public:
+	/* class CSchemaRegistration <ancestor>; */ /* 0 16 */
+	void ~CSchemaRegistration_soundsystem_lowlevel(CSchemaRegistration_soundsystem_lowlevel* );
+	void CSchemaRegistration_soundsystem_lowlevel(CSchemaRegistration_soundsystem_lowlevel* , CSchemaRegistration_soundsystem_lowlevel& );
+	void CSchemaRegistration_soundsystem_lowlevel(CSchemaRegistration_soundsystem_lowlevel* , const CSchemaRegistration_soundsystem_lowlevel& );
+	void CSchemaRegistration_soundsystem_lowlevel(CSchemaRegistration_soundsystem_lowlevel* );
+	/* ../../_generated_code/soundsystem_lowlevel/linuxsteamrt64/release/soundsystem_lowlevel_schema_anchor.gen_cpp:95 */
+	virtual bool RegisterAllBindings(CSchemaRegistration_soundsystem_lowlevel* , ISchemaSystem* , SchemaRegistrationPhase_t, CBufferString* );
+	void ~CSchemaRegistration_soundsystem_lowlevel(class CSchemaRegistration_soundsystem_lowlevel *); /* linkage=_ZN40CSchemaRegistration_soundsystem_lowlevelD4Ev */
+	void CSchemaRegistration_soundsystem_lowlevel(class CSchemaRegistration_soundsystem_lowlevel *, class CSchemaRegistration_soundsystem_lowlevel &); /* linkage=_ZN40CSchemaRegistration_soundsystem_lowlevelC4EOS_ */
+	void CSchemaRegistration_soundsystem_lowlevel(class CSchemaRegistration_soundsystem_lowlevel *, const class CSchemaRegistration_soundsystem_lowlevel  &); /* linkage=_ZN40CSchemaRegistration_soundsystem_lowlevelC4ERKS_ */
+	void CSchemaRegistration_soundsystem_lowlevel(class CSchemaRegistration_soundsystem_lowlevel *); /* linkage=_ZN40CSchemaRegistration_soundsystem_lowlevelC4Ev */
+	virtual bool RegisterAllBindings(class CSchemaRegistration_soundsystem_lowlevel *, class ISchemaSystem *, enum SchemaRegistrationPhase_t, class CBufferString *); /* linkage=_ZN40CSchemaRegistration_soundsystem_lowlevel19RegisterAllBindingsEP13ISchemaSystem25SchemaRegistrationPhase_tP13CBufferString */
+};
+

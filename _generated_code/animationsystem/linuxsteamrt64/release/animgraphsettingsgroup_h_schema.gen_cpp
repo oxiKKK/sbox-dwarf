@@ -1,0 +1,323 @@
+
+//
+// _generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp
+//
+//	referenced by: libanimationsystem.so
+//
+//	functions: 28
+//
+
+// <00433AF1> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:36
+void CAnimGraphSettingsGroup::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00449ABE> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:44
+// function call: 1
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	Schema_ClassOps(SchemaGenClassOp_t op,
+			void* pPtr1,
+			void* pPtr2);  // 44
+} /* size: 27, inline expansions: 1 (15 bytes) */
+
+// <00433ABE> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:44
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+} /* size: 0 */
+
+// <0044D0C9> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:71
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 71
+} /* size: 0, inline expansions: 1 (12 bytes) */
+
+// <00449EF0> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:71
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 71
+	}
+} /* size: 39 */
+
+// <00433A90> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:71
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 13155
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 71
+	}
+} /* size: 0, variables: 1 */
+
+// <0044D117> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:79
+void CAnimGraphSettingsGroup::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 5 */
+
+// <00433A46> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:84
+void CAnimGraphSettingsGroup::KV3TransferSave_CAnimGraphSettingsGroup(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <00433A22> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:88
+void CAnimGraphSettingsGroup::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 0 */
+
+// <004339F1> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:93
+// variable: 1
+void CAnimGraphSettingsGroup::KV3TransferLoad_CAnimGraphSettingsGroup(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 95
+} /* size: 0, variables: 1 */
+
+// <004339D9> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:105
+void CAnimGraphGeneralSettings::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <0043348B> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:157
+// function calls: 17
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 186
+	Schema_VerifyBindingIsRegistered(void); // 40
+	GetPrimaryBinding(void); // 40
+	CAnimGraphGeneralSettings::Schema_DynamicBinding(); // 160
+	CMutableRefCountBase<true, CRefMT>::operator=(
+			const CMutableRefCountBase<true, CRefMT>  &);  // 339
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::operator=(
+			const CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >  &);  // 13
+	V_strlen(const char* str); // 393
+	CUtlString::Length(); // 161
+	CUtlString::Get(); // 161
+	CUtlString::operator=(
+			const CUtlString& src);  // 13
+	CAnimGraphSettingsGroup::operator=(
+			const CAnimGraphSettingsGroup  &);  // 37
+	CAnimGraphGeneralSettings::operator=(
+			const CAnimGraphGeneralSettings  &);  // 158
+	CUtlString::CUtlString(
+			const char* pString);  // 46
+	CAnimGraphGeneralSettings::CAnimGraphGeneralSettings(); // 159
+	CUtlString::CUtlString(
+			const char* pString);  // 46
+	CUtlString::~CUtlString(); // 46
+	CAnimGraphGeneralSettings::CAnimGraphGeneralSettings(); // 159
+} /* size: 0, inline expansions: 17 (651 bytes) */
+
+// <0044D14A> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:186
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 186
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00449F71> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:186
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 186
+	}
+} /* size: 39 */
+
+// <0043345D> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:186
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 13155
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 186
+	}
+} /* size: 0, variables: 1 */
+
+// <00432FC7> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:194
+// function calls: 17
+void CAnimGraphGeneralSettings::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 151
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 158
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 149
+	CKV3TransferSaveContext::CreateTargetMember(
+				CKV3MemberName memberNameAndHash);  // 164
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 164
+	KeyValues3::Internal_PrepareForInternalType(
+					KeyValues3InternalType_t newType);  // 950
+	KeyValues3::Internal_PrepareForType(
+				KeyValues3Type_t newType);  // 209
+	KeyValues3::SetValueInt(
+			int value);  // 772
+	SaveValue<int>(CKV3TransferSaveContext* pContext,
+			KeyValues3* pSaveToValue,
+			const int32& value);  // 1539
+	CKV3TransferSaveContext::SaveValueDirect<int>(
+				const int& sourceValue,
+				KeyValues3* pSaveToMember);  // 165
+	CKV3TransferSaveContext::SaveValueToMember<int>(
+				CKV3MemberName memberNameAndHash,
+				const int& sourceValue);  // 204
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 204
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 204
+	CAnimGraphGeneralSettings::KV3TransferSave_CAnimGraphGeneralSettings(
+							CKV3TransferSaveContext* pContext);  // 196
+} /* size: 226, inline expansions: 17 (658 bytes) */
+
+// <00432FA2> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:199
+void CAnimGraphGeneralSettings::KV3TransferSave_CAnimGraphGeneralSettings(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <00432AA1> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:207
+// function calls: 21
+void CAnimGraphGeneralSettings::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 96
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			KeyValues3* pDefaultValue);  // 101
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 101
+	KeyValues3::FindMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 338
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 338
+	CKV3TransferLoadContext::FindSourceMember(
+			CKV3MemberName memberName,
+			const KeyValues3* pDefaultValue);  // 309
+	CKV3MemberName::CKV3MemberName(
+			const CKV3MemberName& rhs);  // 309
+	KeyValues3::Internal_Type(); // 90
+	KV3InternalTypeToExternal(KeyValues3InternalType_t nType); // 90
+	KeyValues3::GetType(); // 696
+	{
+	}
+	KV3Helper_StringToNumber<int>(const char* pString); // 715
+	KeyValues3::GetValueAsNumeric<int>(); // 694
+	KeyValues3::GetValueAsNumeric<int>(); // 184
+	KeyValues3::GetValueInt(); // 772
+	LoadValue<int>(CKV3TransferLoadContext* pContext,
+			const KeyValues3* pLoadFromValue,
+			int32& value);  // 1548
+	CKV3TransferLoadContext::LoadValueDirect<int>(
+				int& destValue,
+				const KeyValues3* pLoadFromMember);  // 316
+	CKV3TransferLoadContext::LoadValueFromMemberIfPresent<int>(
+						CKV3MemberName memberNameAndHash,
+						int& destValue);  // 219
+	CUtlStringToken::CUtlStringToken(); // 114
+	StringTokenFromHashCode(uint32 nHashCode); // 219
+	CKV3MemberName::CKV3MemberName(
+			const char* pString,
+			KeyValues3LowercaseHash_t nHash);  // 219
+	CAnimGraphGeneralSettings::KV3TransferLoad_CAnimGraphGeneralSettings(
+							CKV3TransferLoadContext* pContext);  // 209
+} /* size: 0, inline expansions: 21 (1304 bytes) */
+
+// <00432A70> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:212
+// variable: 1
+void CAnimGraphGeneralSettings::KV3TransferLoad_CAnimGraphGeneralSettings(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 217
+} /* size: 0, variables: 1 */
+
+// <00432A58> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:228
+void CAnimGraphNetworkSettings::Schema_CompileTimeVerificationFunction()
+{
+} /* size: 0 */
+
+// <00432586> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:255
+// function calls: 17
+void* Schema_ClassOps(SchemaGenClassOp_t op, void* pPtr1, void* pPtr2)
+{
+	GetPrimaryBinding(void); // 284
+	Schema_VerifyBindingIsRegistered(void); // 59
+	GetPrimaryBinding(void); // 59
+	CAnimGraphNetworkSettings::Schema_DynamicBinding(); // 258
+	CMutableRefCountBase<true, CRefMT>::operator=(
+			const CMutableRefCountBase<true, CRefMT>  &);  // 339
+	CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >::operator=(
+			const CMutableRefCounted<CMutableRefCountBase<true, CRefMT> >  &);  // 13
+	V_strlen(const char* str); // 393
+	CUtlString::Length(); // 161
+	CUtlString::Get(); // 161
+	CUtlString::operator=(
+			const CUtlString& src);  // 13
+	CAnimGraphSettingsGroup::operator=(
+			const CAnimGraphSettingsGroup  &);  // 56
+	CAnimGraphNetworkSettings::operator=(
+			const CAnimGraphNetworkSettings  &);  // 256
+	CUtlString::CUtlString(
+			const char* pString);  // 65
+	CAnimGraphNetworkSettings::CAnimGraphNetworkSettings(); // 257
+	CUtlString::CUtlString(
+			const char* pString);  // 65
+	CUtlString::~CUtlString(); // 65
+	CAnimGraphNetworkSettings::CAnimGraphNetworkSettings(); // 257
+} /* size: 0, inline expansions: 17 (585 bytes) */
+
+// <0044D198> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:284
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	GetPrimaryBinding(void); // 284
+} /* size: 0, inline expansions: 1 (0 bytes) */
+
+// <00449FF2> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:284
+// function call: 1
+void Schema_VerifyBindingIsRegistered(void)
+{
+	{
+		Schema_StaticClassname(void); // 284
+	}
+} /* size: 39 */
+
+// <00432557> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:284
+// variables: 2
+void Schema_VerifyBindingIsRegistered(void)
+{
+	const char   __FUNCTION__; // 13155
+	{
+		const _AssertCompileTimeConstantStruct_t  _assertionConstants; // 284
+	}
+} /* size: 0, variables: 1 */
+
+// <00432532> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:292
+void CAnimGraphNetworkSettings::KV3TransferSave(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <0043250C> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:297
+void CAnimGraphNetworkSettings::KV3TransferSave_CAnimGraphNetworkSettings(CKV3TransferSaveContext* pContext)
+{
+} /* size: 0 */
+
+// <004324E7> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:304
+void CAnimGraphNetworkSettings::KV3TransferLoad(CKV3TransferLoadContext* pContext)
+{
+} /* size: 0 */
+
+// <004324B4> _vpc_/unity_animationsystem/linuxsteamrt64/../../../../_generated_code/animationsystem/linuxsteamrt64/release/animgraphsettingsgroup_h_schema.gen_cpp:309
+// variable: 1
+void CAnimGraphNetworkSettings::KV3TransferLoad_CAnimGraphNetworkSettings(CKV3TransferLoadContext* pContext)
+{
+	uint nNextPropertyHint; // 314
+} /* size: 0, variables: 1 */
+
